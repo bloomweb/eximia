@@ -8,6 +8,8 @@
  */
 ?>
 
+<?php $uno = 1; ?>
+
 <div id="page">
 
   <header class="header" id="header" role="banner">
