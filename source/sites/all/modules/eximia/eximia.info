@@ -1,0 +1,7 @@
+name = eximia
+description = Offers functionality/changes specific to the site eximia.
+package = eximia
+core = 7.x
+version = 7.x-0.1
+files[] = eximia.module
+files[] = css/contacto.css
