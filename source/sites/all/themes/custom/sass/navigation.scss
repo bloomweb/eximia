@@ -47,6 +47,7 @@ li a.active {
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 
+
   .block {
     margin-bottom: 0;
   }
@@ -67,6 +68,13 @@ li a.active {
       padding: 0 10px 0 0; /* LTR */
       list-style-type: none;
       list-style-image: none;
+
+
+      a{
+        text-decoration: none;
+        color: $grisTextoMenu;
+        text-transform: uppercase;
+      }
     }
   }
 }
@@ -79,10 +87,63 @@ li a.active {
  */
 
 #main-menu {
+  margin-bottom: 6px;
+
+  li{
+    border-bottom: 5px solid white;
+    margin-right: 20px;
+    padding: 0;
+
+    a{
+      line-height: 13px;
+      font-size: 11px;
+      display: block;
+      text-align: left;
+      padding:0 40px 4px 0;
+
+    }
+  }
+  li:hover, li.active{
+    border-bottom: 5px solid $grisOscuro;
+  }
 }
 
-#secondary-menu {
+#secundary-menu {
   float: right; /* LTR */
+  height: 192px;
+
+
+  > div{
+
+    float:left;
+    width: 145px;
+
+    .content{
+      width: 100%;
+      height: 175px;
+      margin-bottom: 4px;
+      background: $grisOscuro;
+      cursor: pointer;
+    }
+
+    .line{
+      width: 100%;
+      height: 4px;
+      background: $grisOscuro;
+      display: none;
+    }
+
+  }
+  > div:hover{
+    .content{
+      background: $grisClaro;
+    }
+    .line{
+      display: block;
+    }
+  }
+
+
 }
 
 /*

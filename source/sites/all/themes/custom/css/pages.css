@@ -6,28 +6,116 @@
  * miscellaneous Drupal elements that appear in the $content variable, such as
  * ul.links, .pager, .more-link, etc.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\0000396}}
+.sprite {
+  background: url(../images/sprite.png) no-repeat top left;
+}
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\0000399}}
+.sprite-coaching-icon {
+  background-position: 0 0;
+  width: 90px;
+  height: 101px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003100}}
+.sprite-families-icon {
+  background-position: 0 -151px;
+  width: 84px;
+  height: 81px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003101}}
+.sprite-groups-icon {
+  background-position: 0 -282px;
+  width: 61px;
+  height: 64px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003102}}
+.sprite-individuals-icon {
+  background-position: 0 -396px;
+  width: 84px;
+  height: 85px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003103}}
+.sprite-logo-footer {
+  background-position: 0 -531px;
+  width: 46px;
+  height: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003104}}
+.sprite-logo {
+  background-position: 0 -591px;
+  width: 173px;
+  height: 190px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003105}}
+.sprite-psychotherapy-icon {
+  background-position: 0 -831px;
+  width: 95px;
+  height: 109px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003106}}
+.sprite-signature-programmes-icon {
+  background-position: 0 -990px;
+  width: 136px;
+  height: 114px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003107}}
+.sprite-the-practice-icon {
+  background-position: 0 -1154px;
+  width: 78px;
+  height: 109px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003108}}
+.sprite-the-team-icon {
+  background-position: 0 -1313px;
+  width: 56px;
+  height: 108px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003109}}
+.sprite-training-and-consulting-icon {
+  background-position: 0 -1471px;
+  width: 146px;
+  height: 113px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003110}}
+.sprite-we-are-looking-box {
+  background-position: 0 -1634px;
+  width: 294px;
+  height: 177px;
+}
 
 /*
  * Body
  */
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000317}}
 body {
   margin: 0;
   padding: 0;
-}
-
-#page {
+  color: #5f5952;
+  background: url(../images/bg.jpg);
+  background-size: 100%;
 }
 
 /*
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000333}}
 #skip-link {
   margin: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000337}}
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -41,70 +129,79 @@ body {
 /*
  * Header
  */
-
-#header {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000352}}
+#header .logo-wrapper {
+  float: left;
 }
 
-#logo { /* Wrapping link for logo */
-  float: left; /* LTR */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000357}}
+#logo {
+  /* Wrapping link for logo */
+  float: left;
+  /* LTR */
   margin: 0;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000362}}
 #logo img {
   vertical-align: bottom;
 }
 
-#name-and-slogan { /* Wrapper for website name and slogan */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000367}}
+#name-and-slogan {
+  /* Wrapper for website name and slogan */
   float: left;
 }
 
-#site-name { /* The name of the website */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000371}}
+#site-name {
+  /* The name of the website */
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000377}}
 #site-name a:link,
 #site-name a:visited {
   color: #000;
   text-decoration: none;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000383}}
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
 }
 
-#site-slogan { /* The slogan (or tagline) of a website */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000388}}
+#site-slogan {
+  /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
 }
 
-.region-header { /* Wrapper for any blocks placed in the header region */
-  clear: both; /* Clear the logo */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000393}}
+.region-header {
+  /* Wrapper for any blocks placed in the header region */
+  clear: both;
+  /* Clear the logo */
 }
 
 /*
  * Main (container for everything else)
  */
-
-#main {
-}
-
 /*
  * Content
  */
-
-#content {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003114}}
+.breadcrumb {
+  /* The path to the current page in the form of a list of links */
 }
-
-.region-highlighted {
-}
-
-.breadcrumb { /* The path to the current page in the form of a list of links */
-}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003115}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003119}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -112,88 +209,135 @@ body {
   padding: 0;
 }
 
-h1.title, /* The title of the page */
-h2.node-title, /* Title of a piece of content when it is given in a list of content */
-h2.block-title, /* Block title */
-h2.title, /* Comment section heading */
-h2.comment-form, /* Comment form heading */
-h3.title { /* Comment title */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003132}}
+h1.title,
+h2.node-title,
+h2.block-title,
+h2.title,
+h2.comment-form,
+h3.title {
+  /* Comment title */
   margin: 0;
 }
 
-tr.even { /* Some tables have rows marked even or odd. */
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003136}}
+tr.even {
+  /* Some tables have rows marked even or odd. */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003140}}
 tr.odd {
-  /* background-color: #eee; */ /* Drupal core uses a #eee background */
+  /* background-color: #eee; */
+  /* Drupal core uses a #eee background */
 }
 
-div.messages { /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
-  margin: 1.5em 0; /* Drupal core uses "6px 0" margin */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003144}}
+div.messages {
+  /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
+  margin: 1.5em 0;
+  /* Drupal core uses "6px 0" margin */
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003147}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-div.status { /* Normal priority messages */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003153}}
+div.status {
+  /* Normal priority messages */
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003157}}
 div.warning,
-tr.warning { /* Medium priority messages */
-  /* border: 1px solid #f0c020; */ /* Drupal core uses: 1px solid #f0c020 */
+tr.warning {
+  /* Medium priority messages */
+  /* border: 1px solid #f0c020; */
+  /* Drupal core uses: 1px solid #f0c020 */
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003162}}
 div.error,
-tr.error { /* High priority messages. See also the .error declaration below. */
+tr.error {
+  /* High priority messages. See also the .error declaration below. */
 }
 
-.error { /* Errors that are separate from div.messages status messages. */
-  /* color: #e55; */ /* Drupal core uses a #e55 background */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003165}}
+.error {
+  /* Errors that are separate from div.messages status messages. */
+  /* color: #e55; */
+  /* Drupal core uses a #e55 background */
 }
 
-.warning { /* Warnings that are separate from div.messages status messages. */
-  /* color: #e09010; */ /* Drupal core uses a #e09010 background */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003169}}
+.warning {
+  /* Warnings that are separate from div.messages status messages. */
+  /* color: #e09010; */
+  /* Drupal core uses a #e09010 background */
 }
 
-.tabs { /* See also the tabs.css file. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003173}}
+.tabs {
+  /* See also the tabs.css file. */
 }
 
-.region-help { /* Help text on a page */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003176}}
+.region-help {
+  /* Help text on a page */
 }
 
-.more-help-link { /* Link to more help */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003179}}
+.more-help-link {
+  /* Link to more help */
 }
 
-.region-content { /* Wrapper for the actual page content */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003182}}
+.region-content {
+  /* Wrapper for the actual page content */
 }
 
-ul.inline { /* List of links generated by theme_links() */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003185}}
+ul.inline {
+  /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003189}}
 ul.inline li {
   display: inline;
   list-style-type: none;
-  padding: 0 1em 0 0; /* LTR */
+  padding: 0 1em 0 0;
+  /* LTR */
 }
 
-span.field-label { /* The inline field label used by the Fences module */
-  padding: 0 1em 0 0; /* LTR */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003195}}
+span.field-label {
+  /* The inline field label used by the Fences module */
+  padding: 0 1em 0 0;
+  /* LTR */
 }
 
-.item-list .pager { /* A list of page numbers when more than 1 page of content is available */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003199}}
+.item-list .pager {
+  /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-.item-list .pager li { /* Each page number in the pager list */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003202}}
+.item-list .pager li {
+  /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-.feed-icon { /* The link to the RSS or Atom feed for the current list of content */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003207}}
+.feed-icon {
+  /* The link to the RSS or Atom feed for the current list of content */
 }
 
-.more-link { /* Aggregator, blog, and forum more link */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003210}}
+.more-link {
+  /* Aggregator, blog, and forum more link */
 }
 
 /*
@@ -202,30 +346,19 @@ span.field-label { /* The inline field label used by the Fences module */
  * Remember to NOT add padding or margin to your .region-sidebar-first
  * (see the layout.css file.)
  */
-
-.region-sidebar-first {
-}
-
 /*
  * Second sidebar (on right in LTR languages, on left in RTL)
  *
  * Remember to NOT add padding or margin to your .region-sidebar-second
  * (see the layout.css file.)
  */
-
-.region-sidebar-second {
-}
-
 /*
  * Footer
  */
-
-#footer {
-}
-
 /*
  * Page bottom
  */
-
-.region-bottom { /* Wrapper for any blocks placed in the page bottom region */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003244}}
+.region-bottom {
+  /* Wrapper for any blocks placed in the page bottom region */
 }

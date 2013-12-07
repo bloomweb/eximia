@@ -17,6 +17,9 @@
 body {
   margin: 0;
   padding: 0;
+  color: $grisTexto;
+  background: url(../images/bg.jpg);
+  background-size: 100%;
 }
 
 #page {
@@ -46,6 +49,9 @@ body {
  */
 
 #header {
+  .logo-wrapper{
+    float:left;
+  }
 }
 
 #logo { /* Wrapping link for logo */
