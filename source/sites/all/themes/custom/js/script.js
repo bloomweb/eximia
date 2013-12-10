@@ -14,6 +14,14 @@
 
 
 // Place your code here.
+    $("#main-menu .menu__item").hover(
+        function(){
+            $(this).siblings().addClass('hide');
+        },
+        function(){
+            $(this).siblings().removeClass('hide');
+        }
+    );
 
 
 })(jQuery, Drupal, this, this.document);

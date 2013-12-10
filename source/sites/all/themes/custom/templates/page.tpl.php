@@ -20,7 +20,7 @@
 
         <div id="navigation">
 
-            <?php if ($main_menu): ?>
+            <?php /* if ($main_menu): ?>
                 <nav id="main-menu" role="navigation" tabindex="-1">
                     <?php
                     // This code snippet is hard to modify. We recommend turning off the
@@ -39,13 +39,16 @@
                         ),
                     )); ?>
                 </nav>
-            <?php endif; ?>
+            <?php endif; */ ?>
 
 
 
-        </div>
+
         <div style="clear:both;"></div>
+        <nav id="main-menu" role="navigation" tabindex="-1">
         <?php print render($page['navigation']); ?>
+        </nav>
+        </div>
     </header>
 
     <div id="main">

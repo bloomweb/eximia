@@ -234,24 +234,37 @@ function custom_preprocess_page(&$vars, $hook) {
 function custom_menu_link(array $variables) {
     $element = $variables['element'];
     $sub_menu = '';
-
+    $new_sub_menu= '';
     if ($element['#below']) {
         $sub_menu = drupal_render($element['#below']);
+        $new_sub_menu = "<ul class='sub-menu'>";
         $html = new simple_html_dom();
         $html ->load($sub_menu);
-        $uno = 1;
-        foreach($html->find('li') as $li) {
+
+        foreach($html->find('li') as  $key => $li) {
             $mlid = substr( $li -> class, strpos($li -> class,'menu-mlid-') + 10);
             $fid = isset($element['#below'][$mlid]['#original_link']['options']['content']['image']) ?
                 $element['#below'][$mlid]['#original_link']['options']['content']['image'] : 0;
             if($fid){
-                /*$image = file_load($fid);
-                $image = file_build_uri($image);
-                $uno = 1;*/
+                $image = file_load($fid);
+                $link_text = $li -> find('a', 0) ->innertext;
+                $variables= array(
+                    'path' => $image -> uri,
+                    'alt' => $link_text,
+                    'title' => $link_text,
+                    'attributes' => array('class' => 'menu-img'),
+                );
+                $img = theme('image', $variables);
+
+                $li -> find('a', 0) ->innertext="<span class='hide'>".$link_text."</span><div class='image'><div class='wrapper'>".$img."</div></div><div class='line'></div>";
+                $new_sub_menu.= $li;
+                $uno = 1;
+
             }
 
         }
+        $new_sub_menu.="</ul>";
     }
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
-    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $new_sub_menu . "</li>\n";
 }
