@@ -242,7 +242,7 @@ function custom_menu_link(array $variables) {
         $html ->load($sub_menu);
 
         foreach($html->find('li') as  $key => $li) {
-            $mlid = substr( $li -> class, strpos($li -> class,'menu-mlid-') + 10);
+            $mlid = substr( $li -> class , strpos($li -> class,'menu-mlid-') + 10);
             $fid = isset($element['#below'][$mlid]['#original_link']['options']['content']['image']) ?
                 $element['#below'][$mlid]['#original_link']['options']['content']['image'] : 0;
             if($fid){

@@ -748,3 +748,8 @@ th {
 tbody {
   border-top: none;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/normalize\.scss}line{font-family:\00003671}}
+.hidden {
+  display: none;
+}

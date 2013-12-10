@@ -7,68 +7,16 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
-
-<?php $uno = 1; ?>
-
 <div id="page">
 
     <header class="header" id="header" role="banner">
         <div class="logo-wrapper">
 
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo"
-               id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"
-                              class="header__logo-image"/></a>
-            <?php if ($site_name || $site_slogan): ?>
-                <div class="header__name-and-slogan" id="name-and-slogan">
-                    <?php if ($site_name): ?>
-                        <h1 class="header__site-name" id="site-name">
-                            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
-                               class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
-                        </h1>
-                    <?php endif; ?>
-
-                    <?php if ($site_slogan): ?>
-                        <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
-                    <?php endif; ?>
-                </div>
-            <?php endif; ?>
+            <div class="sprite sprite-logo"></div>
         </div>
-        <div id="navigation">
 
-            <?php if ($main_menu): ?>
-                <nav id="main-menu" role="navigation" tabindex="-1">
-                    <?php
-                    // This code snippet is hard to modify. We recommend turning off the
-                    // "Main menu" on your sub-theme's settings form, deleting this PHP
-                    // code block, and, instead, using the "Menu block" module.
-                    // @see https://drupal.org/project/menu_block
-                    print theme('links__system_main_menu', array(
-                        'links' => $main_menu,
-                        'attributes' => array(
-                            'class' => array('links', 'inline', 'clearfix'),
-                        ),
-                        'heading' => array(
-                            'text' => t('Main menu'),
-                            'level' => 'h2',
-                            'class' => array('element-invisible'),
-                        ),
-                    )); ?>
-                </nav>
-            <?php endif; ?>
-            <nav id="secundary-menu">
-                <?php print render($page['navigation']); ?>
-                <?php for($i=0; $i < 4; $i++): ?>
-                <div>
-                    <div class="content"></div>
-                    <div class="line"></div>
-                </div>
-                <?php endfor; ?>
-            </nav>
-
-
-        </div>
-        <div style="clear:both;"></div>
     </header>
+
 
     <div id="main">
 
@@ -78,7 +26,7 @@
             <a id="main-content"></a>
             <?php print render($title_prefix); ?>
             <?php if ($title): ?>
-                <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+                <h1 class="page__title title hidden" id="page-title"><?php print $title; ?></h1>
             <?php endif; ?>
             <?php print render($title_suffix); ?>
             <?php print $messages; ?>
@@ -87,7 +35,66 @@
             <?php if ($action_links): ?>
                 <ul class="action-links"><?php print render($action_links); ?></ul>
             <?php endif; ?>
-            <?php print render($page['content']); ?>
+
+                <div id="home-container">
+                    <div class="main-text default">
+                        <?php print $node->field_default_text['und']['0']['value']; ?>
+                    </div>
+                    <div class="contact home-box">
+                        <div class="main-text">
+                            <?php print $node->field_contact_hover['und']['0']['value']; ?>
+                        </div>
+                        <div class="content">
+                            <p>
+                                <?php print $node->field_contact_text['und']['0']['value']; ?>
+                            </p>
+                            <a href="/contact" class="go-to" > + </a>
+                        </div>
+                        <h2><a href="/contact">Contact</a></h2>
+
+                    </div>
+
+                    <div class="who-we-are  home-box">
+                        <div class="main-text">
+                            <?php print $node->field_who_we_are_hover['und']['0']['value']; ?>
+                        </div>
+                        <div class="content">
+                            <p>
+                                <?php print $node->field_who_we_are_text['und']['0']['value']; ?>
+                            </p>
+                            <a href="/who-we-are" class="go-to"> + </a>
+                        </div>
+                        <h2><a href="/who-we-are">who we are</a></h2>
+                    </div>
+
+                    <div class="services-and-fees  home-box">
+                        <div class="main-text">
+                            <?php print $node->field_services_hover['und']['0']['value']; ?>
+                        </div>
+                        <div class="content">
+                            <p>
+                                <?php print $node->field_services_text['und']['0']['value']; ?>
+                            </p>
+                            <a href="/services-and-fees" class="go-to"> + </a>
+                        </div>
+                        <h2><a href="/services-and-fees">services and fees</a></h2>
+                    </div>
+
+                    <div class="resources  home-box">
+                        <div class="main-text">
+                            <?php print $node->field_resources_hover['und']['0']['value']; ?>
+                        </div>
+                        <div class="content">
+                            <p>
+                                <?php print $node->field_resources_text['und']['0']['value']; ?>
+                            </p>
+                            <a href="/resources" class="go-to"> + </a>
+                        </div>
+                        <h2><a href="/resources">resources</a></h2>
+                    </div>
+                </div>
+
+
             <?php print $feed_icons; ?>
         </div>
 
