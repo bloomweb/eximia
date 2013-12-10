@@ -15,24 +15,9 @@
     <header class="header" id="header" role="banner">
         <div class="logo-wrapper">
 
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo"
-               id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"
-                              class="header__logo-image"/></a>
-            <?php if ($site_name || $site_slogan): ?>
-                <div class="header__name-and-slogan" id="name-and-slogan">
-                    <?php if ($site_name): ?>
-                        <h1 class="header__site-name" id="site-name">
-                            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
-                               class="header__site-link" rel="home"><span><?php print $site_name; ?></span></a>
-                        </h1>
-                    <?php endif; ?>
-
-                    <?php if ($site_slogan): ?>
-                        <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
-                    <?php endif; ?>
-                </div>
-            <?php endif; ?>
+          <div class="sprite sprite-logo"></div>
         </div>
+
         <div id="navigation">
 
             <?php if ($main_menu): ?>
@@ -55,19 +40,12 @@
                     )); ?>
                 </nav>
             <?php endif; ?>
-            <nav id="secundary-menu">
-                <?php print render($page['navigation']); ?>
-                <?php for($i=0; $i < 4; $i++): ?>
-                <div>
-                    <div class="content"></div>
-                    <div class="line"></div>
-                </div>
-                <?php endfor; ?>
-            </nav>
+
 
 
         </div>
         <div style="clear:both;"></div>
+        <?php print render($page['navigation']); ?>
     </header>
 
     <div id="main">

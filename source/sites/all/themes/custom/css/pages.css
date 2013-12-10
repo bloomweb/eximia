@@ -101,7 +101,7 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000317}}
 body {
   margin: 0;
-  padding: 0;
+  padding: 28px 39px 0 39px;
   color: #5f5952;
   background: url(../images/bg.jpg);
   background-size: 100%;

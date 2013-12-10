@@ -231,3 +231,27 @@ function custom_preprocess_page(&$vars, $hook) {
         $vars['theme_hook_suggestions'][] = $suggest;
     }
 }
+function custom_menu_link(array $variables) {
+    $element = $variables['element'];
+    $sub_menu = '';
+
+    if ($element['#below']) {
+        $sub_menu = drupal_render($element['#below']);
+        $html = new simple_html_dom();
+        $html ->load($sub_menu);
+        $uno = 1;
+        foreach($html->find('li') as $li) {
+            $mlid = substr( $li -> class, strpos($li -> class,'menu-mlid-') + 10);
+            $fid = isset($element['#below'][$mlid]['#original_link']['options']['content']['image']) ?
+                $element['#below'][$mlid]['#original_link']['options']['content']['image'] : 0;
+            if($fid){
+                /*$image = file_load($fid);
+                $image = file_build_uri($image);
+                $uno = 1;*/
+            }
+
+        }
+    }
+    $output = l($element['#title'], $element['#href'], $element['#localized_options']);
+    return '<li' . drupal_attributes($element['#attributes']) . '>' . $output . $sub_menu . "</li>\n";
+}

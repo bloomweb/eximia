@@ -91,7 +91,7 @@ li a.active {
 
   li{
     border-bottom: 5px solid white;
-    margin-right: 20px;
+    margin-right: 22px;
     padding: 0;
 
     a{
@@ -99,12 +99,16 @@ li a.active {
       font-size: 11px;
       display: block;
       text-align: left;
-      padding:0 40px 4px 0;
+      padding:0 41px 4px 0;
 
     }
   }
   li:hover, li.active{
     border-bottom: 5px solid $grisOscuro;
+  }
+
+  li.last{
+    margin-right: 0;
   }
 }
 
