@@ -210,7 +210,7 @@ li a.active {
   display: block;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003123}}
-#main-menu .active ul.sub-menu {
+#main-menu .is-active-trail ul.sub-menu {
   display: block;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003128}}
@@ -269,27 +269,28 @@ li a.active {
 #main-menu .menu-mlid-517 ul.sub-menu li .image {
   background: #226772;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003193}}
 #main-menu .menu-mlid-517 ul.sub-menu li .line {
   background: #66959d;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003201}}
-#main-menu .menu-mlid-517 ul.sub-menu li:hover .image {
+#main-menu .menu-mlid-517 ul.sub-menu li:hover .image,
+#main-menu .menu-mlid-517 ul.sub-menu li.active .image {
   background: #66959d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003214}}
 #secundary-menu {
   float: right;
   /* LTR */
   height: 192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003219}}
 #secundary-menu > div {
   float: left;
   width: 145px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003224}}
 #secundary-menu > div .content {
   width: 100%;
   height: 175px;
@@ -297,18 +298,18 @@ li a.active {
   background: #8a8480;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003232}}
 #secundary-menu > div .line {
   width: 100%;
   height: 4px;
   background: #8a8480;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003241}}
 #secundary-menu > div:hover .content {
   background: #adaaa6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003244}}
 #secundary-menu > div:hover .line {
   display: block;
 }

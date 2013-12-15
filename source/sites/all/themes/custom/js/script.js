@@ -15,14 +15,14 @@
 
 // Place your code here.
     $(function () { // Menu funtionalities
-        $("#main-menu .menu__item").hover(
+       /* $("#main-menu .menu__item").hover(
             function () {
                 $(this).siblings().addClass('hide');
             },
             function () {
                 $(this).siblings().removeClass('hide');
             }
-        );
+        );*/
     });
 
     $(function () { //HOME FUNCTIONALITIES

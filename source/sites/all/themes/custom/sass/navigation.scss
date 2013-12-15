@@ -120,7 +120,7 @@ li a.active {
     display: block;
 
   }
-  .active ul.sub-menu{
+  .is-active-trail ul.sub-menu{
     display: block;
 
   }
@@ -196,13 +196,15 @@ li a.active {
 
     }
 
-    li:hover{
+    li:hover,
+    li.active {
       .image{
         background: $verdeClaro;
       }
     }
 
   }
+
 
 
 
