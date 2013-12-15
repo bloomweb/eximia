@@ -218,7 +218,6 @@ $databases = array (
       'database' => 'bloomweb_eximia',
       'username' => 'bloomweb',
       'password' => 'rr40r900343',
-      'host' => '192.168.0.19',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
