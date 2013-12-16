@@ -251,3 +251,22 @@
 #block-user-online {
   /* "Who's online" block for a list of the online users */
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003110}}
+.view-display-id-block_team_members {
+  margin-top: 25px;
+  font-size: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003113}}
+.view-display-id-block_team_members .views-row {
+  margin-bottom: 8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003116}}
+.view-display-id-block_team_members a {
+  text-decoration: none;
+  color: #686967;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/blocks\.scss}line{font-family:\00003122}}
+.view-display-id-block_team_members a:before {
+  content: "+ ";
+}

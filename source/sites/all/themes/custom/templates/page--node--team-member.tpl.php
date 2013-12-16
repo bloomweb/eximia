@@ -15,7 +15,7 @@
     <header class="header" id="header" role="banner">
         <div class="logo-wrapper">
 
-            <div class="sprite sprite-logo"></div>
+          <div class="sprite sprite-logo"></div>
         </div>
 
         <div id="navigation">
@@ -44,10 +44,10 @@
 
 
 
-            <div style="clear:both;"></div>
-            <nav id="main-menu" role="navigation" tabindex="-1">
-                <?php print render($page['navigation']); ?>
-            </nav>
+        <div style="clear:both;"></div>
+        <nav id="main-menu" role="navigation" tabindex="-1">
+        <?php print render($page['navigation']); ?>
+        </nav>
         </div>
     </header>
 
@@ -57,11 +57,7 @@
             <?php print render($page['highlighted']); ?>
             <?php print $breadcrumb; ?>
             <a id="main-content"></a>
-            <?php print render($title_prefix); ?>
-            <?php if ($title): ?>
-                <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-            <?php endif; ?>
-            <?php print render($title_suffix); ?>
+
             <?php print $messages; ?>
             <?php print render($tabs); ?>
             <?php print render($page['help']); ?>
