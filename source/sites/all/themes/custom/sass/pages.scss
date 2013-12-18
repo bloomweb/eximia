@@ -15,11 +15,16 @@
 body {
   margin: 0;
   padding: 28px 39px 0 39px;
-  color: $grisTexto;
+  color:$grisClaroTexto;
+
   background: url(../images/bg.jpg);
   background-size: 100%;
+  font-size: 11px;
+  line-height: 13px;
 }
-
+p{
+  margin: 5px 0;
+}
 #page {
 }
 
@@ -133,9 +138,13 @@ h2.node-title, /* Title of a piece of content when it is given in a list of cont
 h2.block-title, /* Block title */
 h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
-h3.title {
+h3.title,
+h1{
   /* Comment title */
   margin: 0;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: normal;
 }
 
 tr.even {
@@ -275,7 +284,7 @@ span.field-label {
 
 /*HOME PAGE*/
 .front {
-
+  color: $grisTexto;
   #main {
     position: absolute;
     width: 770px;
@@ -420,4 +429,107 @@ span.field-label {
     }
   }
 
+}
+
+/*BASIC PAGES STYLES*/
+.node-type-page{
+
+  #main{
+    padding-top: 82px;
+    padding-bottom: 82px;
+    background: url(../images/green-bg.png);
+    position: relative;
+    text-align: center;
+
+  }
+
+  .inner-content{
+    width: auto;
+    display: inline-block;
+    text-align: left;
+
+    .image{
+
+      text-align: center;
+      width: 490px;
+      float:left;
+
+    }
+
+    .body{
+      float:left;
+      width: 370px;
+
+      a{
+        text-decoration: none;
+      }
+      strong{
+        color: $verdeClaro;
+        font-weight: normal;
+      }
+      .column-1{
+        float:left;
+        width:46%;
+
+
+      }
+
+      .column-2{
+        float:right;
+        width:46%;
+
+
+      }
+
+    }
+
+  }
+}
+.node-type-team-member{
+  h1{
+    margin-bottom: 5px;
+  }
+  #main{
+    padding-top: 82px;
+    padding-bottom: 82px;
+    background: url(../images/green-bg.png);
+    position: relative;
+    text-align: center;
+
+  }
+
+  #content{
+    width: auto;
+    display: inline-block;
+    text-align: left;
+
+    .group-left{
+
+      text-align: center;
+      width: 520px;
+      float:left;
+
+    }
+
+    .group-right{
+      float:left;
+      width: 170px;
+
+      a{
+        text-decoration: none;
+        color: $verdeClaro;
+      }
+
+      .field-name-field-description{
+        margin-bottom: 10px;
+      }
+      .field-name-field-address,
+      .field-name-field-mobile,
+      .field-name-field-email{
+        color: $verdeClaro;
+        line-height: 15px;
+      }
+    }
+
+  }
 }

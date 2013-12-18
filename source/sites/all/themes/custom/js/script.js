@@ -42,5 +42,16 @@
             });
     });
 
+    $(function(){ // Team Member functionalities
+        if($('body').is('.node-type-team-member')){
+            $('.menu-mlid-517, .menu-mlid-547').addClass("is-active-trail active-trail active").find("a").addClass("is-active-trail active-trail active");
+            $(".field-name-field-email .field-item").wrap( "<a href='mailto:"+ $(".field-name-field-email .field-item").text()+"'></a>" );
+        }
+        if($("body").is(".page-node-2")){
+            $('.menu-mlid-517').addClass("is-active-trail active-trail active");
+        }
+
+    });
+
 
 })(jQuery, Drupal, this, this.document);
