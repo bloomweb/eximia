@@ -68,6 +68,7 @@ $tahoma:          Tahoma, Verdana, "DejaVu Sans", sans-serif;
 $helvetica:       Helvetica, Arial, "Nimbus Sans L", sans-serif;
 $arial:           Arial, Helvetica, "Nimbus Sans L", sans-serif;
 $futuramedium: futuramedium;
+$cursiva: jennaSue;
 // For an explanation of why "sans-serif" is at the end of this list, see
 // http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/
 $courier:         "Courier New", "DejaVu Sans Mono", monospace, sans-serif;
@@ -82,13 +83,19 @@ $font-monospace:   $courier;
 // Colors, etc.
 //
 $grisOscuro : #8A8480;
+$grisOscuroOpacity: rgba(138,132,128,0.2);
 $grisClaro : #ADAAA6;
 $grisTextoMenu: #5F5952;
 $grisTexto : #5F5952;
 $verdeOscuro: #226772;
 $verdeClaro: #66959D;
 $naranja: #E8891A;
+$naranjaOscuro: #d83b1b;
+$naranjaClaro: #ed8d1b;
 $grisClaroTexto: #686967;
+$azul: #246873;
+$blanco: #ffffff;
+$violeta: #533280;
 // The amount lists, blockquotes and comments are indented.
 $indent-amount: 30px;
 

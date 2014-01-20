@@ -21,81 +21,94 @@
     <div id="main">
 
         <div id="content" class="column" role="main">
-            <?php print render($page['highlighted']); ?>
-            <?php print $breadcrumb; ?>
-            <a id="main-content"></a>
-            <?php print render($title_prefix); ?>
-            <?php if ($title): ?>
-                <h1 class="page__title title hidden" id="page-title"><?php print $title; ?></h1>
-            <?php endif; ?>
-            <?php print render($title_suffix); ?>
-            <?php print $messages; ?>
-            <?php print render($tabs); ?>
-            <?php print render($page['help']); ?>
-            <?php if ($action_links): ?>
-                <ul class="action-links"><?php print render($action_links); ?></ul>
-            <?php endif; ?>
-
-                <div id="home-container">
-                    <div class="main-text default">
-                        <?php print $node->field_default_text['und']['0']['value']; ?>
-                    </div>
-                    <div class="contact home-box">
-                        <div class="main-text">
-                            <?php print $node->field_contact_hover['und']['0']['value']; ?>
-                        </div>
-                        <div class="content">
-                            <p>
-                                <?php print $node->field_contact_text['und']['0']['value']; ?>
-                            </p>
-                            <a href="/contact" class="go-to" > + </a>
-                        </div>
-                        <h2><a href="/contact">Contact</a></h2>
-
-                    </div>
-
-                    <div class="who-we-are  home-box">
-                        <div class="main-text">
-                            <?php print $node->field_who_we_are_hover['und']['0']['value']; ?>
-                        </div>
-                        <div class="content">
-                            <p>
-                                <?php print $node->field_who_we_are_text['und']['0']['value']; ?>
-                            </p>
-                            <a href="/who-we-are" class="go-to"> + </a>
-                        </div>
-                        <h2><a href="/who-we-are">who we are</a></h2>
-                    </div>
-
-                    <div class="services-and-fees  home-box">
-                        <div class="main-text">
-                            <?php print $node->field_services_hover['und']['0']['value']; ?>
-                        </div>
-                        <div class="content">
-                            <p>
-                                <?php print $node->field_services_text['und']['0']['value']; ?>
-                            </p>
-                            <a href="/services-and-fees" class="go-to"> + </a>
-                        </div>
-                        <h2><a href="/services-and-fees">services and fees</a></h2>
-                    </div>
-
-                    <div class="resources  home-box">
-                        <div class="main-text">
-                            <?php print $node->field_resources_hover['und']['0']['value']; ?>
-                        </div>
-                        <div class="content">
-                            <p>
-                                <?php print $node->field_resources_text['und']['0']['value']; ?>
-                            </p>
-                            <a href="/resources" class="go-to"> + </a>
-                        </div>
-                        <h2><a href="/resources">resources</a></h2>
-                    </div>
-                </div>
-
-
-            <?php print $feed_icons; ?>
+           <ul>
+           	<li class="phrase">
+           		WE ARE 
+				OFFERING LIFE SKILLS TO 
+				EMPOWER 
+				INDIVIDUALS AND GROUPS
+           	</li>
+           	<li class="story">
+           		<a>THE EXIMIA STORY</a>
+           		<div class="text-box">
+           			“The greatest gift we can give another is the purity of our attention” 
+					<br /><br />
+					–Richard Moss
+					<a href="#" class="more">+</a>
+           		</div>
+           	</li>
+           	<li class="help">
+           		<a>HOW CAN WE HELP</a>
+           		<div class="text-box">
+           			Whatever is happening around you or inside you, there is a way of happening back.
+           			<br />
+					Start reaching out. Fulfill your emotional wellbeing. Become your best self.
+					<br /><br />
+					GO HAPPEN
+					<a href="#" class="more">+</a>
+           		</div>
+           		<div class="cursive">
+           			<a href="#">Coaching</a>
+           			<a href="#">Psychotheraphy</a>
+           			<a href="#">Training and Consulting</a>
+           			<a href="#">Signature Programmes</a>
+           		</div>
+           	</li>
+           	<li class="contact">
+           		<a>CONTACT US</a>
+           		<div class="text-box">
+           			Reach out to Eximia. We are committed to your we  llbeing.
+					<a href="#" class="more">+</a>
+           		</div>
+           	</li>
+           	<li class="like">
+           		<a>THINGS WE LIKE</a>
+           		<div class="text-box">
+           			Eximia has an ear to the ground for great resources regarding personal wellbeing and here are a few of our favourites
+					<a href="#" class="more">+</a>
+           		</div>
+           		<div class="cursive">
+           			<div class="left">
+           				WATCH
+           			</div>
+           			<div class="right">
+           				<a href="#">CoachingParents</a>
+           				<a href="#">Aenean commodo(...)</a>
+           			</div>
+           		</div>
+           		<div class="cursive">
+           			<div class="left">
+           				READ 
+           			</div>
+           			<div class="right">
+           				<a href="#">Teens for Dummies</a>
+           				<a href="#">Lorem Ipsum</a>
+           			</div>
+           		</div>
+           		<div class="cursive">
+           			<div class="left">
+           				SURF  
+           			</div>
+           			<div class="right">
+           				<a href="#">gurd.com</a>
+           				<a href="#">psicho.com.co</a>
+           			</div>
+           		</div>
+           	</li>
+           	<li class="faq">
+           		<a>FAQ</a>
+           		<div class="text-box">
+           			Lorem Ipsum.
+					<a href="#" class="more">+</a>
+           		</div>
+           	</li>
+           </ul>
+           <div class="pictures">
+           		<img src="/sites/all/themes/custom/images/fotos_home.png" />
+           </div>
+           <div class="map">
+           		<img src="/sites/all/themes/custom/images/mapa.png" />
+           </div>
         </div>
 
 
@@ -112,11 +125,11 @@
                 <?php print $sidebar_second; ?>
             </aside>
         <?php endif; ?>
-
+		
     </div>
 
     <?php print render($page['footer']); ?>
-
+	<div style="clear: both;"></div>
 </div>
 
 <?php print render($page['bottom']); ?>
