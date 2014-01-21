@@ -6,89 +6,89 @@
  * miscellaneous Drupal elements that appear in the $content variable, such as
  * ul.links, .pager, .more-link, etc.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003103}}
 .sprite {
   background: url(../images/sprite.png) no-repeat top left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003106}}
 .sprite-coaching-icon {
   background-position: 0 0;
   width: 90px;
   height: 101px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003107}}
 .sprite-families-icon {
   background-position: 0 -151px;
   width: 84px;
   height: 81px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003108}}
 .sprite-groups-icon {
   background-position: 0 -282px;
   width: 61px;
   height: 64px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003109}}
 .sprite-individuals-icon {
   background-position: 0 -396px;
   width: 84px;
   height: 85px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003110}}
 .sprite-logo-footer {
   background-position: 0 -531px;
   width: 46px;
   height: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003111}}
 .sprite-logo {
   background-position: 0 -591px;
   width: 173px;
   height: 190px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003112}}
 .sprite-psychotherapy-icon {
   background-position: 0 -831px;
   width: 95px;
   height: 109px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003113}}
 .sprite-signature-programmes-icon {
   background-position: 0 -990px;
   width: 136px;
   height: 114px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003114}}
 .sprite-the-practice-icon {
   background-position: 0 -1154px;
   width: 78px;
   height: 109px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003115}}
 .sprite-the-team-icon {
   background-position: 0 -1313px;
   width: 56px;
   height: 108px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003116}}
 .sprite-training-and-consulting-icon {
   background-position: 0 -1471px;
   width: 146px;
   height: 113px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003117}}
 .sprite-we-are-looking-box {
   background-position: 0 -1634px;
   width: 294px;
@@ -103,13 +103,11 @@ body {
   margin: 0;
   padding: 28px 39px 0 39px;
   color: #686967;
-  background: url(../images/bg.jpg);
-  background-size: 100%;
   font-size: 11px;
   line-height: 13px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000323}}
 p {
   margin: 5px 0;
 }
@@ -118,11 +116,11 @@ p {
  * The skip-link link will be completely hidden until a user tabs to the link.
  * See the element-focusable rule in system.base.css.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000334}}
 #skip-link {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000338}}
 #skip-link a,
 #skip-link a:visited {
   display: block;
@@ -136,12 +134,12 @@ p {
 /*
  * Header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000353}}
 #header .logo-wrapper {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000358}}
 #logo {
   /* Wrapping link for logo */
   float: left;
@@ -149,44 +147,44 @@ p {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000364}}
 #logo img {
   vertical-align: bottom;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000369}}
 #name-and-slogan {
   /* Wrapper for website name and slogan */
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000374}}
 #site-name {
   /* The name of the website */
   margin: 0;
   font-size: 2em;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000381}}
 #site-name a:link,
 #site-name a:visited {
   color: #000;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000387}}
 #site-name a:hover,
 #site-name a:focus {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000392}}
 #site-slogan {
   /* The slogan (or tagline) of a website */
   margin: 0;
   font-size: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\0000398}}
 .region-header {
   /* Wrapper for any blocks placed in the header region */
   clear: both;
@@ -199,16 +197,16 @@ p {
 /*
  * Content
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003121}}
 .breadcrumb {
   /* The path to the current page in the form of a list of links */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003123}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003127}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -216,7 +214,7 @@ p {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003141}}
 h1.title,
 h2.node-title,
 h2.block-title,
@@ -231,37 +229,37 @@ h1 {
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003149}}
 tr.even {
   /* Some tables have rows marked even or odd. */
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003155}}
 tr.odd {
   /* background-color: #eee; */
   /* Drupal core uses a #eee background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003160}}
 div.messages {
   /* Important messages (status, warning, and error) for the user. See also the declarations in messages.css. */
   margin: 1.5em 0;
   /* Drupal core uses "6px 0" margin */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003164}}
 div.messages ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003170}}
 div.status {
   /* Normal priority messages */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003175}}
 div.warning,
 tr.warning {
   /* Medium priority messages */
@@ -269,53 +267,53 @@ tr.warning {
   /* Drupal core uses: 1px solid #f0c020 */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003182}}
 div.error,
 tr.error {
   /* High priority messages. See also the .error declaration below. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003186}}
 .error {
   /* Errors that are separate from div.messages status messages. */
   /* color: #e55; */
   /* Drupal core uses a #e55 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003192}}
 .warning {
   /* Warnings that are separate from div.messages status messages. */
   /* color: #e09010; */
   /* Drupal core uses a #e09010 background */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003198}}
 .tabs {
   /* See also the tabs.css file. */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003202}}
 .region-help {
   /* Help text on a page */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003206}}
 .more-help-link {
   /* Link to more help */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003210}}
 .region-content {
   /* Wrapper for the actual page content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003214}}
 ul.inline {
   /* List of links generated by theme_links() */
   display: inline;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003219}}
 ul.inline li {
   display: inline;
   list-style-type: none;
@@ -323,30 +321,30 @@ ul.inline li {
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003226}}
 span.field-label {
   /* The inline field label used by the Fences module */
   padding: 0 1em 0 0;
   /* LTR */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003231}}
 .item-list .pager {
   /* A list of page numbers when more than 1 page of content is available */
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003235}}
 .item-list .pager li {
   /* Each page number in the pager list */
   padding: 0 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003241}}
 .feed-icon {
   /* The link to the RSS or Atom feed for the current list of content */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003245}}
 .more-link {
   /* Aggregator, blog, and forum more link */
 }
@@ -366,6 +364,11 @@ span.field-label {
 /*
  * Footer
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003273}}
+#footer {
+  margin-top: 12px;
+}
+
 /*
  * Page bottom
  */
@@ -377,235 +380,554 @@ span.field-label {
 /*HOME PAGE*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003286}}
 .front {
-  color: #5f5952;
+  background: url(../images/bg.jpg);
+  background-size: 100%;
+  padding-top: 83px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003288}}
-.front #main {
-  position: absolute;
-  width: 770px;
-  height: 507px;
-  left: 50%;
-  top: 50%;
-  margin-top: -253px;
-  margin-left: -385px;
-  padding: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003299}}
-.front #content {
-  padding: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003303}}
-.front #home-container {
-  position: relative;
+.front #footer {
+  float: left;
   width: 100%;
-  height: 100%;
+  margin-top: 125px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003309}}
-.front .main-text {
-  position: fixed;
-  width: 367px;
-  left: 50%;
-  margin-left: -183px;
-  top: 50%;
-  text-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003296}}
+.front #page {
+  max-width: 1000px;
+  position: relative;
+  padding-bottom: 80px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003302}}
+.front #header {
+  float: left;
+  width: 193px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003307}}
+.front #main {
+  float: left;
+  width: 804px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003311}}
+.front #main li {
+  list-style-type: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003314}}
+.front #main #content > ul {
+  margin: 0;
+  padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003318}}
-.front .home-box {
-  width: 183px;
-  position: absolute;
+.front #main #content > ul > li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003322}}
-.front .home-box .main-text {
-  display: none;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003323}}
+.front #main #content > ul > li > a {
+  font-size: 11px;
+  border-bottom: 3px solid #8a8480;
+  display: block;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003327}}
-.front .home-box .content {
-  background: #8a8480;
-  visibility: hidden;
-  position: relative;
-  color: white;
-  font-size: 10px;
-  padding: 15px 12px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003335}}
-.front .home-box .content p {
-  line-height: 13px;
-  text-transform: lowercase;
-  margin: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003341}}
-.front .home-box .content a {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003330}}
+.front #main #content > ul > li .more {
+  display: block;
+  text-align: right;
   color: white;
   text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003336}}
+.front #main #content > ul > li .text-box {
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003339}}
+.front #main #content > ul > li .cursive {
+  background: rgba(138, 132, 128, 0.2);
+  padding: 16px 12px;
+  margin-bottom: 10px;
   font-size: 18px;
+  font-family: jennaSue;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003346}}
+.front #main #content > ul > li .cursive a {
+  display: block;
+  color: #8a8480;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003352}}
-.front .home-box h2 {
-  border-top: solid 3px white;
-  padding-top: 2px;
-  margin-top: 5px;
+.front #main #content > ul > li .cursive .left, .front #main #content > ul > li .cursive .right {
+  display: inline-block;
+  width: 67%;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003357}}
+.front #main #content > ul > li .cursive .left {
+  width: 30%;
+  font-family: futuramedium;
   font-size: 11px;
-  padding-left: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003359}}
-.front .home-box h2 a {
-  text-transform: uppercase;
-  font-weight: nomal;
-  color: #5f5952;
-  text-decoration: none;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003370}}
-.front .home-box:hover .main-text {
-  display: block;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003365}}
+.front #main #content > ul .phrase {
+  width: 145px;
+  color: #246873;
+  text-align: center;
+  font-size: 20px;
+  line-height: 29px;
+  font-family: futuramedium;
+  padding-top: 32px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003375}}
-.front .home-box.contact {
-  top: 221px;
-  left: 0;
+.front #main #content > ul .story {
+  width: 110px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003381}}
-.front .home-box.contact:hover h2 {
-  border-top: solid 3px #e8891a;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003378}}
+.front #main #content > ul .story > a {
+  border-color: #246873;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003384}}
-.front .home-box.contact:hover .content {
-  background: #e8891a;
-  visibility: visible;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003382}}
+.front #main #content > ul .story .text-box {
+  padding: 15px 10px;
+  background: #246873;
+  color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003390}}
-.front .home-box.who-we-are {
-  top: 0;
-  left: 218px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003387}}
+.front #main #content > ul .story .text-box .more {
+  margin-top: 110px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003395}}
-.front .home-box.who-we-are:hover h2 {
-  border-top: solid 3px #226772;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003393}}
+.front #main #content > ul .help {
+  width: 155px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003398}}
-.front .home-box.who-we-are:hover .content {
-  background: #226772;
-  visibility: visible;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003404}}
-.front .home-box.services-and-fees {
-  top: 91px;
-  right: 5px;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003409}}
-.front .home-box.services-and-fees:hover h2 {
-  border-top: solid 3px #8a8480;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003412}}
-.front .home-box.services-and-fees:hover .content {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003396}}
+.front #main #content > ul .help .text-box {
+  padding: 15px 17px;
   background: #8a8480;
-  visibility: visible;
+  color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003418}}
-.front .home-box.resources {
-  top: 412px;
-  right: 0;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003401}}
+.front #main #content > ul .help .text-box .more {
+  margin-top: 13px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003423}}
-.front .home-box.resources:hover h2 {
-  border-top: solid 3px #226772;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003407}}
+.front #main #content > ul .contact {
+  width: 75px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003426}}
-.front .home-box.resources:hover .content {
-  background: #226772;
-  visibility: visible;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003410}}
+.front #main #content > ul .contact > a {
+  border-color: #d83b1b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003414}}
+.front #main #content > ul .contact .text-box {
+  padding: 15px 7px;
+  background: #d83b1b;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003419}}
+.front #main #content > ul .contact .text-box .more {
+  margin-top: 253px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003425}}
+.front #main #content > ul .like {
+  width: 182px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003428}}
+.front #main #content > ul .like > a {
+  border-color: #533280;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003432}}
+.front #main #content > ul .like .text-box {
+  padding: 15px 20px;
+  background: #533280;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003437}}
+.front #main #content > ul .like .text-box .more {
+  margin-top: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003443}}
+.front #main #content > ul .faq {
+  width: 50px;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003447}}
+.front #main #content > ul .faq > a {
+  border-color: #ed8d1b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003451}}
+.front #main #content > ul .faq .text-box {
+  padding: 15px 8px;
+  background: #ed8d1b;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003456}}
+.front #main #content > ul .faq .text-box .more {
+  margin-top: 430px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003464}}
+.front #main .map {
+  position: absolute;
+  right: 268px;
+  top: 416px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003470}}
+.front #main .pictures {
+  left: -32px;
+  position: absolute;
+  top: 290px;
 }
 
 /*BASIC PAGES STYLES*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003437}}
-.node-type-page #main {
-  padding-top: 82px;
-  padding-bottom: 82px;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003482}}
+.node-type-page #main, .node-type-team-member #main {
+  padding-top: 55px;
+  padding-bottom: 65px;
   background: url(../images/green-bg.png);
   position: relative;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003446}}
-.node-type-page .inner-content {
-  width: auto;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003491}}
+.node-type-page .inner-content, .node-type-team-member .inner-content {
+  width: 90%;
   display: inline-block;
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003451}}
-.node-type-page .inner-content .image {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003496}}
+.node-type-page .inner-content .image, .node-type-team-member .inner-content .image {
+  float: left;
+  padding-right: 3%;
   text-align: center;
-  width: 490px;
-  float: left;
+  width: 54%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003459}}
-.node-type-page .inner-content .body {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003503}}
+.node-type-page .inner-content .body, .node-type-team-member .inner-content .body {
   float: left;
-  width: 370px;
+  width: 39%;
+  font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003463}}
-.node-type-page .inner-content .body a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003508}}
+.node-type-page .inner-content .body a, .node-type-team-member .inner-content .body a {
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003466}}
-.node-type-page .inner-content .body strong {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003511}}
+.node-type-page .inner-content .body strong, .node-type-team-member .inner-content .body strong {
   color: #66959d;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003470}}
-.node-type-page .inner-content .body .column-1 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003515}}
+.node-type-page .inner-content .body .column-1, .node-type-team-member .inner-content .body .column-1 {
   float: left;
-  width: 46%;
+  width: 38%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003477}}
-.node-type-page .inner-content .body .column-2 {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003522}}
+.node-type-page .inner-content .body .column-2, .node-type-team-member .inner-content .body .column-2 {
   float: right;
   width: 46%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003535}}
 .node-type-team-member h1 {
   margin-bottom: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003492}}
-.node-type-team-member #main {
-  padding-top: 82px;
-  padding-bottom: 82px;
-  background: url(../images/green-bg.png);
-  position: relative;
-  text-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003543}}
+.node-type-team-member #content .node-team-member {
+  width: 90%;
+  margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003501}}
-.node-type-team-member #content {
-  width: auto;
-  display: inline-block;
-  text-align: left;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003548}}
 .node-type-team-member #content .group-left {
-  text-align: center;
-  width: 520px;
   float: left;
+  padding-right: 3%;
+  text-align: center;
+  width: 54%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003556}}
 .node-type-team-member #content .group-right {
   float: left;
-  width: 170px;
+  font-size: 12px;
+  width: 16%;
+  text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003518}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003562}}
 .node-type-team-member #content .group-right a {
   text-decoration: none;
   color: #66959d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003567}}
 .node-type-team-member #content .group-right .field-name-field-description {
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003572}}
 .node-type-team-member #content .group-right .field-name-field-address,
 .node-type-team-member #content .group-right .field-name-field-mobile,
 .node-type-team-member #content .group-right .field-name-field-email {
   color: #66959d;
   line-height: 15px;
 }
+
+/** Media Querys  **/
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1089px) {
+  /*HOME PAGE*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003593}}
+  .front {
+    background-size: cover;
+    padding-top: 30px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003596}}
+  .front #page {
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003603}}
+  .front #header {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003608}}
+  .front #header .logo-wrapper {
+    display: inline-block;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003614}}
+  .front #main {
+    float: none;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003618}}
+  .front #main li {
+    list-style-type: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003621}}
+  .front #main #content > ul {
+    margin: 0;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003625}}
+  .front #main #content > ul > li {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003628}}
+  .front #main #content > ul > li > a {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003634}}
+  .front #main #content > ul > li .text-box {
+    margin-bottom: 20px;
+    padding: 15px 17px !important;
+    height: 169px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003639}}
+  .front #main #content > ul > li .cursive {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003654}}
+  .front #main #content > ul .phrase {
+    width: 100%;
+    margin-bottom: 41px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003659}}
+  .front #main #content > ul .story {
+    margin: 0.5%;
+    width: 18%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003663}}
+  .front #main #content > ul .story > a {
+    border-color: #246873;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003667}}
+  .front #main #content > ul .story .text-box .more {
+    margin-top: 91px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003672}}
+  .front #main #content > ul .help {
+    margin: 0.5%;
+    width: 18%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003676}}
+  .front #main #content > ul .help .text-box .more {
+    margin-top: 12x;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003681}}
+  .front #main #content > ul .contact {
+    margin: 0.5%;
+    width: 18%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003685}}
+  .front #main #content > ul .contact > a {
+    border-color: #d83b1b;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003688}}
+  .front #main #content > ul .contact .text-box .more {
+    margin-top: 117px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003693}}
+  .front #main #content > ul .like {
+    margin: 0.5%;
+    width: 18%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003697}}
+  .front #main #content > ul .like > a {
+    border-color: #533280;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003700}}
+  .front #main #content > ul .like .text-box .more {
+    margin-top: 78px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003705}}
+  .front #main #content > ul .faq {
+    margin: 0.5%;
+    width: 18%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003709}}
+  .front #main #content > ul .faq > a {
+    border-color: #ed8d1b;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003712}}
+  .front #main #content > ul .faq .text-box .more {
+    margin-top: 136px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003719}}
+  .front #main .map {
+    position: static;
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003724}}
+  .front #main .pictures {
+    position: static;
+    text-align: center;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /*HOME PAGE*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003738}}
+  .front {
+    background-size: cover;
+    padding-top: 30px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003741}}
+  .front #page {
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003748}}
+  .front #header {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003753}}
+  .front #header .logo-wrapper {
+    display: inline-block;
+    float: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003759}}
+  .front #main {
+    float: none;
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003763}}
+  .front #main li {
+    list-style-type: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003766}}
+  .front #main #content > ul {
+    margin: 0;
+    padding: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003770}}
+  .front #main #content > ul > li {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003773}}
+  .front #main #content > ul > li > a {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003779}}
+  .front #main #content > ul > li .text-box {
+    margin-bottom: 20px;
+    padding: 15px 17px !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003783}}
+  .front #main #content > ul > li .cursive {
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003798}}
+  .front #main #content > ul .phrase {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003803}}
+  .front #main #content > ul .story {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003806}}
+  .front #main #content > ul .story > a {
+    border-color: #246873;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003810}}
+  .front #main #content > ul .story .text-box .more {
+    margin-top: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003815}}
+  .front #main #content > ul .help {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003818}}
+  .front #main #content > ul .help .text-box .more {
+    margin-top: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003823}}
+  .front #main #content > ul .contact {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003826}}
+  .front #main #content > ul .contact > a {
+    border-color: #d83b1b;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003829}}
+  .front #main #content > ul .contact .text-box .more {
+    margin-top: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003834}}
+  .front #main #content > ul .like {
+    width: 100%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003837}}
+  .front #main #content > ul .like > a {
+    border-color: #533280;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003840}}
+  .front #main #content > ul .like .text-box .more {
+    margin-top: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003845}}
+  .front #main #content > ul .faq {
+    width: 100%;
+    margin-right: 0;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003849}}
+  .front #main #content > ul .faq > a {
+    border-color: #ed8d1b;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003852}}
+  .front #main #content > ul .faq .text-box .more {
+    margin-top: 12px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003859}}
+  .front #main .map {
+    position: static;
+    display: none;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003864}}
+  .front #main .pictures {
+    position: static;
+    text-align: center;
+  }
+}
+/* Landscape phones and down */

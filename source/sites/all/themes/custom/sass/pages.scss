@@ -17,8 +17,6 @@ body {
   padding: 28px 39px 0 39px;
   color:$grisClaroTexto;
 
-  background: url(../images/bg.jpg);
-  background-size: 100%;
   font-size: 11px;
   line-height: 13px;
 }
@@ -107,6 +105,7 @@ p{
  */
 
 #main {
+  
 }
 
 /*
@@ -272,6 +271,7 @@ span.field-label {
  */
 
 #footer {
+  margin-top: 12px;
 }
 
 /*
@@ -284,159 +284,204 @@ span.field-label {
 
 /*HOME PAGE*/
 .front {
-  color: $grisTexto;
-  #main {
-    position: absolute;
-    width: 770px;
-    height: 507px;
-    left: 50%;
-    top: 50%;
-    margin-top: -253px;
-    margin-left: -385px;
-    padding: 0;
-
-  }
-  #content {
-    padding: 0;
-  }
-
-  #home-container {
-    position: relative;
+  
+  #footer{
+    float: left;
     width: 100%;
-    height: 100%;
-
+    margin-top: 125px;  
   }
-  .main-text{
-    position: fixed;
-    width: 367px;
-    left:50%;
-    margin-left: -183px;
-    top:50%;
-    text-align: center;
-
+  
+  background: url(../images/bg.jpg);
+  background-size: 100%;
+  #page{
+    max-width: 1000px;
+    position: relative;
+    padding-bottom: 80px;
   }
-  .home-box {
-    width: 183px;
-    position: absolute;
-
-    .main-text{
-
-      display: none;
-
+  padding-top:83px;
+  #header{
+    float: left;
+    width: 193px;
+  }
+  
+  #main{
+    float: left;
+    width: 804px;
+    
+    li{
+      list-style-type: none;
     }
-    .content {
-      background: $grisOscuro;
-      visibility: hidden;
-      position: relative;
-      color: white;
-      font-size: 10px;
-      padding: 15px 12px;
-
-      p {
-        line-height: 13px;
-        text-transform: lowercase;
-        margin: 0;
+    #content > ul{
+      margin: 0;
+      padding: 0;
+      
+      >li{
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+        
+        >a{
+          font-size: 11px;
+          border-bottom: 3px solid $grisOscuro;
+          display: block;
+          padding-bottom: 7px;
+          margin-bottom: 10px;
+        }
+        .more{
+          display: block;
+          text-align: right;
+          color: $blanco;
+          text-decoration: none;
+        }
+        .text-box{
+          margin-bottom: 10px;
+        }
+        .cursive{
+          background: $grisOscuroOpacity;
+          padding: 16px 12px;
+          margin-bottom: 10px;
+          font-size: 18px;
+          font-family: $cursiva;
+          
+          a{
+            display: block;
+            color: $grisOscuro;
+            text-decoration: none;
+            margin-bottom: 8px;
+          }
+          .left, .right{
+            display: inline-block;
+            width: 67%;
+            vertical-align: top;
+          }
+          .left{
+            width: 30%;
+            font-family: $futuramedium;
+            font-size: 11px;
+          }
+        }
       }
-
-      a {
-        position: absolute;
-        bottom: 5px;
-        right: 5px;
-        color: white;
-        text-decoration: none;
-        font-size: 18px;
-
+      
+      .phrase{
+        width: 145px;
+        color: $azul;
+        text-align: center;
+        font-size:20px;
+        line-height: 29px;
+        font-family: $font-body;
+        padding-top: 32px;
       }
-    }
-
-    h2 {
-      border-top: solid 3px white;
-      padding-top: 2px;
-      margin-top: 5px;
-      font-size: 11px;
-      padding-left: 5px;
-
-      a {
-
-        text-transform: uppercase;
-        font-weight: nomal;
-        color: $grisTexto;
-        text-decoration: none;
+      
+      .story{
+        width: 110px;
+        
+        >a{
+          border-color: $azul;
+        }
+        
+        .text-box{
+          padding: 15px 10px;
+          background: $azul;
+          color: $blanco;
+          
+          .more{
+            margin-top: 110px;
+          }
+        }
       }
+      
+      .help{
+        width: 155px;
+        
+        .text-box{
+          padding: 15px 17px;
+          background: $grisOscuro;
+          color: $blanco;
+          
+          .more{
+            margin-top: 13px;
+          }
+        }
+      }
+      
+      .contact{
+        width: 75px;
+        
+        >a{
+          border-color: $naranjaOscuro;
+        }
+        
+        .text-box{
+          padding: 15px 7px;
+          background: $naranjaOscuro;
+          color: $blanco;
+          
+          .more{
+            margin-top: 253px;
+          }
+        }
+      }
+      
+      .like{
+        width: 182px;
+        
+        >a{
+          border-color: $violeta;
+        }
+        
+        .text-box{
+          padding: 15px 20px;
+          background: $violeta;
+          color: $blanco;
+          
+          .more{
+            margin-top: 40px;
+          }
+        }
+      }
+      
+      .faq{
+        width: 50px;
+        margin-right: 0;
+        
+        >a{
+          border-color: $naranjaClaro;
+        }
+        
+        .text-box{
+          padding: 15px 8px;
+          background: $naranjaClaro;
+          color: $blanco;
+          
+          .more{
+            margin-top: 430px;
+          }
+        }
+      }
+      
+      
     }
-
-  }
-  .home-box:hover{
-    .main-text{
-      display: block;
-
+    .map{
+      position: absolute;
+      right: 268px;
+      top: 416px;
     }
-  }
-  .home-box.contact {
-    top: 221px;
-    left: 0;
-  }
-
-  .home-box.contact:hover {
-    h2 {
-      border-top: solid 3px $naranja;
+    
+    .pictures{
+      left: -32px;
+      position: absolute;
+      top: 290px;
     }
-    .content {
-      background: $naranja;
-      visibility: visible;
-    }
+    
   }
-
-  .home-box.who-we-are {
-    top: 0;
-    left: 218px;
-  }
-  .home-box.who-we-are:hover {
-    h2 {
-      border-top: solid 3px $verdeOscuro;
-    }
-    .content {
-      background: $verdeOscuro;
-      visibility: visible;
-    }
-  }
-
-  .home-box.services-and-fees {
-    top: 91px;
-    right: 5px;
-  }
-  .home-box.services-and-fees:hover {
-    h2 {
-      border-top: solid 3px $grisOscuro;
-    }
-    .content {
-      background: $grisOscuro;
-      visibility: visible;
-    }
-  }
-
-  .home-box.resources {
-    top: 412px;
-    right: 0;
-  }
-  .home-box.resources:hover {
-    h2 {
-      border-top: solid 3px $verdeOscuro;
-    }
-    .content {
-      background: $verdeOscuro;
-      visibility: visible;
-    }
-  }
-
 }
 
 /*BASIC PAGES STYLES*/
-.node-type-page{
+.node-type-page, .node-type-team-member{
 
   #main{
-    padding-top: 82px;
-    padding-bottom: 82px;
+    padding-top: 55px;
+    padding-bottom: 65px;
     background: url(../images/green-bg.png);
     position: relative;
     text-align: center;
@@ -444,21 +489,21 @@ span.field-label {
   }
 
   .inner-content{
-    width: auto;
+    width: 90%;
     display: inline-block;
     text-align: left;
 
     .image{
-
+      float: left;
+      padding-right: 3%;
       text-align: center;
-      width: 490px;
-      float:left;
-
+      width: 54%;
     }
 
     .body{
-      float:left;
-      width: 370px;
+      float: left;
+      width: 39%;
+      font-size: 12px;
 
       a{
         text-decoration: none;
@@ -469,7 +514,7 @@ span.field-label {
       }
       .column-1{
         float:left;
-        width:46%;
+        width:38%;
 
 
       }
@@ -485,35 +530,34 @@ span.field-label {
 
   }
 }
+
 .node-type-team-member{
   h1{
     margin-bottom: 5px;
   }
   #main{
-    padding-top: 82px;
-    padding-bottom: 82px;
-    background: url(../images/green-bg.png);
-    position: relative;
-    text-align: center;
 
   }
 
   #content{
-    width: auto;
-    display: inline-block;
-    text-align: left;
+     .node-team-member{
+       width: 90%;
+       margin: 0 auto;
+     }
 
     .group-left{
-
+      float: left;
+      padding-right: 3%;
       text-align: center;
-      width: 520px;
-      float:left;
+      width: 54%;
 
     }
 
     .group-right{
-      float:left;
-      width: 170px;
+      float: left;
+      font-size: 12px;
+      width: 16%;
+      text-align: left;
 
       a{
         text-decoration: none;
@@ -532,4 +576,301 @@ span.field-label {
     }
 
   }
+}
+
+
+
+/** Media Querys  **/
+  
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1089px) {
+  /*HOME PAGE*/
+  .front {
+    background-size: cover;
+    
+    #page{
+      max-width: 100%;
+      position: relative;
+      padding-bottom: 20px;
+    }
+    padding-top:30px;
+    
+    #header{
+      float: none;
+      width: 100%;
+      text-align: center;
+      
+      .logo-wrapper{
+        display: inline-block;
+        float: none;
+      }
+    }
+    
+    #main{
+      float: none;
+      width: 100%;
+      
+      li{
+        list-style-type: none;
+      }
+      #content > ul{
+        margin: 0;
+        padding: 0;
+        
+        >li{
+          width: 100%;
+          
+          >a{
+            text-align: center;
+          }
+          .more{
+
+          }
+          .text-box{
+            margin-bottom: 20px;
+            padding: 15px 17px !important;
+            height: 169px
+          }
+          .cursive{
+            display: none;
+            
+            a{
+
+            }
+            .left, .right{
+
+            }
+            .left{
+
+            }
+          }
+        }
+        
+        .phrase{
+          width: 100%;
+          margin-bottom: 41px;
+        }
+        
+        .story{
+          margin: 0.5%;
+          width: 18%;
+          
+          >a{
+            border-color: $azul;
+          }
+
+            .text-box .more{
+             margin-top: 91px;
+            }
+        }
+        
+        .help{
+          margin: 0.5%;
+          width: 18%;
+
+            .text-box .more{
+              margin-top: 12x;
+            }
+        }
+        
+        .contact{
+          margin: 0.5%;
+          width: 18%;
+          
+          >a{
+            border-color: $naranjaOscuro;
+          }
+            .text-box .more{
+              margin-top: 117px;
+            }
+        }
+        
+        .like{
+          margin: 0.5%;
+          width: 18%;
+          
+          >a{
+            border-color: $violeta;
+          }            
+            .text-box .more{
+              margin-top: 78px;
+            }
+        }
+        
+        .faq{
+          margin: 0.5%;
+          width: 18%;
+          
+          >a{
+            border-color: $naranjaClaro;
+          }            
+            .text-box .more{
+              margin-top: 136px;
+            }
+        }
+        
+        
+      }
+      .map{
+        position: static;
+        display: none; 
+      }
+      
+      .pictures{
+        position: static;
+        text-align: center;
+      }
+      
+    }
+  }
+}
+  
+
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /*HOME PAGE*/
+  .front {
+    background-size: cover;
+    
+    #page{
+      max-width: 100%;
+      position: relative;
+      padding-bottom: 20px;
+    }
+    padding-top:30px;
+    
+    #header{
+      float: none;
+      width: 100%;
+      text-align: center;
+      
+      .logo-wrapper{
+        display: inline-block;
+        float: none;
+      }
+    }
+    
+    #main{
+      float: none;
+      width: 100%;
+      
+      li{
+        list-style-type: none;
+      }
+      #content > ul{
+        margin: 0;
+        padding: 0;
+        
+        >li{
+          width: 100%;
+          
+          >a{
+            text-align: center;
+          }
+          .more{
+
+          }
+          .text-box{
+            margin-bottom: 20px;
+            padding: 15px 17px !important;
+          }
+          .cursive{
+            display: none;
+            
+            a{
+
+            }
+            .left, .right{
+
+            }
+            .left{
+
+            }
+          }
+        }
+        
+        .phrase{
+          width: 100%;
+          margin-bottom: 20px;
+        }
+        
+        .story{
+          width: 100%;
+          
+          >a{
+            border-color: $azul;
+          }
+
+            .text-box .more{
+              margin-top: 12px;
+            }
+        }
+        
+        .help{
+          width: 100%;
+
+            .text-box .more{
+              margin-top: 12px;
+            }
+        }
+        
+        .contact{
+          width: 100%;
+          
+          >a{
+            border-color: $naranjaOscuro;
+          }
+            .text-box .more{
+              margin-top: 12px;
+            }
+        }
+        
+        .like{
+          width: 100%;
+          
+          >a{
+            border-color: $violeta;
+          }            
+            .text-box .more{
+              margin-top: 12px;
+            }
+        }
+        
+        .faq{
+          width: 100%;
+          margin-right: 0;
+          
+          >a{
+            border-color: $naranjaClaro;
+          }            
+            .text-box .more{
+              margin-top: 12px;
+            }
+        }
+        
+        
+      }
+      .map{
+        position: static;
+        display: none; 
+      }
+      
+      .pictures{
+        position: static;
+        text-align: center;
+      }
+      
+    }
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
 }

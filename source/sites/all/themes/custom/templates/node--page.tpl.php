@@ -57,14 +57,15 @@
 
             <div class="column-1">
                 <?php print $node -> body['und'][0]['value']; ?>
-            </div>
-            <div class="column-2">
-                <?php print $node -> field_additional_column['und'][0]['value']; ?>
                 <?php
                 if($node -> nid == "2"){
                    print views_embed_view('team_members','block_team_members');
                 }
                 ?>
+            </div>
+            <div class="column-2">
+                <?php print $node -> field_additional_column['und'][0]['value']; ?>
+                
             </div>
             <div style="clear:both;"></div>
         </div>
