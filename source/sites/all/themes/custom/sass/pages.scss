@@ -589,6 +589,18 @@ span.field-label {
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1089px) {
+  
+  #header{
+      float: none;
+      width: 100%;
+      text-align: center;
+      
+      .logo-wrapper{
+        display: inline-block;
+        float: none;
+      }
+    }
+  
   /*HOME PAGE*/
   .front {
     background-size: cover;
@@ -728,12 +740,71 @@ span.field-label {
       
     }
   }
+  
+  
+  .node-type-page, .node-type-team-member{
+  
+    .inner-content{
+  
+      .image{
+
+      }
+  
+      .body{
+      
+        .column-1{
+          width:100%;
+        }
+  
+        .column-2{
+          width:100%;  
+        }
+  
+      }
+  
+    }
+ }
+ 
+ 
+ .node-type-team-member{
+  
+    #content{
+       .node-team-member{
+         width: 90%;
+         margin: 0 auto;
+       }
+  
+      .group-left{
+ 
+      }
+  
+      .group-right{
+        width: 34%;
+  
+      }
+  
+    }
+  }
+  
+  
 }
   
 
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
+  #header{
+      float: none;
+      width: 100%;
+      text-align: center;
+      
+      .logo-wrapper{
+        display: inline-block;
+        float: none;
+      }
+    }
+  
+  
   /*HOME PAGE*/
   .front {
     background-size: cover;
@@ -868,7 +939,71 @@ span.field-label {
       
     }
   }
+  
+  
+  .node-type-page, .node-type-team-member{
+  
+    .inner-content{
+  
+      .image{
+        width: 100%;
+        padding: 0;
+      }
+  
+      .body{
+        width: 100%;
+        
+        #page-title{
+          text-align: center;
+          margin-top: 25px;
+        }
+
+        .column-1{
+          width:100%;
+        }
+  
+        .column-2{
+          width:100%;  
+        }
+  
+      }
+  
+    }
+ }
+ 
+ 
+ 
+ .node-type-team-member{
+  
+    #content{
+       .node-team-member{
+         width: 90%;
+         margin: 0 auto;
+       }
+  
+      .group-left{
+        width: 100%;
+  
+      }
+  
+      .group-right{
+        width: 100%;
+        
+        .title{
+          text-align: center;
+          margin-top: 25px;
+        }
+  
+      }
+  
+    }
+  }
+  
+  
 }
+
+  
+  
  
 /* Landscape phones and down */
 @media (max-width: 480px) {
