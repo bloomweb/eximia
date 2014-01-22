@@ -580,9 +580,77 @@ span.field-label {
 
 
 /** CONTACT **/
-.page-node-5{
-  .column{
+.page-node-16{
+  .inner_column{
     background: rgba(220,58,27,0.4);
+    margin-bottom:8px;
+    
+    .wrapper{
+      width: 90%;
+      margin: 0 auto;
+      padding: 20px 0;
+      font-size: 12px;
+    }
+    
+    .left{
+      float: left;
+      width: 50%;
+      margin-right: 2%;
+      text-align: justify;
+    }
+    .right{
+      float: left;
+      width: 30%;
+      text-align: justify;
+    }
+    
+    .col-1, .col-2, .col-3, .col-4{
+       float: left;
+       margin-right: 25px;
+       min-height: 370px;
+    }
+    .col-1{
+      width: 30%;
+    }
+    .col-2{
+      width: 15%;
+      
+      p{
+        margin-bottom: 30px;
+      }
+    }
+    .col-3{
+      width: 15%;
+      
+      p{
+        margin-bottom: 30px;
+      }
+    }
+    .col-4{
+      width: 30%;
+      
+      form{
+        padding: 20px;
+        background: #fff;
+      }
+      
+      input, textarea{
+        width: 100%;
+        border: none;
+        background: rgba(95,89,82,0.3);
+        padding: 5px;
+        
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+      
+      #edit-submit{
+        background: #8a8480;
+        color: #fff;
+      }
+    }
+    
   }
 }
 
