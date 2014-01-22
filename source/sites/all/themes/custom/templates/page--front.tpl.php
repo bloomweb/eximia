@@ -23,12 +23,64 @@
         <div id="content" class="column" role="main">
            <ul>
            	<li class="phrase">
-           		WE ARE 
-				OFFERING LIFE SKILLS TO 
-				EMPOWER 
-				INDIVIDUALS AND GROUPS
+           		<?php print $node->field_phrase['und'][0]['safe_value']; ?>
            	</li>
-           	<li class="story">
+	        <?php foreach($node->field_columns['und'] as $i => $column) : ?>
+		    <li class="<?php print $column['entity']->field_column_class['und'][0]['value']; ?>">
+			    <a><?php print $column['entity']->title; ?></a>
+			    <div class="text-box">
+				    <?php print $column['entity']->field_phrase['und'][0]['value']; ?>
+				    <?php if(isset($column['entity']->field_phrase_extra['und'][0]['value'])) : ?>
+					<br />
+					<?php print $column['entity']->field_phrase_extra['und'][0]['value'];?>
+			        <?php endif; ?>
+				    <?php print l('+', $column['entity']->field_link['und'][0]['value'], array('attributes' => array('class' => 'more'))); ?>
+			    </div>
+			    <?php if(isset($column['entity']->field_links_box['und'][0]['target_id'])) : ?>
+				<?php foreach($column['entity']->field_links_box['und'] as $j => $nid) : ?>
+				<?php $links_box = node_load($nid); ?>
+				<div class="cursive">
+					<?php
+						if($links_box->field_display_title['und'][0]['value']) {
+					?>
+							<div class="left">
+								<?php print $links_box->title; ?>
+							</div>
+							<div class="right">
+								<?php
+									foreach($links_box->field_links['und'] as $k => $link) {
+										$link_data = explode('<->', $link['value']);
+										if(count($link_data) == 2) {
+											print l($link_data[0], $link_data[1]);
+										}
+									}
+								?>
+							</div>
+					<?php
+						} else {
+							foreach($links_box->field_links['und'] as $k => $link) {
+								$link_data = explode('<->', $link['value']);
+								if(count($link_data) == 2) {
+									print l($link_data[0], $link_data[1]);
+								}
+							}
+						}
+					?>
+				</div>
+				<?php endforeach; ?>
+			    <?php endif; ?>
+			    <?php endforeach; ?>
+		    </li>
+	       </ul>
+
+	        <div class="pictures">
+		        <?php print theme_image(array('path' => file_create_url($node->field_home_image['und'][0]['uri']))); ?>
+	        </div>
+	        <div class="map">
+		        <?php print theme_image(array('path' => file_create_url($node->field_home_map['und'][0]['uri']))); ?>
+	        </div>
+	        <?php $uno = 1; ?>
+           	<!--<li class="story">
            		<a>THE EXIMIA STORY</a>
            		<div class="text-box">
            			“The greatest gift we can give another is the purity of our attention” 
@@ -108,7 +160,7 @@
            </div>
            <div class="map">
            		<img src="/sites/all/themes/custom/images/mapa.png" />
-           </div>
+           </div>-->
         </div>
 
 
