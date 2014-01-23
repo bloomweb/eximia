@@ -30,17 +30,22 @@
 			<?php endif; ?>
 		</header>
 	<?php endif; ?>
-
-	<?php
-		// We hide the comments and links now so that we can render them later.
-		hide($content['comments']);
-		hide($content['links']);
-		print render($content);
-	?>
-
-	<div class="faq-block-wrapper">
-		<?php print views_embed_view('faqs', 'block_faqs'); ?>
+	
+	<div class="wrapper">
+		<?php
+			// We hide the comments and links now so that we can render them later.
+			hide($content['comments']);
+			hide($content['links']);
+			print render($content);
+		?>
+		<div class="faq-block-wrapper">
+			<?php print views_embed_view('faqs', 'block_faqs'); ?>
+		</div>
+		<div style="clear: both;"></div>
 	</div>
+	
+
+	
 
 	<?php print render($content['links']); ?>
 
