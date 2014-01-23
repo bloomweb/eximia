@@ -672,8 +672,13 @@ span.field-label {
       text-align: center;
       
       .logo-wrapper{
-        display: inline-block;
-        float: none;
+        float: left;
+        text-align: center;
+        width: 100%;
+        
+        .sprite-logo{
+          display: inline-block;
+        }
       }
     }
   
@@ -859,6 +864,56 @@ span.field-label {
   
       }
   
+    }
+  }
+  
+  
+  /** CONTACT **/
+  .page-node-16{
+    .inner_column{
+            
+      .wrapper{
+
+      }
+      
+      .left{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+      }
+      
+      .right{
+        width: 100%;
+      }
+      
+      .col-1, .col-2, .col-3, .col-4{
+         min-height: 30px;
+         margin-right: 3%;
+      }
+      .col-1{
+        
+        text-align: center;
+      }
+      .col-2{
+        
+        text-align: center;
+        
+        p{
+          margin-bottom: 30px;
+        }
+      }
+      .col-3{
+        
+        text-align: center;
+        
+        p{
+          margin-bottom: 30px;
+        }
+      }
+      .col-4{
+        margin-right: 0;
+      }
+      
     }
   }
   
@@ -1072,6 +1127,56 @@ span.field-label {
   
       }
   
+    }
+  }
+  
+  
+  /** CONTACT **/
+  .page-node-16{
+    .inner_column{
+            
+      .wrapper{
+
+      }
+      
+      .left{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+      }
+      
+      .right{
+        width: 100%;
+      }
+      
+      .col-1, .col-2, .col-3, .col-4{
+         min-height: 30px;
+         margin-bottom: 25px;
+      }
+      .col-1{
+        width: 100%;
+        text-align: center;
+      }
+      .col-2{
+        width: 100%;
+        text-align: center;
+        
+        p{
+          margin-bottom: 30px;
+        }
+      }
+      .col-3{
+        width: 100%;
+        text-align: center;
+        
+        p{
+          margin-bottom: 30px;
+        }
+      }
+      .col-4{
+        width: 100%;
+      }
+      
     }
   }
   
