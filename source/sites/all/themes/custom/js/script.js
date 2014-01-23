@@ -71,6 +71,10 @@
             });
 
         });
+
+        if($('body').is('.page-node-18')){
+            $('.faq-link:first').click();
+        }
     });
 
 
