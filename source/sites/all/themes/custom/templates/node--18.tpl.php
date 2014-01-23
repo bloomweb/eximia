@@ -7,7 +7,7 @@
 	 * @see https://drupal.org/node/1728164
 	 */
 ?>
-<?php $uno = 1; ?>
+
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 	<?php if($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
@@ -47,6 +47,7 @@
 	<?php print render($content['comments']); ?>
 
 </article>
+
 <div class="faq-details">
 	<div class="faq-wrapper">
 		<!--to be replaced by ajax-->
