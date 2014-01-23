@@ -42,8 +42,8 @@
 			<?php print views_embed_view('faqs', 'block_faqs'); ?>
 		</div>
 		<div class="faq-block-wrapper">
-			<a href="#">Will you make notes during the session, and if so, what happens to these?</a>
-			<a href="#">Can I contact my therapist in between sessions? </a>
+			<a class="faq-link" href="#">Will you make notes during the session, and if so, what happens to these?</a>
+			<a class="faq-link" href="#">Can I contact my therapist in between sessions? </a>
 		</div>
 		
 		<div style="clear: both;"></div>

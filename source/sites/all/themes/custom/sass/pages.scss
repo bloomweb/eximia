@@ -658,8 +658,18 @@ span.field-label {
 /** FAQ **/
 .page-node-18{
   #main{
+    background: none;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #content{
     background: rgba(237,141,27,0.2);
     margin-bottom:8px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 8px;
   }
   .view-mode-full{
     text-align: center;
@@ -677,10 +687,11 @@ span.field-label {
       }
       
       .faq-block-wrapper{
-        width: 30%;
         float: left;
         text-align: left;
         font-size: 12px;
+        width: 24%;
+        margin-right: 5%;
         
         .faq-link{
           text-decoration: none;
@@ -690,8 +701,39 @@ span.field-label {
           padding-left: 22px;
           background: url("../images/mas.png") no-repeat left center;
         }
+        
+        .faq-link.active{
+          color: #ed8d1b;
+           background: url("../images/mas_active.png") no-repeat left center;
+        }
       }
       
+      
+      
+    }
+  }
+  
+  .faq-details{
+    padding-top: 35px;
+    border-top: 8px solid #fff;
+    margin-top: 25px;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: left;
+    font-size: 12px;
+    
+    .faq-title{
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    
+    .faq-col-a{
+      width: 40%;
+      margin-right: 5%;
+    }
+    
+    .faq-col-b{
+      width: 40%;
     }
   }
   
