@@ -112,3 +112,5 @@
 	<?php print render($content['comments']); ?>
 
 </article>
+
+ <?php print render($page['footer']); ?>

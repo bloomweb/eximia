@@ -54,20 +54,22 @@
     });
 
     $(function() { // FAQ's functionality
-        $.each($('.faq-link'), function(i, k) {
-            var a = $(k);
-            var nid = a.attr('rel');
-            if(nid) {
-                a.click(function() {
-                    $.ajax({
-                        'url':'ajax-calls/get-faq/' + nid,
-                        'cache':false,
-                        'success':function(response) {
-                            $('.faq-wrapper').html(response);
-                        }
-                    });
-                });
-            }
+
+
+        $('.faq-link').click(function() {
+
+            $that = $(this);
+            nid = $that.attr('rel');
+
+            $.ajax({
+                'url':'ajax-calls/get-faq/' + nid,
+                'cache':false,
+                'success':function(response) {
+                    $('.faq-wrapper').html(response);
+
+                }
+            });
+
         });
     });
 
