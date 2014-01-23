@@ -4,6 +4,21 @@
 	 * como los son los hooks de drupal.
 	 */
 
+	function eximia_menu() {
+
+		// Servicio ajax para saber que letras estan disponibles
+		// para asignarle a un servicio
+		$items['ajax-calls/get-faq/%'] = array(
+			'title' => 'Obtener el body del faq',
+			'description' => 'Obtiene el body del faq.',
+			'page callback' => 'eximia_get_faq_body',
+			'access callback' => true,
+			'page arguments' => array(2),
+		);
+
+		return $items;
+	}
+
 	/**
 	 * hook_form_alter
 	 *
@@ -16,7 +31,7 @@
 	function eximia_form_alter(&$form, &$form_state, $form_id) {
 		$options = array('' => '- Todos -');
 		switch($form['#id']) {
-			case 'contact-site-form':
+			/*case 'contact-site-form':
 				$form['name']['#title_display'] = 'invisible';
 				$form['name']['#attributes'] = array('placeholder' => array(t('Name')));
 				$form['mail']['#title_display'] = 'invisible';
@@ -25,9 +40,31 @@
 				$form['message']['#title_display'] = 'invisible';
 				//$form['copy']['#title_display'] = 'invisible';
 				$form['actions']['submit']['#value'] = t('Send');
-				break;
+				break;*/
 			default:
 				$uno = 1;
 				break;
 		}
+	}
+
+	/**
+	 * Servicio ajax para dar información sobre las letras
+	 * disponibles para los servicios
+	 * @param $nid
+	 */
+	function eximia_get_faq_body($nid) {
+
+		$faq = node_load($nid);
+
+		$title = $faq->title;
+		$column_a = isset($faq->field_column_a['und'][0]['value']) ? $faq->field_column_a['und'][0]['value'] : '';
+		$column_b = isset($faq->field_column_b['und'][0]['value']) ? $faq->field_column_b['und'][0]['value'] : '';
+
+		$body =
+			'<div class="faq-title">' . $title . '</div>
+			<div class="faq-col-a">' . $column_a . '<div>
+			<div class="faq-col-b">' . $column_b . '<div>';
+
+		print $body;
+
 	}
