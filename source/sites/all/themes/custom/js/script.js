@@ -54,11 +54,12 @@
     });
 
     $(function() { // FAQ's functionality
-        $('.faq-link').click(function() {
-
+        $('.faq-link').click(function(e) {
+            e.preventDefault();
             $that = $(this);
             nid = $that.attr('rel');
-
+            $('.faq-link').removeClass("active");
+            $that.addClass("active");
             $.ajax({
                 'url':'ajax-calls/get-faq/' + nid,
                 'cache':false,
