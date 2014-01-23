@@ -64,7 +64,6 @@
                 'cache':false,
                 'success':function(response) {
                     $('.faq-wrapper').html(response);
-
                 }
             });
         });
