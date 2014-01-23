@@ -678,7 +678,12 @@ span.field-label {
       width: 80%;
       display: inline-block;
       
-      .field-name-body{
+      .body-content{
+        
+        h2{
+          line-height: 25px;
+          margin-bottom: 25px;
+        }
         width: 30%;
         float: left;
         text-align: left;
@@ -1265,6 +1270,62 @@ span.field-label {
       
     }
   }
+  
+  /** FAQ **/
+  .page-node-18{
+    #main{
+
+    }
+    #content{
+
+    }
+    .view-mode-full{
+      text-align: center;
+      
+      .wrapper{
+
+        
+        .body-content{
+        
+          h2{
+            line-height: 25px;
+            margin-bottom: 25px;
+          }
+          width: 100%;
+          margin-bottom: 30px;
+        }
+        
+        .faq-block-wrapper{
+          width: 100%;
+        }
+        
+        
+        
+      }
+    }
+    
+    .faq-details{
+      padding-left: 10%;
+      padding-right: 10%;
+
+      
+      .faq-title{
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      
+      .faq-col-a{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+      }
+      
+      .faq-col-b{
+        width: 100%;
+      }
+    }
+    
+  }  
   
   
 }
