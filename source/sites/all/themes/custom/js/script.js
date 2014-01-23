@@ -54,8 +54,6 @@
     });
 
     $(function() { // FAQ's functionality
-
-
         $('.faq-link').click(function(e) {
             e.preventDefault();
             $that = $(this);
@@ -67,10 +65,8 @@
                 'cache':false,
                 'success':function(response) {
                     $('.faq-wrapper').html(response);
-
                 }
             });
-
         });
 
         if($('body').is('.page-node-18')){

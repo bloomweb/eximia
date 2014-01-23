@@ -74,10 +74,10 @@
 	       </ul>
 
 	        <div class="pictures">
-		        <?php print theme_image(array('path' => file_create_url($node->field_home_image['und'][0]['uri']))); ?>
+		        <?php print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_home_image['und'][0]['uri']))); ?>
 	        </div>
 	        <div class="map">
-		        <?php print theme_image(array('path' => file_create_url($node->field_home_map['und'][0]['uri']))); ?>
+		        <?php print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_home_map['und'][0]['uri']))); ?>
 	        </div>
 	        <?php $uno = 1; ?>
            	<!--<li class="story">
