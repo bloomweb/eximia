@@ -58,7 +58,8 @@
             var a = $(k);
             var nid = a.attr('rel');
             if(nid) {
-                a.click(function() {
+                a.click(function(e) {
+                    e.preventDefault();
                     $.ajax({
                         'url':'ajax-calls/get-faq/' + nid,
                         'cache':false,
