@@ -7,9 +7,6 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
-
-<?php $uno = 1; ?>
-
 <div id="page">
 
     <header class="header" id="header" role="banner">
@@ -40,9 +37,6 @@
                     )); ?>
                 </nav>
             <?php endif; */ ?>
-
-
-
 
             <div style="clear:both;"></div>
             <nav id="main-menu" role="navigation" tabindex="-1">
