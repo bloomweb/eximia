@@ -4,6 +4,29 @@
 	 * como los son los hooks de drupal.
 	 */
 
+	function eximia_taxonomy_menu_block_tree_alter(&$tree, $config) {
+		foreach($tree as $tid => $data) {
+			$tree[$tid]['path'] = 'services/' . $tid;
+		}
+		$uno = 1;
+	}
+
+	function eximia_taxonomy_menu_block_alter(&$tree, $vid) {
+		$uno = 1;
+	}
+
+	function eximia_theme() {
+		$uno = 1;
+		return array(
+			'eximia' => array(
+				'variables' => array(
+					'items' => NULL,
+					'config' => NULL,
+				),
+			),
+		);
+	}
+
 	function eximia_menu() {
 
 		// Servicio ajax para saber que letras estan disponibles

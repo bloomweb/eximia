@@ -41,9 +41,6 @@
                 </nav>
             <?php endif; */ ?>
 
-
-
-
         <div style="clear:both;"></div>
         <nav id="main-menu" role="navigation" tabindex="-1">
         <?php print render($page['navigation']); ?>
@@ -67,8 +64,6 @@
             <?php print render($page['content']); ?>
             <?php print $feed_icons; ?>
         </div>
-
-
 
         <?php
         // Render the sidebars to see if there's anything in them.

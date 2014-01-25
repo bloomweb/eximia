@@ -7,6 +7,7 @@
  * @see https://drupal.org/node/1728246
  */
 ?>
+<?php $uno = 1; ?>
 <div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
 
   <?php print render($title_prefix); ?>
