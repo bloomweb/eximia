@@ -68,6 +68,28 @@
 		?>
 	</div>
 
+	<div class="services-description">
+		<?php
+			$tid = explode('/', $_GET['q']);
+			$tid = $tid[1];
+			$term = taxonomy_term_load($tid);
+		?>
+		<div class="left">
+			<?php
+				if(isset($term->description) && !empty($term->description)) {
+					print $term->description;
+				}
+			?>
+		</div>
+		<div class="right">
+			<?php
+				if(isset($term->field_additional_column['und'][0]['value']) && !empty($term->field_additional_column['und'][0]['value'])) {
+					print $term->field_additional_column['und'][0]['value'];
+				}
+			?>
+		</div>
+	</div>
+
 	<div id="main">
 
 		<div id="content" class="column" role="main">
@@ -75,9 +97,9 @@
 			<?php print $breadcrumb; ?>
 			<a id="main-content"></a>
 			<?php print render($title_prefix); ?>
-			<?php if($title): ?>
+			<?php /* if($title): ?>
 				<h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-			<?php endif; ?>
+			<?php endif; */ ?>
 			<?php print render($title_suffix); ?>
 			<?php print $messages; ?>
 			<?php print render($tabs); ?>
