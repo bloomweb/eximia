@@ -751,6 +751,10 @@ span.field-label {
      
      #content{
        padding: 0 27%;
+
+       div.view-content {
+         padding: 50px 0;
+       }
        
        .views-row{
          float: left;
@@ -771,6 +775,12 @@ span.field-label {
            display: block;
            margin-top: 14px;
            font-size: 21px;
+         }
+
+         a {
+           color: inherit;
+           font-size: 17px;
+           text-decoration: none;
          }
          
        }
