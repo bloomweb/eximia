@@ -4,11 +4,25 @@
 	 * como los son los hooks de drupal.
 	 */
 
+	function eximia_update_projects_alter(&$projects){
+		unset($projects['taxonomy_menu_block']);
+	}
+
 	function eximia_taxonomy_menu_block_tree_alter(&$tree, $config) {
-		foreach($tree as $tid => $data) {
-			$tree[$tid]['path'] = 'services/' . $tid;
+		$path = '';
+		switch($config) {
+			case 2:
+				$path = 'services';
+				break;
+			case 3:
+				$path = 'things-we-like';
+				break;
 		}
-		$uno = 1;
+		if(strlen($path) > 0) {
+			foreach($tree as $tid => $data) {
+				$tree[$tid]['path'] = $path . '/' . $tid;
+			}
+		}
 	}
 
 	function eximia_taxonomy_menu_block_alter(&$tree, $vid) {

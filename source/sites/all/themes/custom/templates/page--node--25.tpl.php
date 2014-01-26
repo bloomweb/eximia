@@ -11,7 +11,6 @@
 <?php $uno = 1; ?>
 
 <div id="page">
-
     <header class="header" id="header" role="banner">
         <div class="logo-wrapper">
 
@@ -19,7 +18,6 @@
         </div>
 
         <div id="navigation">
-
             <?php /* if ($main_menu): ?>
                 <nav id="main-menu" role="navigation" tabindex="-1">
                     <?php
@@ -40,10 +38,6 @@
                     )); ?>
                 </nav>
             <?php endif; */ ?>
-
-
-
-
         <div style="clear:both;"></div>
         <nav id="main-menu" role="navigation" tabindex="-1">
         <?php print render($page['navigation']); ?>

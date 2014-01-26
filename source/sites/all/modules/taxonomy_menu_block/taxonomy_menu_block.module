@@ -763,10 +763,20 @@
 
 			// Set alias option to true so we don't have to query for the alias every
 			// time, as this is cached anyway.
+			$current_term = explode('/', $_GET['q']);
+			$current_term = $current_term[1];
+			if($current_term == $tax_term->tid) {
+				$attributes['class'][] = 'active';
+			}
 			$output .= '<li' . drupal_attributes($attributes) . '>';
 			$term_image = theme_image(array('attributes' => array(), 'path' => file_create_url($tax_term->field_image['und'][0]['uri'])));
 			//$output .= l($term['name'], $term['path'], $options = array('alias' => true));
-			$output .= l($term_image, $term['path'], $options = array('alias' => true, 'html' => true));
+			if($config['delta'] == 1) {
+				$output .= l($term_image, $term['path'], $options = array('alias' => true, 'html' => true));
+			} else {
+				$output .= l($term_image . '<br />' . strtoupper($tax_term->name), $term['path'], $options = array('alias' => true, 'html' => true));
+			}
+
 			if(!empty($term['children'])) {
 				$output .= theme('taxonomy_menu_block__' . $config['delta'], (array('items' => $term['children'], 'config' => $config)));
 			}
