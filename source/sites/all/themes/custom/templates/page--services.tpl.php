@@ -49,25 +49,20 @@
 			</nav>
 		</div>
 	</header>
-
-	<div class="services-menu">
-		<?php
-			//<!--Invoke the contact form block-->
-			$block = block_load('taxonomy_menu_block', '1');
-			$block = array($block);
-			$render_blocks = _block_render_blocks(
-				$block
-			);
-			$renderable_array = _block_get_renderable_array(
-				$render_blocks
-			);
-			$rendered_block = drupal_render(
-				$renderable_array
-			);
-			print $rendered_block;
-		?>
-	</div>
-
+	<?php
+		$block = block_load('taxonomy_menu_block', '1');
+		$block = array($block);
+		$render_blocks = _block_render_blocks(
+			$block
+		);
+		$renderable_array = _block_get_renderable_array(
+			$render_blocks
+		);
+		$rendered_block = drupal_render(
+			$renderable_array
+		);
+		print $rendered_block;
+	?>
 	<div class="services-description">
 		<?php
 			$tid = explode('/', $_GET['q']);

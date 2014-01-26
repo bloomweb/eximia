@@ -45,7 +45,6 @@
 		</div>
 	</header>
 	<?php
-		//<!--Invoke the contact form block-->
 		$block = block_load('taxonomy_menu_block', '2');
 		$block = array($block);
 		$render_blocks = _block_render_blocks(
