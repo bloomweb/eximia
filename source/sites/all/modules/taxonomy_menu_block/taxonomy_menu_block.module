@@ -774,7 +774,7 @@
 			if($config['delta'] == 1) {
 				$output .= l($term_image, $term['path'], $options = array('alias' => true, 'html' => true));
 			} else {
-				$output .= l($term_image . '<br />' . strtoupper($tax_term->name), $term['path'], $options = array('alias' => true, 'html' => true));
+				$output .= l($term_image . '<br />' . $tax_term->name, $term['path'], $options = array('alias' => true, 'html' => true));
 			}
 
 			if(!empty($term['children'])) {

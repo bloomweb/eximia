@@ -830,19 +830,19 @@ span.field-label {
 
 /*.page-node-25 {*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003749}}
-.page-things-we-like #main {
+.page-things-we-like #main, .page-services #main {
   background: rgba(83, 50, 128, 0.2);
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003752}}
-.page-things-we-like #main #content {
+.page-things-we-like #main #content, .page-services #main #content {
   padding: 0 27%;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003755}}
-.page-things-we-like #main #content div.view-content {
+.page-things-we-like #main #content div.view-content, .page-services #main #content div.view-content {
   padding: 50px 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003759}}
-.page-things-we-like #main #content .views-row {
+.page-things-we-like #main #content .views-row, .page-services #main #content .views-row {
   float: left;
   width: 45%;
   margin-right: 5%;
@@ -851,12 +851,12 @@ span.field-label {
   font-size: 12px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003767}}
-.page-things-we-like #main #content .views-row .views-field-title {
+.page-things-we-like #main #content .views-row .views-field-title, .page-services #main #content .views-row .views-field-title {
   font-size: 17px;
   margin-bottom: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003772}}
-.page-things-we-like #main #content .views-row .views-field-nothing a {
+.page-things-we-like #main #content .views-row .views-field-nothing a, .page-services #main #content .views-row .views-field-nothing a {
   text-decoration: none;
   color: #686967;
   display: block;
@@ -864,29 +864,29 @@ span.field-label {
   font-size: 21px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003780}}
-.page-things-we-like #main #content .views-row a {
+.page-things-we-like #main #content .views-row a, .page-services #main #content .views-row a {
   color: inherit;
   font-size: 17px;
   text-decoration: none;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003788}}
-.page-things-we-like #main #content .views-row.views-row-even {
+.page-things-we-like #main #content .views-row.views-row-even, .page-services #main #content .views-row.views-row-even {
   margin-right: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003798}}
-.page-things-we-like .things-we-like-menu ul {
+.page-things-we-like .things-we-like-menu ul, .page-things-we-like .services-menu ul, .page-services .things-we-like-menu ul, .page-services .services-menu ul {
   float: right;
   background: url("../images/things_menu.jpg") repeat-x top left rgba(83, 50, 128, 0.2);
   padding-top: 8px;
   padding-left: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003805}}
-.page-things-we-like .things-we-like-menu ul li {
+.page-things-we-like .things-we-like-menu ul li, .page-things-we-like .services-menu ul li, .page-services .things-we-like-menu ul li, .page-services .services-menu ul li {
   list-style-type: none;
   float: left;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003809}}
-.page-things-we-like .things-we-like-menu ul li a {
+.page-things-we-like .things-we-like-menu ul li a, .page-things-we-like .services-menu ul li a, .page-services .things-we-like-menu ul li a, .page-services .services-menu ul li a {
   display: block;
   padding: 45px 35px;
   text-decoration: none;
@@ -896,11 +896,11 @@ span.field-label {
   text-align: center;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003818}}
-.page-things-we-like .things-we-like-menu ul li a img {
+.page-things-we-like .things-we-like-menu ul li a img, .page-things-we-like .services-menu ul li a img, .page-services .things-we-like-menu ul li a img, .page-services .services-menu ul li a img {
   margin-bottom: 15px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003824}}
-.page-things-we-like .things-we-like-menu ul .active a {
+.page-things-we-like .things-we-like-menu ul .active a, .page-things-we-like .services-menu ul .active a, .page-services .things-we-like-menu ul .active a, .page-services .services-menu ul .active a {
   background: #533280;
 }
 
