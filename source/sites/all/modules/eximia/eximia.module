@@ -99,8 +99,10 @@
 
 		$body =
 			'<div class="faq-title">' . $title . '</div>
-			<div class="faq-col-a">' . $column_a . '<div>
-			<div class="faq-col-b">' . $column_b . '<div>';
+			<div class="faq-info">
+			<div class="faq-col-a left">' . $column_a . '</div>
+			<div class="faq-col-b right">' . $column_b . '</div>
+			</div>';
 
 		print $body;
 

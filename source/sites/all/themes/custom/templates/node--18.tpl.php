@@ -48,11 +48,10 @@
 	</div>
 
 		<div class="faq-block-wrapper">
-			<?php print views_embed_view('faqs', 'block_faqs'); ?>
+			<?php print views_embed_view('faqs', 'block_faqs_a'); ?>
 		</div>
 		<div class="faq-block-wrapper">
-			<a class="faq-link" href="#">Will you make notes during the session, and if so, what happens to these?</a>
-			<a class="faq-link" href="#">Can I contact my therapist in between sessions? </a>
+			<?php print views_embed_view('faqs', 'block_faqs_b'); ?>
 		</div>
 		
 		<div style="clear: both;"></div>
