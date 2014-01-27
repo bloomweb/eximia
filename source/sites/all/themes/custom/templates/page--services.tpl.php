@@ -50,6 +50,7 @@
 		</div>
 	</header>
 	<?php
+		/*
 		$block = block_load('taxonomy_menu_block', '1');
 		$block = array($block);
 		$render_blocks = _block_render_blocks(
@@ -62,6 +63,7 @@
 			$renderable_array
 		);
 		print $rendered_block;
+		*/
 	?>
 	<div class="services-description">
 		<?php
@@ -104,6 +106,7 @@
 			<?php endif; ?>
 			<?php print render($page['content']); ?>
 			<?php print $feed_icons; ?>
+			<div style="clear: both;"></div>
 		</div>
 
 

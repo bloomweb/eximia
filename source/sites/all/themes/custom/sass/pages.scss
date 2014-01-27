@@ -480,8 +480,8 @@ span.field-label {
 .node-type-page, .node-type-team-member{
 
   #main{
-    padding-top: 55px;
-    padding-bottom: 65px;
+    padding-top: 115px;
+    padding-bottom: 100px;
     background: url(../images/green-bg.png);
     position: relative;
     text-align: center;
@@ -498,6 +498,8 @@ span.field-label {
       padding-right: 3%;
       text-align: center;
       width: 54%;
+      font-size: 23px;
+      line-height: 37px;
     }
 
     .body{
@@ -745,7 +747,7 @@ span.field-label {
 }
 
 /*.page-node-25 {*/
-.page-things-we-like, .page-services {
+.page-things-we-like {
    #main{
      background: rgba(83,50,128,0.2);
      
@@ -827,6 +829,55 @@ span.field-label {
       
     }
  }
+ 
+ 
+.page-services{
+  font-size: 12px;
+  .services-description{
+    background: rgba(83, 50, 128, 0.2);
+    padding: 27px 64px;
+    margin-bottom: 8px;
+    
+    > div{
+      display: inline-block;
+      width: 45%;
+      vertical-align: top;
+    }
+    
+    .left{
+      margin-right: 5%;
+    }
+  }
+  
+  #content{
+    padding: 27px 64px;
+    background: rgba(83,50,128,0.2);
+    
+    .views-row{
+      float: left;
+      width: 20%;
+      margin-right: 10%;
+      
+      .views-field-field-image{
+        text-align: center;
+        min-height: 100px;
+      }
+      
+      .views-field-title{
+        font-size: 17px;
+        line-height: 21px;
+        margin-bottom: 12px;
+      }
+      
+      .views-field-view-node a{
+        font-size: 17px;
+        text-decoration: none;
+        color: #686967;
+        display: block;
+      }
+    }
+  }
+}
 
 
 
@@ -1460,6 +1511,38 @@ span.field-label {
         
       }
    }
+   
+   
+   .page-services{
+    .services-description{
+      
+      > div{
+        width: 100%;
+        margin-bottom: 25px;
+      }
+      
+      .left{
+        margin-right: 0;
+      }
+    }
+    
+    #content{
+      
+      .views-row{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+        text-align: center;
+        
+        .views-field-field-image{
+          text-align: center;
+          min-height: 30px;
+          margin-bottom: 12px;
+        }
+        
+      }
+    }
+  }
   
   
 }

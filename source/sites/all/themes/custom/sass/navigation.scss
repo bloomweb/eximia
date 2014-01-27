@@ -107,6 +107,13 @@ li a.active {
 
     }
   }
+  
+  .menu > li.last{
+    padding-right: 0;
+    > a{
+      padding-right: 0;
+    }
+  }
 
   .menu > li:hover, .menu > li.active{
     border-bottom: 5px solid $grisOscuro;
@@ -120,7 +127,7 @@ li a.active {
     display: block;
 
   }
-  .is-active-trail ul.sub-menu{
+  .is-active ul.sub-menu{
     display: block;
 
   }
@@ -264,4 +271,112 @@ li a.active {
  */
 
 .block-menu-block {
+}
+
+
+
+/** Media Querys  **/
+  
+/* Large desktop */
+@media (min-width: 1200px) {
+  
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  #navigation{
+    width: 100%;
+    padding: 0;
+    height: auto;
+    margin-bottom: 25px;
+    
+    .menu .menu__item{
+      padding: 0;
+      margin: 0;
+      width: 50%;
+      border: none;
+      
+      >a{
+       padding: 20px;
+       margin: 0;
+       text-align: center;
+       color: #fff;
+       }
+       
+       .sub-menu{
+         padding: 0;
+         position: relative;
+         width: 200%;
+         
+         
+        li{
+          width: 100%;
+          display: inline-block;
+          float: none;
+        }
+
+       
+       .image{
+         display: none;
+       }
+       .hide{
+         display: block;
+       }
+       
+      }
+      
+    }
+    
+    .menu .menu__item:nth-child(2n) .sub-menu{
+      left: -100%;
+    }
+    
+    
+    .menu-mlid-419{
+      background: #dfdad7;
+      
+      .sub-menu{
+        background: #dfdad7;
+      }
+    }
+    .menu-mlid-517{
+      background: #246873;
+      
+      .sub-menu{
+        background: #246873;
+      }
+    }
+    .menu-mlid-541{
+      background: #8a8480;
+      
+      .sub-menu{
+        background: #8a8480;
+      }
+    }
+    .menu-mlid-537{
+      background: #d83b1b;
+      
+      .sub-menu{
+        background: #d83b1b;
+      }
+    }
+    .menu-mlid-540{
+      background: #533280;
+      
+      .sub-menu{
+        background: #533280;
+      }
+    }
+    .menu-mlid-630{
+      background: #ed8d1b;
+      
+      .sub-menu{
+        background: #ed8d1b;
+      }
+    }
+    
+    .menu .menu__item.active, .menu .menu__item:hover{
+      border: none;
+    }
+    
+  } 
 }

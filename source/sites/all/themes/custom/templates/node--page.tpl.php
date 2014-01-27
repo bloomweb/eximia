@@ -37,14 +37,20 @@
 	?>
 	<div class="inner-content">
 		<div class="image 490">
+
 			<?php
-				$variables = array(
-					'style_name' => 'basic_page_image',
-					'path'       => $node->field_image['und'][0]['uri'],
-					'width'      => $node->field_image['und'][0]['width'],
-					'height'     => $node->field_image['und'][0]['height'],
-				);
-				print theme('image_style', $variables);
+                if(isset($node->field_image['und'][0]['uri'])){
+                    $variables = array(
+                        'style_name' => 'basic_page_image',
+                        'path'       => $node->field_image['und'][0]['uri'],
+                        'width'      => $node->field_image['und'][0]['width'],
+                        'height'     => $node->field_image['und'][0]['height'],
+                    );
+                    print theme('image_style', $variables);
+                }else{
+                    print $node -> field_big_text['und'][0]['value'];
+                }
+
 			?>
 
 

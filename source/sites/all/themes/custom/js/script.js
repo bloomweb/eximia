@@ -51,6 +51,10 @@
             $('.menu-mlid-517').addClass("is-active-trail active-trail active");
         }
 
+        if($("body").is(".page-things-we-like")){
+            $('.menu-mlid-540').addClass("is-active-trail active-trail active");
+        }
+
     });
 
     $(function() { // FAQ's functionality
