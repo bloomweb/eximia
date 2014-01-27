@@ -218,7 +218,7 @@ $databases = array (
       'database' => 'bloomweb_eximia',
       'username' => 'bloomweb',
       'password' => 'rr40r900343',
-      'host' => 'localhost',
+      'host' => (($_SERVER['HTTP_HOST'] == 'eximia.bloomweb.co') ? 'mysql.bloomweb.co' : 'localhost'),
       'port' => '',
       'driver' => 'mysql',
       'prefix' => '',

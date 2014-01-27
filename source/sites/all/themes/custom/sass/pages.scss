@@ -287,6 +287,11 @@ span.field-label {
 /*HOME PAGE*/
 .front {
 
+  .home-menu-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
   #footer {
     float: left;
     width: 100%;

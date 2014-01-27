@@ -27,7 +27,8 @@
            	</li>
 	        <?php foreach($node->field_columns['und'] as $i => $column) : ?>
 		    <li class="<?php print $column['entity']->field_column_class['und'][0]['value']; ?>">
-			    <a><?php print $column['entity']->title; ?></a>
+			    <!--<a><?php //print $column['entity']->title; ?></a>-->
+			    <?php print l($column['entity']->title, $column['entity']->field_link['und'][0]['value'], array('attributes' => array('class' => array('home-menu-link')))); ?>
 			    <div class="text-box">
 				    <?php print $column['entity']->field_phrase['und'][0]['value']; ?>
 				    <?php if(isset($column['entity']->field_phrase_extra['und'][0]['value'])) : ?>
