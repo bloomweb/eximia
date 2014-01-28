@@ -121,6 +121,18 @@ audio:not([controls]) {
 
 }
 
+@font-face {
+  font-family: 'jenna_sueregular';
+  src: url('../fonts/jennasue-webfont.eot');
+  src: url('../fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/jennasue-webfont.woff') format('woff'),
+  url('../fonts/jennasue-webfont.ttf') format('truetype'),
+  url('../fonts/jennasue-webfont.svg#jenna_sueregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 /*
  * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
  *    http://clagnut.com/blog/348/#c790
