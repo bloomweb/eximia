@@ -13,8 +13,9 @@
 <div id="page">
 	<header class="header" id="header" role="banner">
 		<div class="logo-wrapper">
-
+            <a href="/">
 			<div class="sprite sprite-logo"></div>
+            </a>
 		</div>
 
 		<div id="navigation">
