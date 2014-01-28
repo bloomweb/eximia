@@ -2,154 +2,154 @@
  * @file
  * Form Styling
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003103}}
 .sprite {
   background: url(../images/sprite.png) no-repeat top left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003106}}
 .sprite-coaching-icon {
   background-position: 0 0;
   width: 90px;
   height: 101px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003107}}
 .sprite-families-icon {
   background-position: 0 -151px;
   width: 84px;
   height: 81px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003108}}
 .sprite-groups-icon {
   background-position: 0 -282px;
   width: 61px;
   height: 64px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003109}}
 .sprite-individuals-icon {
   background-position: 0 -396px;
   width: 84px;
   height: 85px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003110}}
 .sprite-logo-footer {
   background-position: 0 -531px;
   width: 46px;
   height: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003111}}
 .sprite-logo {
   background-position: 0 -591px;
   width: 173px;
   height: 190px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003112}}
 .sprite-psychotherapy-icon {
   background-position: 0 -831px;
   width: 95px;
   height: 109px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003113}}
 .sprite-signature-programmes-icon {
   background-position: 0 -990px;
   width: 136px;
   height: 114px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003114}}
 .sprite-the-practice-icon {
   background-position: 0 -1154px;
   width: 78px;
   height: 109px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003115}}
 .sprite-the-team-icon {
   background-position: 0 -1313px;
   width: 56px;
   height: 108px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003116}}
 .sprite-training-and-consulting-icon {
   background-position: 0 -1471px;
   width: 146px;
   height: 113px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003117}}
 .sprite-we-are-looking-box {
   background-position: 0 -1634px;
   width: 294px;
   height: 177px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\000039}}
 .form-item {
   /* Wrapper for a form element (or group of form elements) and its label */
   margin: 1.5em 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000314}}
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
   /* Highlight the form elements that caused a form submission error */
   border: 1px solid #c00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000318}}
 .form-item label {
   /* The label for a form element */
   display: block;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000323}}
 .form-item label.option {
   /* The label for a radio button or checkbox */
   display: inline;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000328}}
 .form-item .form-required {
   /* The part of the label that indicates a required field */
   color: #c00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000332}}
 .form-item .description {
   /* The descriptive help text (separate from the label) */
   font-size: 0.85em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000337}}
 .form-checkboxes .form-item, .form-radios .form-item {
   /* Pack groups of checkboxes and radio buttons closer together */
   margin: 0;
   /* Drupal core uses "0.4em 0" */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000342}}
 .form-submit {
   /* The submit button */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000347}}
 .container-inline div,
 .container-inline label {
   /* Inline labels and form divs */
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000352}}
 .tips {
   /* Tips for Drupal's input formats */
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000355}}
 a.button {
   /* Buttons used by contrib modules like Media */
   -webkit-appearance: button;
@@ -160,7 +160,7 @@ a.button {
 /*
  * Password confirmation
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000364}}
 .password-parent,
 .confirm-parent {
   margin: 0;
@@ -169,7 +169,7 @@ a.button {
 /*
  * Search (search-block-form.tpl.php)
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000372}}
 #block-search-form {
   /* Wrapper for the search form */
 }
@@ -177,7 +177,7 @@ a.button {
 /*
  * Drupal's default login form block
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000379}}
 #user-login-form {
   text-align: left;
   /* LTR */
@@ -188,13 +188,13 @@ a.button {
    * styling of list items.
    */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000389}}
 #user-login-form ul {
   /* OpenID creates a new ul above the login form's links. */
   margin-bottom: 0;
   /* Position OpenID's ul next to the rest of the links. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000394}}
 html.js #user-login-form li.openid-link,
 #user-login-form li.openid-link {
   /* The "Log in using OpenID" link. */
@@ -203,13 +203,13 @@ html.js #user-login-form li.openid-link,
   /* LTR */
   /* Un-do some of the padding on the ul list. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\0000399}}
 #user-login-form li.user-link {
   /* The "Cancel OpenID login" link. */
   margin-top: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003104}}
 #user-login ul {
   margin: 1.5em 0;
 }
@@ -220,7 +220,7 @@ html.js #user-login-form li.openid-link,
  * We overrode these styles in normalize.css, but restore them for the admin
  * section of the site.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003116}}
 form th {
   text-align: left;
   /* LTR */
@@ -228,15 +228,15 @@ form th {
   /* LTR */
   border-bottom: 3px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003122}}
 form tbody {
   border-top: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003126}}
 form tr.even {
   background-color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003130}}
 form table .item-list ul {
   margin: 0;
 }
@@ -244,7 +244,7 @@ form table .item-list ul {
 /*
  * Drupal core wrongly puts this in system.menus.css. Since we override that, add it back.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/forms\.scss}line{font-family:\00003149}}
 td.menu-disabled {
   background: #ccc;
 }

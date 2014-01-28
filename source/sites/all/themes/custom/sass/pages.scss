@@ -834,6 +834,7 @@ span.field-label {
   font-size: 12px;
   .services-description {
     background: rgba(83, 50, 128, 0.2);
+    background: $grisClaro;
     padding: 27px 64px;
     margin-bottom: 8px;
 
@@ -851,6 +852,7 @@ span.field-label {
   #content {
     padding: 27px 64px;
     background: rgba(83, 50, 128, 0.2);
+    background: $grisClaro;;
 
     .views-row {
       float: left;
@@ -866,6 +868,7 @@ span.field-label {
         font-size: 17px;
         line-height: 21px;
         margin-bottom: 12px;
+        text-transform: uppercase;
       }
 
       .views-field-view-node a {
