@@ -16,7 +16,7 @@
 // Place your code here.
     $(function () { // Menu funtionalities
         pathname = window.location.pathname;
-        if(pathname.indexOf('the-eximia-story') != -1) {
+        if(pathname.indexOf('the-eximia-story') !== -1) {
             $menu_item = $('li.menu-mlid-517');
             if(!$menu_item.hasClass('active')) { $menu_item.addClass('active'); }
             if(!$menu_item.hasClass('is-active')) { $menu_item.addClass('is-active'); }
@@ -25,7 +25,7 @@
             if(!$menu_item.hasClass('expanded')) { $menu_item.addClass('expanded'); }
             if(!$menu_item.hasClass('active-trail')) { $menu_item.addClass('active-trail'); }
         }
-        if(pathname.indexOf('how-can-we-help') != -1) {
+        if(pathname.indexOf('how-we-can-help') !== -1) {
             $menu_item = $('li.menu-mlid-635');
             if(!$menu_item.hasClass('active')) { $menu_item.addClass('active'); }
             if(!$menu_item.hasClass('is-active')) { $menu_item.addClass('is-active'); }
@@ -34,7 +34,7 @@
             if(!$menu_item.hasClass('expanded')) { $menu_item.addClass('expanded'); }
             if(!$menu_item.hasClass('active-trail')) { $menu_item.addClass('active-trail'); }
         }
-        if(pathname.indexOf('things-we-like') != -1) {
+        if(pathname.indexOf('things-we-like') !== -1) {
             $menu_item = $('li.menu-mlid-540');
             if(!$menu_item.hasClass('active')) { $menu_item.addClass('active'); }
             if(!$menu_item.hasClass('is-active')) { $menu_item.addClass('is-active'); }
