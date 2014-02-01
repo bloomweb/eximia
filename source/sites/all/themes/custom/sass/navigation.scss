@@ -106,6 +106,7 @@ li a.active {
       padding:0 41px 4px 0;
 
     }
+    
   }
   
   .menu-mlid-537 .sub-menu{
@@ -135,6 +136,9 @@ li a.active {
   
   .menu-mlid-632 > a .image{
     background: #ed8d1b !important;
+  }
+  .menu-mlid-635 .is-active a .image{
+    background: $grisClaro;
   }
   
   .menu > li.last{
