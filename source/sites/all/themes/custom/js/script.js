@@ -16,39 +16,100 @@
 // Place your code here.
     $(function () { // Menu funtionalities
         pathname = window.location.pathname;
-        if(pathname.indexOf('the-eximia-story') !== -1) {
+        if (pathname.indexOf('the-eximia-story') !== -1) {
             $menu_item = $('li.menu-mlid-517');
-            if(!$menu_item.hasClass('active')) { $menu_item.addClass('active'); }
-            if(!$menu_item.hasClass('is-active')) { $menu_item.addClass('is-active'); }
-            if(!$menu_item.hasClass('is-active-trail')) { $menu_item.addClass('is-active-trail'); }
-            if(!$menu_item.hasClass('is-expanded')) { $menu_item.addClass('is-expanded'); }
-            if(!$menu_item.hasClass('expanded')) { $menu_item.addClass('expanded'); }
-            if(!$menu_item.hasClass('active-trail')) { $menu_item.addClass('active-trail'); }
+            if (!$menu_item.hasClass('active')) {
+                $menu_item.addClass('active');
+            }
+            if (!$menu_item.hasClass('is-active')) {
+                $menu_item.addClass('is-active');
+            }
+            if (!$menu_item.hasClass('is-active-trail')) {
+                $menu_item.addClass('is-active-trail');
+            }
+            if (!$menu_item.hasClass('is-expanded')) {
+                $menu_item.addClass('is-expanded');
+            }
+            if (!$menu_item.hasClass('expanded')) {
+                $menu_item.addClass('expanded');
+            }
+            if (!$menu_item.hasClass('active-trail')) {
+                $menu_item.addClass('active-trail');
+            }
         }
-        if(pathname.indexOf('how-we-can-help') !== -1) {
+        if (pathname.indexOf('how-we-can-help') !== -1) {
             $menu_item = $('li.menu-mlid-635');
-            if(!$menu_item.hasClass('active')) { $menu_item.addClass('active'); }
-            if(!$menu_item.hasClass('is-active')) { $menu_item.addClass('is-active'); }
-            if(!$menu_item.hasClass('is-active-trail')) { $menu_item.addClass('is-active-trail'); }
-            if(!$menu_item.hasClass('is-expanded')) { $menu_item.addClass('is-expanded'); }
-            if(!$menu_item.hasClass('expanded')) { $menu_item.addClass('expanded'); }
-            if(!$menu_item.hasClass('active-trail')) { $menu_item.addClass('active-trail'); }
+            if (!$menu_item.hasClass('active')) {
+                $menu_item.addClass('active');
+            }
+            if (!$menu_item.hasClass('is-active')) {
+                $menu_item.addClass('is-active');
+            }
+            if (!$menu_item.hasClass('is-active-trail')) {
+                $menu_item.addClass('is-active-trail');
+            }
+            if (!$menu_item.hasClass('is-expanded')) {
+                $menu_item.addClass('is-expanded');
+            }
+            if (!$menu_item.hasClass('expanded')) {
+                $menu_item.addClass('expanded');
+            }
+            if (!$menu_item.hasClass('active-trail')) {
+                $menu_item.addClass('active-trail');
+            }
         }
-        if(pathname.indexOf('things-we-like') !== -1) {
+        if (pathname.indexOf('things-we-like') !== -1) {
             $menu_item = $('li.menu-mlid-540');
-            if(!$menu_item.hasClass('active')) { $menu_item.addClass('active'); }
-            if(!$menu_item.hasClass('is-active')) { $menu_item.addClass('is-active'); }
-            if(!$menu_item.hasClass('is-active-trail')) { $menu_item.addClass('is-active-trail'); }
-            if(!$menu_item.hasClass('is-expanded')) { $menu_item.addClass('is-expanded'); }
-            if(!$menu_item.hasClass('expanded')) { $menu_item.addClass('expanded'); }
-            if(!$menu_item.hasClass('active-trail')) { $menu_item.addClass('active-trail'); }
+            if (!$menu_item.hasClass('active')) {
+                $menu_item.addClass('active');
+            }
+            if (!$menu_item.hasClass('is-active')) {
+                $menu_item.addClass('is-active');
+            }
+            if (!$menu_item.hasClass('is-active-trail')) {
+                $menu_item.addClass('is-active-trail');
+            }
+            if (!$menu_item.hasClass('is-expanded')) {
+                $menu_item.addClass('is-expanded');
+            }
+            if (!$menu_item.hasClass('expanded')) {
+                $menu_item.addClass('expanded');
+            }
+            if (!$menu_item.hasClass('active-trail')) {
+                $menu_item.addClass('active-trail');
+            }
         }
 
-        $(".menu__item.is-expanded:not(.is-active)").hover(function(){
-            $(".menu__item.is-active .sub-menu").css('visibility','hidden');
-        },function(){
-            $(".menu__item.is-active .sub-menu").css('visibility','visible');
-        });
+        if(!window.matchMedia("(max-width: 769px)").matches ) {
+            $(".menu__item.is-expanded:not(.is-active)").hover(function () {
+                $(".menu__item.is-active .sub-menu").css('visibility', 'hidden');
+            }, function () {
+                $(".menu__item.is-active .sub-menu").css('visibility', 'visible');
+            });
+        }else{ // ONLY MOBILE
+            $("ul.menu > li.menu-mlid-517  > a").click(function(e){
+                e.preventDefault();
+                if(!$(this).parent().is(".is-clicked")){
+                    $(this).parent().siblings().removeClass("is-clicked")
+                    $(this).parent().addClass("is-clicked");
+                }else{
+                    $(this).parent().removeClass("is-clicked")
+                }
+            });
+
+            $("ul.menu > li.menu-mlid-635  > a").click(function(e){
+                e.preventDefault();
+                if(!$(this).parent().is(".is-clicked")){
+                    $(this).parent().siblings().removeClass("is-clicked")
+                    $(this).parent().addClass("is-clicked");
+                }else{
+                    $(this).parent().removeClass("is-clicked")
+                }
+            });
+        }
+
+
+
     });
 
     $(function () { //HOME FUNCTIONALITIES
@@ -59,47 +120,53 @@
         });
 
 
-        $("#home-container .home-box").hover(function () {
+        $("#home-container .home-box").hover(
+            function () {
 
                 $(".main-text.default").hide();
             },
             function () {
                 $(".main-text.default").show();
-            });
+            }
+        );
+
+        $("div.text-box[data-url]").click(function(){
+            window.location = $(this).attr("data-url");
+        });
     });
 
-    $(function(){ // Team Member functionalities
-        if($('body').is('.node-type-team-member')){
+    $(function () { // Team Member functionalities
+        if ($('body').is('.node-type-team-member')) {
             $('.menu-mlid-517, .menu-mlid-547').addClass("is-active-trail active-trail active").find("a").addClass("is-active-trail active-trail active");
-            $(".field-name-field-email .field-item").wrap( "<a href='mailto:"+ $(".field-name-field-email .field-item").text()+"'></a>" );
+            $(".field-name-field-email .field-item").wrap("<a href='mailto:" + $(".field-name-field-email .field-item").text() + "'></a>");
         }
-        if($("body").is(".page-node-2")){
+        if ($("body").is(".page-node-2")) {
             $('.menu-mlid-517').addClass("is-active-trail active-trail active");
         }
 
-        if($("body").is(".page-things-we-like")){
+        if ($("body").is(".page-things-we-like")) {
             $('.menu-mlid-540').addClass("is-active-trail active-trail active");
         }
 
     });
 
-    $(function() { // FAQ's functionality
-        $('.faq-link').click(function(e) {
+    $(function () { // FAQ's functionality
+        $('.faq-link').click(function (e) {
             e.preventDefault();
             $that = $(this);
             nid = $that.attr('rel');
             $('.faq-link').removeClass("active");
             $that.addClass("active");
             $.ajax({
-                'url':'ajax-calls/get-faq/' + nid,
-                'cache':false,
-                'success':function(response) {
+                'url': 'ajax-calls/get-faq/' + nid,
+                'cache': false,
+                'success': function (response) {
                     $('.faq-wrapper').html(response);
                 }
             });
         });
 
-        if($('body').is('.page-node-18')){
+        if ($('body').is('.page-node-18')) {
             $('.faq-link:first').click();
         }
     });

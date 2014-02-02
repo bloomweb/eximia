@@ -2,7 +2,6 @@
  * @file
  * Navigation Styling
  */
-
 @import "base";
 
 /*
@@ -20,8 +19,8 @@ ul li.expanded {
 ul li.collapsed {
   @if $legacy-support-for-ie6 or $legacy-support-for-ie7 {
     *list-style-image: url(../images/menu-collapsed.png); /* LTR */
- /* }
-  list-style-image: inline-image("menu-collapsed.png"); /* LTR */
+/* }
+ list-style-image: inline-image("menu-collapsed.png"); /* LTR */
 /*  list-style-type: disc;
 }
 ul li.leaf {
@@ -43,10 +42,13 @@ li a.active {
 /*
  * Navigation bar
  */
-
+#navigation:focus{
+  border: 0 none;
+}
 #navigation {
-  /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 
+  /* overflow: hidden; */
+  /* Sometimes you want to prevent overlapping with main div. */
 
   .block {
     margin-bottom: 0;
@@ -58,19 +60,20 @@ li a.active {
   }
 
   ul.links, /* Main menu and secondary menu links */
-  ul.menu { /* Menu block links */
+  ul.menu {
+    /* Menu block links */
     margin: 0;
     padding: 0;
     text-align: left; /* LTR */
 
-    li { /* A simple method to get navigation links to appear in one line. */
+    li {
+      /* A simple method to get navigation links to appear in one line. */
       float: left; /* LTR */
       padding: 0 10px 0 0; /* LTR */
       list-style-type: none;
       list-style-image: none;
 
-
-      a{
+      a {
         text-decoration: none;
         color: $grisTextoMenu;
         text-transform: uppercase;
@@ -91,100 +94,126 @@ li a.active {
   height: 222px;
   position: relative;
 
-  .menu > li{
+  .menu > li {
     border-bottom: 5px solid white;
     margin-right: 22px;
     padding: 0;
 
-
-
-    > a{
+    > a {
       line-height: 13px;
       font-size: 11px;
       display: block;
       text-align: left;
-      padding:0 41px 4px 0;
+      padding: 0 41px 4px 0;
 
     }
-    
+
   }
-  
-  .menu-mlid-537 .sub-menu{
+
+  li:hover .sub-menu {
+    display: block;
+
+    .image {
+      background: $grisClaro;
+    }
+  }
+
+  .menu-mlid-537 .sub-menu {
     left: 460px;
     width: auto;
   }
-  
-  .menu-mlid-631 > a .image{
+
+  .menu-mlid-631.is-active > a .image {
     background: #dc3a1b !important;
     width: auto;
   }
-  
-  .menu-mlid-540 .sub-menu{
+  .menu-mlid-631 > a .image:hover {
+    background: #dc3a1b !important;
+    opacity: 0.8;
+  }
+
+  .menu-mlid-540 .sub-menu {
     left: 585px;
     width: auto;
   }
-  
-  .menu-mlid-633 > a .image{
+
+  .menu-mlid-633.is-active > a .image {
     background: #533280 !important;
   }
-  
-  .menu-mlid-630 .sub-menu{
+  .menu-mlid-633 > a .image:hover {
+    background: #533280 !important;
+    opacity: 0.8;
+  }
+
+  .menu-mlid-630 .sub-menu {
     left: auto;
     width: auto;
     right: 0;
   }
-  
-  .menu-mlid-632 > a .image{
+
+  .menu-mlid-632.is-active > a .image {
     background: #ed8d1b !important;
   }
-  .menu-mlid-635 .is-active a .image{
-    background: $grisClaro;
+  .menu-mlid-632 > a .image:hover {
+    background: #ed8d1b !important;
   }
-  
-  .menu > li.last{
+
+  .menu-mlid-635.is-active a .image {
+    background: $grisOscuro;
+  }
+
+
+  .menu > li.last {
     padding-right: 0;
-    > a{
+    > a {
       padding-right: 0;
     }
   }
 
-  .menu > li:hover, .menu > li.active{
-    border-bottom: 5px solid $grisOscuro;
+  .menu > li:hover, .menu > li.active {
+    border-bottom: 3px solid $grisOscuro;
+    opacity: 1;
+
   }
 
-  .menu > li.last{
+  .menu > li:hover {
+    opacity: 0.5;
+  }
+
+  .menu > li.active:hover {
+    opacity: 1;
+  }
+
+  .menu > li.last {
     margin-right: 0;
   }
 
-  li:hover .sub-menu{
+
+  .is-active ul.sub-menu {
     display: block;
 
   }
-  .is-active ul.sub-menu{
-    display: block;
 
-  }
-
-  ul.sub-menu{
+  ul.sub-menu {
     position: absolute;
-    top:25;
+    top: 25;
     display: none;
     left: 0;
     width: 100%;
     padding: 0;
     padding-top: 10px;
 
-    .hide{
+    .hide {
       display: none;
     }
 
-    li{
-      float:left;
+    li {
+      float: left;
       width: 169px;
       text-align: center;
       padding: 0;
 
-      .image{
+      .image {
         width: 100%;
         height: 175px;
         margin-bottom: 4px;
@@ -193,61 +222,73 @@ li a.active {
         vertical-align: bottom;
         position: relative;
 
-        .wrapper{
+        .wrapper {
           position: absolute;
           bottom: 22px;
           width: 100%;
         }
-        img{
-
+        img {
 
         }
       }
-      .line{
+      .image:hover {
+        opacity: 0.8;
+      }
+      .line {
         width: 100%;
-        height: 4px;
+        height: 3px;
         background: $grisOscuro;
         display: none;
       }
     }
 
-    li:hover{
-      .image{
+    li:hover {
+      .image {
         background: $grisClaro;
       }
-      .line{
+      .line {
         display: block;
       }
     }
 
   }
+  .menu-mlid-635 ul.sub-menu {
+    .image:hover {
+      background: $grisOscuro;
+    }
+  }
+  .menu-mlid-517.is-active ul.sub-menu {
 
-  .menu-mlid-517 ul.sub-menu{
+    li {
 
-    li{
-
-      .image{
+      .image {
         background: $verdeOscuro;
       }
 
-      .line{
+      .line {
         background: $verdeClaro
       }
 
     }
 
-    li:hover,
     li.active {
-      .image{
+      .image {
         background: $verdeClaro;
       }
     }
 
   }
 
+  .menu-mlid-517 ul.sub-menu {
 
+    li {
+      .image:hover {
+        background: $verdeClaro;
+        opacity: 0.8;
+      }
+    }
 
-
+  }
 
 }
 
@@ -255,13 +296,12 @@ li a.active {
   float: right; /* LTR */
   height: 192px;
 
+  > div {
 
-  > div{
-
-    float:left;
+    float: left;
     width: 145px;
 
-    .content{
+    .content {
       width: 100%;
       height: 175px;
       margin-bottom: 4px;
@@ -269,7 +309,7 @@ li a.active {
       cursor: pointer;
     }
 
-    .line{
+    .line {
       width: 100%;
       height: 4px;
       background: $grisOscuro;
@@ -277,15 +317,14 @@ li a.active {
     }
 
   }
-  > div:hover{
-    .content{
+  > div:hover {
+    .content {
       background: $grisClaro;
     }
-    .line{
+    .line {
       display: block;
     }
   }
-
 
 }
 
@@ -306,122 +345,145 @@ li a.active {
 .block-menu-block {
 }
 
-
-
 /** Media Querys  **/
-  
+
 /* Large desktop */
 @media (min-width: 1200px) {
-  
+
 }
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  #navigation{
+
+  #navigation {
+
+    li:hover ul.sub-menu{
+      display: none;
+      .line{
+        display: none;
+      }
+    }
+
+    li.is-active:hover,
+    li.is-clicked:hover,
+    li.active{
+      ul.sub-menu{
+        display: block;
+      }
+
+    }
+    .is-clicked ul.sub-menu {
+      display: block;
+
+    }
+
+    li{
+      opacity: 1;
+    }
     width: 100%;
     padding: 0;
     height: auto;
     margin-bottom: 25px;
-    
-    .menu .menu__item{
+
+    .menu .menu__item {
       padding: 0;
       margin: 0;
       width: 50%;
       border: none;
-      
-      >a{
-       padding: 20px;
-       margin: 0;
-       text-align: center;
-       color: #fff;
-       }
-       
-       .sub-menu{
-         padding: 0;
-         position: relative;
-         width: 200%;
-         
-         
-        li{
+
+      > a {
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+        color: #fff;
+      }
+
+      .sub-menu {
+        padding: 0;
+        position: relative;
+        width: 200%;
+
+        li {
           width: 100%;
           display: inline-block;
           float: none;
         }
 
-       
-       .image{
-         display: none;
-       }
-       .hide{
-         display: block;
-       }
-       
+        .image {
+          display: none;
+        }
+        .hide {
+          display: block;
+        }
+
       }
-      
+
     }
-    
-    .menu .menu__item:nth-child(2n) .sub-menu{
+
+    .menu .menu__item:nth-child(2n) .sub-menu {
       left: -100%;
     }
-    
-    
-    .menu-mlid-419{
+
+    .menu-mlid-419 {
       background: #dfdad7;
-      
-      .sub-menu{
+
+      .sub-menu {
         background: #dfdad7;
       }
     }
-    .menu-mlid-517{
+    .menu-mlid-517 {
       background: #246873;
-      
-      >a{
+
+      > a {
         background: url("../images/dropdown.png") center 80% no-repeat;
       }
-      
-      .sub-menu{
+
+      .sub-menu {
         background: #246873;
       }
     }
-    .menu-mlid-541{
+    .menu-mlid-635 {
       background: #8a8480;
-      
-      >a{
+
+      > a {
         background: url("../images/dropdown.png") center 80% no-repeat;
       }
-      
-      .sub-menu{
+
+      .sub-menu {
         background: #8a8480;
       }
     }
-    .menu-mlid-537{
+    .menu-mlid-537 {
       background: #d83b1b;
-      
-      .sub-menu{
+
+      .sub-menu {
         background: #d83b1b;
         display: none !important;
       }
     }
-    .menu-mlid-540{
+    .menu-mlid-540 {
       background: #533280;
       clear: both;
-      
-      .sub-menu{
+
+      .sub-menu {
         background: #533280;
         display: none !important;
       }
     }
-    .menu-mlid-630{
+
+    .menu-mlid-630 {
       background: #ed8d1b;
-      
-      .sub-menu{
+
+      .sub-menu {
         background: #ed8d1b;
         display: none !important;
       }
+
     }
-    
-    .menu .menu__item.active, .menu .menu__item:hover{
+
+    .menu .menu__item.active, .menu .menu__item:hover {
       border: none;
     }
-    
-  } 
+
+  }
 }

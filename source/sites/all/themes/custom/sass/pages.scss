@@ -351,6 +351,7 @@ span.field-label {
           transition: all 0.4s ease-in-out;
           -webkit-transition: all 0.4s ease-in-out;
           -moz-transition: all 0.4s ease-in-out;
+          cursor:pointer;
         }
         .text-box:hover {
           opacity: 0.8;
@@ -367,6 +368,10 @@ span.field-label {
             color: $grisOscuro;
             text-decoration: none;
             margin-bottom: 8px;
+
+          }
+          a:hover{
+            color: $naranja;
           }
           .left, .right {
             display: inline-block;
