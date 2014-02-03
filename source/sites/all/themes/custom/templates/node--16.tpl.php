@@ -61,7 +61,7 @@
 					</iframe>
 					<br />
 					<small>
-						<a target="_blank" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907" style="color:#0000FF;text-align:left">View larger map</a>
+						<a target="_blank" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907" style="color:#686967;text-align:left;text-decoration:none;">View larger map</a>
 					</small>
 					<!--<img src="/sites/all/themes/custom/images/contact_map.png" />-->
 				</div>
