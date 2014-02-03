@@ -2,89 +2,89 @@
  * @file
  * Navigation Styling
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003103}}
 .sprite {
   background: url(../images/sprite.png) no-repeat top left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003106}}
 .sprite-coaching-icon {
   background-position: 0 0;
   width: 90px;
   height: 101px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003107}}
 .sprite-families-icon {
   background-position: 0 -151px;
   width: 84px;
   height: 81px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003108}}
 .sprite-groups-icon {
   background-position: 0 -282px;
   width: 61px;
   height: 64px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003109}}
 .sprite-individuals-icon {
   background-position: 0 -396px;
   width: 84px;
   height: 85px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003110}}
 .sprite-logo-footer {
   background-position: 0 -531px;
   width: 46px;
   height: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003111}}
 .sprite-logo {
   background-position: 0 -591px;
   width: 173px;
   height: 190px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003112}}
 .sprite-psychotherapy-icon {
   background-position: 0 -831px;
   width: 95px;
   height: 109px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003113}}
 .sprite-signature-programmes-icon {
   background-position: 0 -990px;
   width: 136px;
   height: 114px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003114}}
 .sprite-the-practice-icon {
   background-position: 0 -1154px;
   width: 78px;
   height: 109px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003115}}
 .sprite-the-team-icon {
   background-position: 0 -1313px;
   width: 56px;
   height: 108px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003116}}
 .sprite-training-and-consulting-icon {
   background-position: 0 -1471px;
   width: 146px;
   height: 113px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/_base\.scss}line{font-family:\00003117}}
 .sprite-we-are-looking-box {
   background-position: 0 -1634px;
   width: 294px;
@@ -120,7 +120,7 @@ ul li.leaf {
 /*
  * The active item in a Drupal menu
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000338}}
 li a.active {
   color: #000;
 }
@@ -128,21 +128,21 @@ li a.active {
 /*
  * Navigation bar
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000345}}
 #navigation:focus {
   border: 0 none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000348}}
 #navigation {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000353}}
 #navigation .block {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000358}}
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title {
   position: absolute !important;
@@ -151,7 +151,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000363}}
 #navigation ul.links,
 #navigation ul.menu {
   /* Menu block links */
@@ -160,7 +160,7 @@ li a.active {
   text-align: left;
   /* LTR */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000369}}
 #navigation ul.links li,
 #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -171,7 +171,7 @@ li a.active {
   list-style-type: none;
   list-style-image: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000376}}
 #navigation ul.links li a,
 #navigation ul.menu li a {
   text-decoration: none;
@@ -182,19 +182,19 @@ li a.active {
 /*
  * Main menu and Secondary menu links
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000392}}
 #main-menu {
   margin-bottom: 6px;
   height: 222px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\0000397}}
 #main-menu .menu > li {
   border-bottom: 5px solid white;
   margin-right: 22px;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003102}}
 #main-menu .menu > li > a {
   line-height: 13px;
   font-size: 11px;
@@ -202,91 +202,91 @@ li a.active {
   text-align: left;
   padding: 0 41px 4px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003113}}
 #main-menu li:hover .sub-menu {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003116}}
 #main-menu li:hover .sub-menu .image {
   background: #dad7d6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003121}}
 #main-menu .menu-mlid-537 .sub-menu {
   left: 460px;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003126}}
 #main-menu .menu-mlid-631.is-active > a .image {
   background: #dc3a1b !important;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003130}}
 #main-menu .menu-mlid-631 > a .image:hover {
   background: #dc3a1b !important;
   opacity: 0.8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003135}}
 #main-menu .menu-mlid-540 .sub-menu {
   left: 585px;
   width: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003140}}
 #main-menu .menu-mlid-633.is-active > a .image {
   background: #533280 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003143}}
 #main-menu .menu-mlid-633 > a .image:hover {
   background: #533280 !important;
   opacity: 0.8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003148}}
 #main-menu .menu-mlid-630 .sub-menu {
   left: auto;
   width: auto;
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003154}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003154}}
 #main-menu .menu-mlid-632.is-active > a .image {
   background: #ed8d1b !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003157}}
 #main-menu .menu-mlid-632 > a .image:hover {
   background: #ed8d1b !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003161}}
 #main-menu .menu-mlid-635.is-active a .image {
   background: #8a8480;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003166}}
 #main-menu .menu > li.last {
   padding-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003168}}
 #main-menu .menu > li.last > a {
   padding-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003173}}
 #main-menu .menu > li:hover, #main-menu .menu > li.active {
   border-bottom: 3px solid #8a8480;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003179}}
 #main-menu .menu > li:hover {
   opacity: 0.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003183}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003183}}
 #main-menu .menu > li.active:hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003187}}
 #main-menu .menu > li.last {
   margin-right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003192}}
 #main-menu .is-active ul.sub-menu {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003197}}
 #main-menu ul.sub-menu {
   position: absolute;
   top: 25;
@@ -296,18 +296,18 @@ li a.active {
   padding: 0;
   padding-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003206}}
 #main-menu ul.sub-menu .hide {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003210}}
 #main-menu ul.sub-menu li {
   float: left;
   width: 169px;
   text-align: center;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003216}}
 #main-menu ul.sub-menu li .image {
   width: 100%;
   height: 175px;
@@ -317,65 +317,65 @@ li a.active {
   vertical-align: bottom;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003225}}
 #main-menu ul.sub-menu li .image .wrapper {
   position: absolute;
   bottom: 22px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003234}}
 #main-menu ul.sub-menu li .image:hover {
   opacity: 0.8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003237}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003237}}
 #main-menu ul.sub-menu li .line {
   width: 100%;
   height: 3px;
   background: #8a8480;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003246}}
 #main-menu ul.sub-menu li:hover .image {
   background: #dad7d6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003249}}
 #main-menu ul.sub-menu li:hover .line {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003256}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003256}}
 #main-menu .menu-mlid-635 ul.sub-menu .image:hover {
   background: #8a8480;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003264}}
 #main-menu .menu-mlid-517.is-active ul.sub-menu li .image {
   background: #226772;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003268}}
 #main-menu .menu-mlid-517.is-active ul.sub-menu li .line {
   background: #66959d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003275}}
 #main-menu .menu-mlid-517.is-active ul.sub-menu li.active .image {
   background: #66959d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003285}}
 #main-menu .menu-mlid-517 ul.sub-menu li .image:hover {
   background: #66959d;
   opacity: 0.8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003295}}
 #secundary-menu {
   float: right;
   /* LTR */
   height: 192px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003299}}
 #secundary-menu > div {
   float: left;
   width: 145px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003304}}
 #secundary-menu > div .content {
   width: 100%;
   height: 175px;
@@ -383,18 +383,18 @@ li a.active {
   background: #8a8480;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003312}}
 #secundary-menu > div .line {
   width: 100%;
   height: 4px;
   background: #8a8480;
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003321}}
 #secundary-menu > div:hover .content {
   background: #dad7d6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003324}}
 #secundary-menu > div:hover .line {
   display: block;
 }
@@ -412,134 +412,134 @@ li a.active {
 /* Large desktop */
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003358}}
   #navigation {
     width: 100%;
     padding: 0;
     height: auto;
     margin-bottom: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003360}}
   #navigation li:hover ul.sub-menu {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003362}}
   #navigation li:hover ul.sub-menu .line {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003370}}
   #navigation li.is-active:hover ul.sub-menu,
   #navigation li.is-clicked:hover ul.sub-menu,
   #navigation li.active ul.sub-menu {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003375}}
   #navigation .is-clicked ul.sub-menu {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003380}}
   #navigation li {
     opacity: 1;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003388}}
   #navigation .menu .menu__item {
     padding: 0;
     margin: 0;
     width: 50%;
     border: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003394}}
   #navigation .menu .menu__item > a {
     padding: 20px;
     margin: 0;
     text-align: center;
     color: #fff;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003401}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003401}}
   #navigation .menu .menu__item .sub-menu {
     padding: 0;
     position: relative;
     width: 200%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003406}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003406}}
   #navigation .menu .menu__item .sub-menu li {
     width: 100%;
     display: inline-block;
     float: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003412}}
   #navigation .menu .menu__item .sub-menu .image {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003415}}
   #navigation .menu .menu__item .sub-menu .hide {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003423}}
   #navigation .menu .menu__item:nth-child(2n) .sub-menu {
     left: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003427}}
   #navigation .menu-mlid-419 {
     background: #dfdad7;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003430}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003430}}
   #navigation .menu-mlid-419 .sub-menu {
     background: #dfdad7;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003434}}
   #navigation .menu-mlid-517 {
     background: #246873;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003437}}
   #navigation .menu-mlid-517 > a {
     background: url("../images/dropdown.png") center 80% no-repeat;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003441}}
   #navigation .menu-mlid-517 .sub-menu {
     background: #246873;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003445}}
   #navigation .menu-mlid-635 {
     background: #8a8480;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003448}}
   #navigation .menu-mlid-635 > a {
     background: url("../images/dropdown.png") center 80% no-repeat;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003452}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003452}}
   #navigation .menu-mlid-635 .sub-menu {
     background: #8a8480;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003456}}
   #navigation .menu-mlid-537 {
     background: #d83b1b;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003459}}
   #navigation .menu-mlid-537 .sub-menu {
     background: #d83b1b;
     display: none !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003464}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003464}}
   #navigation .menu-mlid-540 {
     background: #533280;
     clear: both;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003468}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003468}}
   #navigation .menu-mlid-540 .sub-menu {
     background: #533280;
     display: none !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003474}}
   #navigation .menu-mlid-630 {
     background: #ed8d1b;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003477}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003477}}
   #navigation .menu-mlid-630 .sub-menu {
     background: #ed8d1b;
     display: none !important;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/navigation\.scss}line{font-family:\00003484}}
   #navigation .menu .menu__item.active, #navigation .menu .menu__item:hover {
     border: none;
   }

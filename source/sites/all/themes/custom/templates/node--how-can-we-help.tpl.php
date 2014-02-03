@@ -7,6 +7,7 @@
 	 * @see https://drupal.org/node/1728164
 	 */
 ?>
+<?php $uno = 1; ?>
 <article class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 	<?php if($title_prefix || $title_suffix || $display_submitted || $unpublished || !$page && $title): ?>
@@ -39,7 +40,7 @@
 				print views_embed_view('services', 'block_psycho_services');
 				break;
 			case 'Training and consulting':
-				print views_embed_view('services', 'block_training_services');
+				//print views_embed_view('services', 'block_training_services');
 				break;
 			case 'Signature programmes':
 				print views_embed_view('services', 'block_signature_services');

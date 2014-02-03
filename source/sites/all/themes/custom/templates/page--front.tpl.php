@@ -7,6 +7,7 @@
 	 * @see https://drupal.org/node/1728148
 	 */
 ?>
+<?php drupal_add_library('jquery_plugin', 'cycle'); ?>
 <div id="page">
 
 	<header class="header" id="header" role="banner">
@@ -23,8 +24,20 @@
 		<div id="content" class="column" role="main">
 			<ul>
 				<li class="phrase">
-					<?php print $node->field_phrase['und'][0]['safe_value']; ?>
+					<ul id="fade">
+						<?php foreach($node->field_phrase['und'] as $key => $data) : ?>
+						<li class="cycle-phrase">
+							<?php print $data['safe_value']; ?>
+						</li>
+						<?php endforeach; ?>
+					</ul>
 				</li>
+				<script type="application/javascript">
+					jQuery('#fade').cycle({
+						'timeout':5000,
+						'slideResize':0
+					});
+				</script>
 				<?php foreach ($node->field_columns['und'] as $i => $column) : ?>
 				<li class="<?php print $column['entity']->field_column_class['und'][0]['value']; ?>">
 					<!--<a><?php //print $column['entity']->title; ?></a>-->
@@ -88,10 +101,40 @@
 			</ul>
 
 			<div class="pictures">
-				<?php print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_home_image['und'][0]['uri']))); ?>
+				<?php //print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_home_image['und'][0]['uri']))); ?>
+				<?php
+					$query = new EntityFieldQuery;
+					$query->entityCondition('entity_type', 'node');
+					$query->propertyCondition('type', 'team_member');
+					$query->propertyOrderBy('created', 'DESC');
+					$result = $query->execute();
+					if(isset($result['node'])) {
+						$counter = 0;
+						foreach($result['node'] as $nid => $data) {
+							$member = node_load($nid);
+							$node_view = node_view($member, 'teaser');
+							print '<div class="' . (($counter % 2 == 0) ? 'team-even':'team-odd') . '">' . render($node_view) . '</div>';
+							$counter++;
+						}
+					}
+				?>
 			</div>
 			<div class="map">
-				<?php print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_home_map['und'][0]['uri']))); ?>
+				<?php //print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_home_map['und'][0]['uri']))); ?>
+				<iframe
+					width="141"
+					height="138"
+					frameborder="0"
+					scrolling="no"
+					marginheight="0"
+					marginwidth="0"
+					src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=12&amp;ll=51.510612,-0.152907&amp;output=embed"
+					>
+				</iframe>
+				<br />
+				<small>
+					<a target="_blank" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907" style="color:#0000FF;text-align:left">View larger map</a>
+				</small>
 			</div>
 			<?php $uno = 1; ?>
 			<!--<li class="story">

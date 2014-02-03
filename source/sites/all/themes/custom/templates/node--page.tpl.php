@@ -37,9 +37,23 @@
 	?>
 	<div class="inner-content">
 		<div class="image 490">
-
 			<?php
-                if(isset($node->field_image['und'][0]['uri'])){
+				if($node->title == 'Meet our team') {
+					$query = new EntityFieldQuery;
+					$query->entityCondition('entity_type', 'node');
+					$query->propertyCondition('type', 'team_member');
+					$query->propertyOrderBy('created', 'DESC');
+					$result = $query->execute();
+					if(isset($result['node'])) {
+						$counter = 0;
+						foreach($result['node'] as $nid => $data) {
+							$member = node_load($nid);
+							$node_view = node_view($member, 'teaser');
+							print '<div class="' . (($counter % 2 == 0) ? 'team-even':'team-odd') . '">' . render($node_view) . '</div>';
+							$counter++;
+						}
+					}
+				} elseif(isset($node->field_image['und'][0]['uri'])){
                     $variables = array(
                         'style_name' => 'basic_page_image',
                         'path'       => $node->field_image['und'][0]['uri'],
@@ -47,13 +61,25 @@
                         'height'     => $node->field_image['und'][0]['height'],
                     );
                     print theme('image_style', $variables);
-                }else{
-                    print $node -> field_big_text['und'][0]['value'];
+                } else {
+	        ?>
+	        <?php drupal_add_library('jquery_plugin', 'cycle'); ?>
+            <ul id="fade">
+                <?php foreach($node->field_big_text['und'] as $key => $data) : ?>
+                <li class="cycle-phrase">
+	                <?php print $data['safe_value']; ?>
+                </li>
+                <?php endforeach; ?>
+            </ul>
+            <script type="application/javascript">
+                jQuery('#fade').cycle({
+	                'timeout':5000,
+	                'slideResize':0
+                });
+            </script>
+			<?php
                 }
-
 			?>
-
-
 		</div>
 		<div class="body">
 			<?php print render($title_prefix); ?>

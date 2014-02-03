@@ -68,6 +68,7 @@
 		</div>
 	</div>
 
+	<?php if($node->title != 'Training and consulting') : ?>
 	<div id="main">
 
 		<div id="content" class="column" role="main">
@@ -103,6 +104,7 @@
 		<?php endif; ?>
 
 	</div>
+	<?php endif; ?>
 
 	<?php print render($page['footer']); ?>
 

@@ -394,6 +394,13 @@ span.field-label {
         line-height: 29px;
         font-family: $font-body;
         padding-top: 32px;
+        ul#fade {
+          margin: 0;
+          padding: 0;
+          li.cycle-phrase {
+
+          }
+        }
       }
 
       .story {
@@ -401,6 +408,9 @@ span.field-label {
 
         > a {
           border-color: $azul;
+        }
+        > a:hover {
+          color: $azul;
         }
 
         .text-box {
@@ -434,6 +444,9 @@ span.field-label {
         > a {
           border-color: $naranjaOscuro;
         }
+        > a:hover {
+          color: $naranjaOscuro;
+        }
 
         .text-box {
           padding: 15px 7px;
@@ -451,6 +464,9 @@ span.field-label {
 
         > a {
           border-color: $violeta;
+        }
+        > a:hover {
+          color: $violeta;
         }
 
         .text-box {
@@ -470,6 +486,9 @@ span.field-label {
 
         > a {
           border-color: $naranjaClaro;
+        }
+        > a:hover {
+          color: $naranjaClaro;
         }
 
         .text-box {
@@ -494,6 +513,24 @@ span.field-label {
       left: -32px;
       position: absolute;
       top: 290px;
+      .team-even, .team-odd {
+        float: left;
+        .avatar-title {
+          line-height: 30px;
+          margin-bottom: 0;
+          margin-top: 0;
+          text-align: center;
+          a {
+            color: #686967;
+            text-decoration: none;
+          }
+        }
+      }
+      .team-odd {
+        left: -34px;
+        position: relative;
+        top: 40px;
+      }
     }
 
   }
@@ -523,6 +560,37 @@ span.field-label {
       width: 54%;
       font-size: 23px;
       line-height: 37px;
+      ul#fade {
+        margin: 0;
+        padding: 0;
+        li.cycle-phrase {
+          list-style: none;
+        }
+      }
+      .team-even, .team-odd {
+        float: left;
+        .avatar-title {
+          font-size: 14px;
+          line-height: 10px;
+          margin-bottom: 0;
+          margin-top: 0;
+          text-align: center;
+          a {
+            color: #686967;
+            text-decoration: none;
+          }
+        }
+      }
+      .team-even {
+        margin-left: 80px;
+        margin-top: 10px;
+      }
+      .team-odd {
+        left: -34px;
+        margin-top: 10px;
+        position: relative;
+        top: 40px;
+      }
     }
 
     .body {

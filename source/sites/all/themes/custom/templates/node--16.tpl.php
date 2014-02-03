@@ -48,7 +48,21 @@
 		<div class="inner_column bottom">
 			<div class="wrapper">
 				<div class="col-1">
-					<?php print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_contact_map['und'][0]['uri']))); ?>
+					<?php //print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_contact_map['und'][0]['uri']))); ?>
+					<iframe
+						width="312"
+						height="305"
+						frameborder="0"
+						scrolling="no"
+						marginheight="0"
+						marginwidth="0"
+						src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907&amp;output=embed"
+					>
+					</iframe>
+					<br />
+					<small>
+						<a target="_blank" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907" style="color:#0000FF;text-align:left">View larger map</a>
+					</small>
 					<!--<img src="/sites/all/themes/custom/images/contact_map.png" />-->
 				</div>
 				<div class="col-2">
