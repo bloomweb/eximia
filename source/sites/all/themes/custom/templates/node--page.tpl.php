@@ -97,8 +97,11 @@
 				?>
 			</div>
 			<div class="column-2">
-				<?php print $node->field_additional_column['und'][0]['value']; ?>
-
+				<?php
+					if(isset($node->field_additional_column['und'][0]['value'])) {
+						print $node->field_additional_column['und'][0]['value'];
+					}
+				?>
 			</div>
 			<div style="clear:both;"></div>
 		</div>

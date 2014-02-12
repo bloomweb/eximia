@@ -125,8 +125,7 @@
 
         $(window).resize(function(){
             $('#fade').css({
-                'width':'100%',
-
+                'width':'100%'
             });
         });
 

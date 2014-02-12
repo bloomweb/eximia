@@ -389,6 +389,7 @@ span.field-label {
             width: 30%;
             font-family: $futuramedium;
             font-size: 11px;
+            text-transform: lowercase;
           }
         }
       }
@@ -933,7 +934,7 @@ span.field-label {
   }
 }
 
-.node-type-how-can-we-help {
+.section-how-we-can-help {
   font-size: 12px;
   .services-description {
     background: rgba(83, 50, 128, 0.2);
@@ -990,6 +991,20 @@ span.field-label {
         color: #686967;
         display: block;
       }
+    }
+    .group-left, .group-right {
+      width: 48%;
+    }
+    .group-one-column .group-left {
+      width: 100%;
+    }
+    .group-left {
+      h2 {
+        margin-top: 0;
+      }
+    }
+    .group-right {
+      
     }
   }
 }

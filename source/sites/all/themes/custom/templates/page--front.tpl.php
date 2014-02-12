@@ -57,6 +57,7 @@
 										</div>
 										<div class="right">
 											<?php
+												$tmp_title = strtoupper($links_box->title);
 												switch($links_box->title) {
 													case 'READ':
 														print views_embed_view('things_we_like', 'block_things_we_like', 9);
