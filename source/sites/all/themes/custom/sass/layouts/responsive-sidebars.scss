@@ -60,7 +60,7 @@ $zen-auto-include-item-base: false;
 .region-sidebar-first,
 .region-sidebar-second,
 #footer {
-  @include zen-grid-item-base();
+ // @include zen-grid-item-base();
 }
 
 /*
@@ -87,7 +87,8 @@ $zen-auto-include-item-base: false;
     margin-top: 40px; /* Move the navbar up inside #main's padding. */
     height: 225px;
     //width: $zen-grid-width ;
-    width:790px;
+    max-width:769px;
+
   }
 }
 

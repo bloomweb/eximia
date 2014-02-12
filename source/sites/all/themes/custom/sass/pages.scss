@@ -17,8 +17,12 @@ body {
   padding: 28px 39px 0 39px;
   color: $grisClaroTexto;
 
-  font-size: 11px;
-  line-height: 13px;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1px;
+
+  background: url(../images/bg.jpg);
+  background-size: 100%;
 }
 
 p {
@@ -303,8 +307,7 @@ span.field-label {
     margin-top: 125px;
   }
 
-  background: url(../images/bg.jpg);
-  background-size: 100%;
+
   #page {
     max-width: 100%;
     position: relative;
@@ -333,7 +336,7 @@ span.field-label {
         margin-right: 10px;
 
         > a {
-          font-size: 11px;
+          font-size: 13px;
           border-bottom: 3px solid $grisOscuro;
           display: block;
           padding-bottom: 7px;
@@ -360,14 +363,18 @@ span.field-label {
           background: $grisOscuroOpacity;
           padding: 16px 12px;
           margin-bottom: 10px;
-          font-size: 18px;
+          font-size: 20px;
           font-family: $cursiva;
-
+          line-height: 23px;
+          .right{
+            text-transform: capitalize;
+          }
           a {
             display: block;
             color: $grisOscuro;
             text-decoration: none;
-            margin-bottom: 8px;
+            margin-bottom: 5px;
+
 
           }
           a:hover{
@@ -394,9 +401,12 @@ span.field-label {
         line-height: 29px;
         font-family: $font-body;
         padding-top: 32px;
+
         ul#fade {
           margin: 0;
           padding: 0;
+          margin: 0 auto;
+          text-transform: uppercase;
           li.cycle-phrase {
 
           }
@@ -460,7 +470,7 @@ span.field-label {
       }
 
       .like {
-        width: 22%;
+        width: 21%;
 
         > a {
           border-color: $violeta;
@@ -523,6 +533,8 @@ span.field-label {
           a {
             color: #686967;
             text-decoration: none;
+            font-size: 11px;
+            font-weight: normal;
           }
         }
       }
@@ -565,6 +577,7 @@ span.field-label {
         padding: 0;
         li.cycle-phrase {
           list-style: none;
+          text-transform: uppercase;
         }
       }
       .team-even, .team-odd {
@@ -986,6 +999,12 @@ span.field-label {
     padding: 90px 30%;
   }
 }
+.view-content{
+  margin: 0 auto;
+  .views-row-first{
+    margin-left: 10%;
+  }
+}
 
 /** Media Querys  **/
 
@@ -1051,6 +1070,7 @@ span.field-label {
 
           > a {
             text-align: center;
+            height: 30px;
           }
           .more {
 
@@ -1058,7 +1078,14 @@ span.field-label {
           .text-box {
             margin-bottom: 20px;
             padding: 15px 17px !important;
-            height: 169px
+            height: 252px;
+            position: relative;
+
+            .more {
+              position: absolute;
+              bottom: 10px;
+              right: 10px;
+            }
           }
           .cursive {
             display: none;
@@ -1088,18 +1115,14 @@ span.field-label {
             border-color: $azul;
           }
 
-          .text-box .more {
-            margin-top: 91px;
-          }
+
         }
 
         .help {
           margin: 0.5%;
           width: 18%;
 
-          .text-box .more {
-            margin-top: 12x;
-          }
+
         }
 
         .contact {
@@ -1109,9 +1132,7 @@ span.field-label {
           > a {
             border-color: $naranjaOscuro;
           }
-          .text-box .more {
-            margin-top: 117px;
-          }
+
         }
 
         .like {
@@ -1121,9 +1142,7 @@ span.field-label {
           > a {
             border-color: $violeta;
           }
-          .text-box .more {
-            margin-top: 78px;
-          }
+
         }
 
         .faq {
@@ -1133,9 +1152,7 @@ span.field-label {
           > a {
             border-color: $naranjaClaro;
           }
-          .text-box .more {
-            margin-top: 136px;
-          }
+
         }
 
       }

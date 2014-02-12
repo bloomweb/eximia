@@ -69,7 +69,7 @@ li a.active {
     li {
       /* A simple method to get navigation links to appear in one line. */
       float: left; /* LTR */
-      padding: 0 10px 0 0; /* LTR */
+      padding: 0 0 0 0; /* LTR */
       list-style-type: none;
       list-style-image: none;
 
@@ -104,7 +104,7 @@ li a.active {
       font-size: 11px;
       display: block;
       text-align: left;
-      padding: 0 41px 4px 0;
+      padding: 0 35px 4px 0;
 
     }
 
@@ -242,7 +242,8 @@ li a.active {
       }
     }
 
-    li:hover {
+    li:hover,
+    li.is-active-trail{
       .image {
         background: $grisClaro;
       }
@@ -255,6 +256,10 @@ li a.active {
   .menu-mlid-635 ul.sub-menu {
     .image:hover {
       background: $grisOscuro;
+    }
+    li.is-active-trail .image{
+      background: $grisOscuro;
+      opacity: 0.8;
     }
   }
   .menu-mlid-517.is-active ul.sub-menu {
@@ -288,6 +293,12 @@ li a.active {
       }
     }
 
+  }
+
+  ul.sub-menu  .menu-mlid-633.is-active{
+    .line {
+      display: block;
+    }
   }
 
 }
@@ -326,6 +337,8 @@ li a.active {
     }
   }
 
+
+
 }
 
 /*
@@ -351,11 +364,30 @@ li a.active {
 @media (min-width: 1200px) {
 
 }
+@media (min-width: 768px) and (max-width: 1089px)
+{
+  #navigation{
+    float: none;
+    height: 410px;
+    margin: 0 auto;
 
+  }
+
+}
+@media (min-width: 768px) and (max-width: 830px)
+{
+  #navigation{
+    #main-menu .menu > li > a{
+      padding: 0 21px 4px 0;
+    }
+  }
+
+}
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
   #navigation {
+
 
     li:hover ul.sub-menu{
       display: none;

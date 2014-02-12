@@ -111,9 +111,24 @@
 
 
     });
-
+    $(function(){
+       $(".view-content").append("<div style='clear:both;'></div>");
+    });
     $(function () { //HOME FUNCTIONALITIES
 
+        $('#fade').cycle({
+             timeout:5000,
+             slideResize:1,
+             fit:1,
+             width:'100%'
+        });
+
+        $(window).resize(function(){
+            $('#fade').css({
+                'width':'100%',
+
+            });
+        });
 
         $.each($("#home-container  .main-text"), function (i, val) {
             $(val).css("margin-top", -($(val).height() / 2) + 'px');
@@ -170,6 +185,7 @@
             $('.faq-link:first').click();
         }
     });
+
 
 
 })(jQuery, Drupal, this, this.document);

@@ -32,12 +32,7 @@
 						<?php endforeach; ?>
 					</ul>
 				</li>
-				<script type="application/javascript">
-					jQuery('#fade').cycle({
-						'timeout':5000,
-						'slideResize':0
-					});
-				</script>
+
 				<?php foreach ($node->field_columns['und'] as $i => $column) : ?>
 				<li class="<?php print $column['entity']->field_column_class['und'][0]['value']; ?>">
 					<!--<a><?php //print $column['entity']->title; ?></a>-->
@@ -119,6 +114,7 @@
 					}
 				?>
 			</div>
+            <?php /*
 			<div class="map">
 				<?php //print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_home_map['und'][0]['uri']))); ?>
 				<iframe
@@ -136,7 +132,8 @@
 					<a target="_blank" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907" style="color:#686967;text-align:left;text-decoration:none;">View larger map</a>
 				</small>
 			</div>
-			<?php $uno = 1; ?>
+         */ ?>
+
 			<!--<li class="story">
 				   <a>THE EXIMIA STORY</a>
 				   <div class="text-box">
