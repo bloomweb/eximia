@@ -48,23 +48,50 @@
 		<div class="inner_column bottom">
 			<div class="wrapper">
 				<div class="col-1">
-					<?php //print theme_image(array('attributes' => array(), 'path' => file_create_url($node->field_contact_map['und'][0]['uri']))); ?>
-					<iframe
-						width="312"
-						height="305"
-						frameborder="0"
-						scrolling="no"
-						marginheight="0"
-						marginwidth="0"
-						src="https://maps.google.com/maps?f=q&amp;maptype=ROADMAP&amp;source=s_q&amp;hl=en-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907&amp;output=embed"
-					>
-					</iframe>
-					<br />
-					<small>
-						<a target="_blank" href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=24+Grosvenor+Square,+W1A+2LQ+London&amp;aq=&amp;sll=4.645345,-74.341812&amp;sspn=31.569905,65.302734&amp;ie=UTF8&amp;hq=&amp;hnear=24+Grosvenor+Square,+London+W1A+2LQ,+Reino+Unido&amp;t=m&amp;z=14&amp;ll=51.510612,-0.152907" style="color:#686967;text-align:left;text-decoration:none;">View larger map</a>
-					</small>
-					<!--<img src="/sites/all/themes/custom/images/contact_map.png" />-->
-				</div>
+                    <!-- http://www.kabaweb.com/GoogleMapsCreator1.html -->
+                    <!-- Although this code comes from http://www.kabaweb.com, other -->
+                    <!-- sources should be mentioned -->
+                    <!-- Mapki for icons http://mapki.com/index.php?title=Icon_Image_Sets -->
+                    <!-- Mike Williams of Blackpool for marker integration http://www.econym.demon.co.uk/googlemaps/ -->
+
+                    <div id="eximia" style="width: 312px; height: 305px; border:1em;"></div>
+                    <script src="http://maps.google.com/maps?file=api&v=2&key=AIzaSyCXfjA-yJlNS3vlxC_aNK6pBmRbvmR35ts" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        if (GBrowserIsCompatible()) {
+                            var map = new GMap2(document.getElementById("eximia"));
+                            var Icon = new GIcon();
+                            Icon.image = "http://www.kabaweb.com/GoogleMarkers/marker_red.png";
+                            Icon.shadow = "http://www.google.com/mapfiles/shadow50.png";
+                            Icon.iconSize = new GSize(20, 34);
+                            Icon.shadowSize = new GSize(37, 34);
+                            Icon.iconAnchor = new GPoint(9, 34);
+                            Icon.infoWindowAnchor = new GPoint(9, 2);
+                            Icon.infoShadowAnchor = new GPoint(18, 25);
+                            Icon.transparent = "http://www.google.com/intl/en_ALL/mapfiles/markerTransparent.png";
+                            Icon.printImage = "http://www.kabaweb.com/GoogleMarkers/marker_red.png";
+                            Icon.mozPrintImage = "http://www.kabaweb.com/GoogleMarkers/marker_red.png";
+                            map.addControl(new GSmallZoomControl());
+                            var geocoder = new GClientGeocoder();
+                            geocoder.getLocations('24 Grosvenor Square, W1A 2LQ London', function(result)
+                                {
+                                    var x = result.Placemark[0].Point.coordinates;
+                                    map.setCenter(new GLatLng(x[1],x[0]), 14);
+                                    var marker = new GMarker(map.getCenter(), Icon);
+                                    GEvent.addListener(marker, "click", function()
+                                    {
+                                        marker.openInfoWindowHtml('');
+                                    });
+                                    map.setMapType(G_NORMAL_MAP);
+                                    map.addOverlay(marker);
+                                    marker.openInfoWindowHtml('<h1>24 Grosvenor Square‎</h1>London W1A 2LQ, UK');
+                                }
+                            );
+                        }
+                        //]]>
+                    </script>
+
+                </div>
 				<div class="col-2">
 					<h1>VISIT US AT</h1>
 					<?php print $node->field_visit_us_at['und'][0]['value']; ?>
