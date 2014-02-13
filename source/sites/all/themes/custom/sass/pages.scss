@@ -936,6 +936,10 @@ span.field-label {
 
 .section-how-we-can-help {
   font-size: 12px;
+  a {
+    color: #246873;
+    text-decoration: none;
+  }
   .services-description {
     background: rgba(83, 50, 128, 0.2);
     background: $grisClaro;
@@ -1001,10 +1005,48 @@ span.field-label {
     .group-left {
       h2 {
         margin-top: 0;
+        text-transform: uppercase;
+      }
+      .field-name-field-parent-service a {
+        color: #686967;
+        display: block;
+        font-size: 17px;
+        margin-top: 5px;
+        text-decoration: none;
+        text-transform: uppercase;
       }
     }
     .group-right {
-      
+
+    }
+  }
+
+  .sub-services {
+    background: none repeat scroll 0 0 #DAD7D6;
+    margin-bottom: 8px;
+    padding: 20px 60px;
+    .views-row-first {
+      margin: 0 5% 0 0;
+    }
+    .views-row {
+      display: block;
+      float: left;
+      padding: 5px;
+      top: 0;
+      width: 46%;
+      .views-field-title {
+        font-size: 17px;
+        line-height: 21px;
+        margin: 5px 0;
+        text-transform: uppercase;
+      }
+      .views-field-view-node a {
+        color: #686967;
+        display: block;
+        font-size: 17px;
+        margin-top: 5px;
+        text-decoration: none;
+      }
     }
   }
 }

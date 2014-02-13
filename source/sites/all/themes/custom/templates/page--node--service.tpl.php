@@ -104,6 +104,10 @@
 
 	</div>
 
+	<div class="sub-services">
+		<?php print views_embed_view('services', 'block_sub_services', $node->nid); ?>
+	</div>
+
 	<?php print render($page['footer']); ?>
 
 </div>
