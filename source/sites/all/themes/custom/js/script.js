@@ -116,15 +116,21 @@
     });
     $(function () { //HOME FUNCTIONALITIES
 
-        $('#fade').cycle({
-             timeout:5000,
-             slideResize:1,
-             fit:1,
-             width:'100%'
-        });
+        var $div = $('#fade');
+
+        try {
+            $div.cycle({
+                timeout:5000,
+                slideResize:1,
+                fit:1,
+                width:'100%'
+            });
+        } catch (e) {
+
+        }
 
         $(window).resize(function(){
-            $('#fade').css({
+            $div.css({
                 'width':'100%'
             });
         });

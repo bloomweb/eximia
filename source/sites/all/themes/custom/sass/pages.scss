@@ -389,7 +389,6 @@ span.field-label {
             width: 30%;
             font-family: $futuramedium;
             font-size: 11px;
-            text-transform: lowercase;
           }
         }
       }
@@ -1056,10 +1055,13 @@ span.field-label {
     padding: 90px 30%;
   }
 }
-.view-content{
-  margin: 0 auto;
-  .views-row-first{
-    margin-left: 10%;
+
+.view-display-id-block_signature_services {
+  .view-content{
+    margin: 0 auto;
+    .views-row-first{
+      margin-left: 10%;
+    }
   }
 }
 
