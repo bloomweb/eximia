@@ -8,16 +8,14 @@
 	 */
 ?>
 
-<?php $uno = 1; ?>
-
 <div id="page">
 
 	<header class="header" id="header" role="banner">
-		<div class="logo-wrapper">
+        <div class="logo-wrapper">
             <a href="/">
-                <div class="sprite sprite-logo"></div>
+                <img src="/sites/all/themes/custom/logo.png" />
             </a>
-		</div>
+        </div>
 
 		<div id="navigation">
 
@@ -52,6 +50,12 @@
 	</header>
 
 	<div class="services-description">
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['help']); ?>
+        <?php if($action_links): ?>
+            <ul class="action-links"><?php print render($action_links); ?></ul>
+        <?php endif; ?>
 		<div class="left">
 			<?php
 				if(isset($node->field_column_a['und'][0]['value'])) {

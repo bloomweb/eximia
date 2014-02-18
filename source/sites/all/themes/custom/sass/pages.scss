@@ -18,7 +18,7 @@ body {
   color: $grisClaroTexto;
 
   font-size: 13px;
-  line-height: 16px;
+  line-height: 14px;
   letter-spacing: 1px;
 
   background: url(../images/bg.jpg);
@@ -58,7 +58,11 @@ p {
 #header {
   .logo-wrapper {
     float: left;
+    img{
+      height: 222px;
+    }
   }
+
 }
 
 #logo {
@@ -67,8 +71,8 @@ p {
   margin: 0;
   padding: 0;
 
-  img {
-    vertical-align: bottom;
+  img{
+    height: 258px;
   }
 }
 
@@ -993,7 +997,11 @@ span.field-label {
         text-decoration: none;
         color: #686967;
         display: block;
+        line-height: 20px;
       }
+    }
+    .views-row-first{
+      margin-left: 10%;
     }
     .group-left, .group-right {
       width: 48%;
@@ -1050,10 +1058,55 @@ span.field-label {
   }
 }
 
-.page-node-65 {
+.page-node-65
+{
   .services-description {
     padding: 90px 30%;
   }
+}
+#service-page.services-description {
+  padding: 90px 30%;
+
+  .right{
+    position: relative;
+
+    .sub-services{
+      background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: -110%;
+      top: 0;
+      width: 100%;
+
+      .views-row{
+        float: none;
+        width: auto;
+
+        .views-field-title{
+          font-size: 12px;
+          line-height: 14px;
+
+        }
+
+      }
+
+    }
+  }
+
+  .left{
+
+    position: relative;
+
+    .service-icon{
+      text-align: center;
+      top:0;
+      position: absolute;
+      width: 100%;
+      left:-100%;
+    }
+  }
+
 }
 
 .view-display-id-block_signature_services {

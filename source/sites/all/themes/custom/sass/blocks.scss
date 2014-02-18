@@ -7,7 +7,7 @@
 
 
 .block { /* Block wrapper */
-  margin-bottom: 1.5em;
+  margin-bottom: 8px;
 
   &.first { /* The first block in the region */
   }
@@ -25,6 +25,12 @@
   }
 }
 
+.things-we-like-menu{
+
+  ul{
+    margin-bottom: 0;
+  }
+}
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
 }

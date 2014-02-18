@@ -11,8 +11,9 @@
 
     <header class="header" id="header" role="banner">
         <div class="logo-wrapper">
-
-            <div class="sprite sprite-logo"></div>
+            <a href="/">
+                <img src="/sites/all/themes/custom/logo.png" />
+            </a>
         </div>
 
         <div id="navigation">

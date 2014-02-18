@@ -13,11 +13,11 @@
 <div id="page">
 
 	<header class="header" id="header" role="banner">
-		<div class="logo-wrapper">
-			<a href="/">
-				<div class="sprite sprite-logo"></div>
-			</a>
-		</div>
+        <div class="logo-wrapper">
+            <a href="/">
+                <img src="/sites/all/themes/custom/logo.png" />
+            </a>
+        </div>
 
 		<div id="navigation">
 
@@ -51,13 +51,25 @@
 		</div>
 	</header>
 
-	<?php /* <div class="services-description">
+
+  <div class="services-description" id="service-page">
+      <?php print $messages; ?>
+      <?php print render($tabs); ?>
+      <?php print render($page['help']); ?>
+      <?php if($action_links): ?>
+          <ul class="action-links"><?php print render($action_links); ?></ul>
+      <?php endif; ?>
 		<div class="left">
 			<?php
 				if(isset($node->field_column_a['und'][0]['value'])) {
 					print $node->field_column_a['und'][0]['value'];
 				}
+
 			?>
+
+            <div class="service-icon">
+                <?php print  theme_image(array('path' => $node -> field_image["und"][0]["uri"], 'attributes' => array('class' => array('')))); ?>
+            </div>
 		</div>
 		<div class="right">
 			<?php
@@ -65,47 +77,13 @@
 					print $node->field_column_b['und'][0]['value'];
 				}
 			?>
-		</div>
-	</div> */ ?>
-
-	<div id="main">
-
-		<div id="content" class="column" role="main">
-			<?php print render($page['highlighted']); ?>
-			<?php print $breadcrumb; ?>
-			<a id="main-content"></a>
-			<?php /* print render($title_prefix); ?>
-		<?php if($title): ?>
-			<h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
-		<?php endif; ?>
-		<?php print render($title_suffix); */ ?>
-			<?php print $messages; ?>
-			<?php print render($tabs); ?>
-			<?php print render($page['help']); ?>
-			<?php if($action_links): ?>
-				<ul class="action-links"><?php print render($action_links); ?></ul>
-			<?php endif; ?>
-			<?php print render($page['content']); ?>
-			<?php print $feed_icons; ?>
+            <div class="sub-services">
+                <?php print views_embed_view('services', 'block_sub_services', $node->nid); ?>
+            </div>
 		</div>
 
-		<?php
-			// Render the sidebars to see if there's anything in them.
-			$sidebar_first = render($page['sidebar_first']);
-			$sidebar_second = render($page['sidebar_second']);
-		?>
 
-		<?php if($sidebar_first || $sidebar_second): ?>
-			<aside class="sidebars">
-				<?php print $sidebar_first; ?>
-				<?php print $sidebar_second; ?>
-			</aside>
-		<?php endif; ?>
 
-	</div>
-
-	<div class="sub-services">
-		<?php print views_embed_view('services', 'block_sub_services', $node->nid); ?>
 	</div>
 
 	<?php print render($page['footer']); ?>

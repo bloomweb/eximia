@@ -13,11 +13,11 @@
 <div id="page">
 
 	<header class="header" id="header" role="banner">
-		<div class="logo-wrapper">
+        <div class="logo-wrapper">
             <a href="/">
-                <div class="sprite sprite-logo"></div>
+                <img src="/sites/all/themes/custom/logo.png" />
             </a>
-		</div>
+        </div>
 
 		<div id="navigation">
 

@@ -84,7 +84,7 @@ $zen-auto-include-item-base: false;
   }
   #navigation {
     float:right;
-    margin-top: 40px; /* Move the navbar up inside #main's padding. */
+    margin-top: 0; /* Move the navbar up inside #main's padding. */
     height: 225px;
     //width: $zen-grid-width ;
     max-width:769px;
