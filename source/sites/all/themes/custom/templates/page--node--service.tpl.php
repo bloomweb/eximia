@@ -6,9 +6,9 @@
 	 * Complete documentation for this file is available online.
 	 * @see https://drupal.org/node/1728148
 	 */
+$category = taxonomy_term_load($node -> field_type_of_service["und"][0]["tid"]);
 ?>
 
-<?php $uno = 1; ?>
 
 <div id="page">
 
@@ -45,7 +45,7 @@
 			?>
 
 			<div style="clear:both;"></div>
-			<nav id="main-menu" role="navigation" tabindex="-1">
+			<nav id="main-menu" role="navigation" tabindex="-1" class="<?php print $category ->name." ".$category->vocabulary_machine_name." service-type-".$node -> field_type_of_service["und"][0]["tid"] ?>">
 				<?php print render($page['navigation']); ?>
 			</nav>
 		</div>
@@ -60,6 +60,11 @@
           <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 		<div class="left">
+            <?php if($title): ?>
+                <h1 class="page__title title" id="page-title"><?php print $title; ?></h1>
+            <?php endif; ?>
+            <?php print render($title_suffix); ?>
+            <br />
 			<?php
 				if(isset($node->field_column_a['und'][0]['value'])) {
 					print $node->field_column_a['und'][0]['value'];

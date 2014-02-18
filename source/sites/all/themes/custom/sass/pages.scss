@@ -18,7 +18,7 @@ body {
   color: $grisClaroTexto;
 
   font-size: 13px;
-  line-height: 14px;
+  line-height: 15px;
   letter-spacing: 1px;
 
   background: url(../images/bg.jpg);
@@ -983,6 +983,10 @@ span.field-label {
       .views-field-field-image {
         text-align: center;
         min-height: 100px;
+
+        img{
+          margin-left: -20px;
+        }
       }
 
       .views-field-title {
@@ -1001,7 +1005,7 @@ span.field-label {
       }
     }
     .views-row-first{
-      margin-left: 10%;
+
     }
     .group-left, .group-right {
       width: 48%;

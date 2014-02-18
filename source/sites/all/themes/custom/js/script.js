@@ -57,6 +57,10 @@
             if (!$menu_item.hasClass('active-trail')) {
                 $menu_item.addClass('active-trail');
             }
+            $("#main-menu.service-type-1 .menu-mlid-636").addClass('is-active-trail active-trail active is-active');
+            $("#main-menu.service-type-2 .menu-mlid-637").addClass('is-active-trail active-trail active is-active');
+            $("#main-menu.service-type-3 .menu-mlid-638").addClass('is-active-trail active-trail active is-active');
+            $("#main-menu.service-type-4 .menu-mlid-639").addClass('is-active-trail active-trail active is-active');
         }
         if (pathname.indexOf('things-we-like') != -1) {
 
