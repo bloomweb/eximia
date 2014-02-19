@@ -124,12 +124,17 @@
 
     $(function(){
         $link = $('.more-intro');
-        if($link) {
-            $right = $('.services-description .right');
-            $right.css('visibility', 'hidden');
-            $link.click(function() {
-                $right.css('visibility', 'visible');
-            });
+        $node = $('.page-node-65');
+        if($node.length != 0 && $link.length >= 1) {
+            $link.css('visibility', 'hidden');
+        } else {
+            if($link.length >= 1) {
+                $right = $('.services-description .right');
+                $right.css('visibility', 'hidden');
+                $link.click(function() {
+                    $right.css('visibility', 'visible');
+                });
+            }
         }
     });
 
