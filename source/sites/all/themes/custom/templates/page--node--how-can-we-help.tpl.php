@@ -7,7 +7,7 @@
 	 * @see https://drupal.org/node/1728148
 	 */
 ?>
-
+<?php $uno = 1; ?>
 <div id="page">
 
 	<header class="header" id="header" role="banner">
@@ -60,6 +60,9 @@
 			<?php
 				if(isset($node->field_column_a['und'][0]['value'])) {
 					print $node->field_column_a['und'][0]['value'];
+				}
+				if(isset($node->field_column_b['und'][0]['value'])) {
+					print '<a href="#" class="more-intro">+</a>';
 				}
 			?>
 		</div>

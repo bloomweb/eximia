@@ -117,9 +117,22 @@
 
 
     });
+
     $(function(){
        $(".view-content").append("<div style='clear:both;'></div>");
     });
+
+    $(function(){
+        $link = $('.more-intro');
+        if($link) {
+            $right = $('.services-description .right');
+            $right.css('visibility', 'hidden');
+            $link.click(function() {
+                $right.css('visibility', 'visible');
+            });
+        }
+    });
+
     $(function () { //HOME FUNCTIONALITIES
 
         var $div = $('#fade');
@@ -196,7 +209,5 @@
             $('.faq-link:first').click();
         }
     });
-
-
 
 })(jQuery, Drupal, this, this.document);
