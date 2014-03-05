@@ -144,7 +144,7 @@
 
         try {
             $div.cycle({
-                timeout:5000,
+                timeout:10000,
                 slideResize:1,
                 fit:1,
                 width:'100%'
