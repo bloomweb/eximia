@@ -34,12 +34,14 @@
 		<div class="inner_column top">
 			<div class="wrapper">
 				<div class="left">
+					<?php if(isset($node->field_column_a['und'][0]['value'])) : ?>
 					<?php print $node->field_column_a['und'][0]['value']; ?>
-					<!--Much of the time we’re afraid to reach out.  We worry it’s a sign of inner weakness, that somehow we’re letting others down.  But quite the opposite is true.  If we spend time on our own emotional wellbeing, we’re in a better position to help others.  And that’s not a sign of weakness; that shows we’re committed and compassionate human beings. You don’t have to push on and on until breaking point.-->
+					<?php endif; ?>
 				</div>
 				<div class="right">
+					<?php if(isset($node->field_column_b['und'][0]['value'])) : ?>
 					<?php print $node->field_column_b['und'][0]['value']; ?>
-					<!--Whether you need healing as a result of trauma, or developmental workshops because you’re leading a team, reach out to Eximia – because that’s what we’re here for.-->
+					<?php endif; ?>
 				</div>
 				<div style="clear: both;"></div>
 			</div>
@@ -51,36 +53,24 @@
 					<?php print $node->field_gmap['und'][0]['value']; ?>
                 </div>
 				<div class="col-2">
+					<?php if(isset($node->field_visit_us_at['und'][0]['value'])) : ?>
 					<h1>VISIT US AT</h1>
 					<?php print $node->field_visit_us_at['und'][0]['value']; ?>
-					<!--<p>
-						24 Grosvenor Square,
-						<br />
-						W1A 2LQ
-						<br />
-						London
-					</p>-->
-					
+					<?php endif; ?>
+					<?php if(isset($node->field_call_us_on['und'][0]['value'])) : ?>
 					<h1>CALL US ON</h1>
 					<?php print $node->field_call_us_on['und'][0]['value']; ?>
-					<!--<p>
-						(0) 778 574 5896
-						<br />
-						(0) 778 574 5896
-					</p>-->
+					<?php endif; ?>
 				</div>
 				<div class="col-3">
+					<?php if(isset($node->field_email_us['und'][0]['value'])) : ?>
 					<h1>EMAIL US</h1>
 					<?php print $node->field_email_us['und'][0]['value']; ?>
-					<!--<p>
-						practice@eximi
-					</p>-->
-					
+					<?php endif; ?>
+					<?php if(isset($node->field_follow_us['und'][0]['value'])) : ?>
 					<h1>FOLLOW US</h1>
 					<?php print $node->field_follow_us['und'][0]['value']; ?>
-					<!--<p>
-						twitter @eximia
-					</p>-->
+					<?php endif; ?>
 				</div>
 				<div class="col-4">
 					<?php
