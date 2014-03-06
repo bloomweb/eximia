@@ -64,7 +64,7 @@
                 } else {
 	        ?>
 	        <?php drupal_add_library('jquery_plugin', 'cycle'); ?>
-            <ul id="fade">
+            <ul class="fade">
                 <?php foreach($node->field_big_text['und'] as $key => $data) : ?>
                 <li class="cycle-phrase">
 	                <?php print $data['safe_value']; ?>

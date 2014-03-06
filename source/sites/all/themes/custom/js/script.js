@@ -140,7 +140,7 @@
 
     $(function () { //HOME FUNCTIONALITIES
 
-        var $div = $('#fade');
+        var $div = $('.fade');
 
         try {
             $div.cycle({

@@ -62,7 +62,6 @@ p {
       height: 222px;
     }
   }
-
 }
 
 #logo {
@@ -365,7 +364,7 @@ span.field-label {
         }
         .cursive {
           background: $grisOscuroOpacity;
-          padding: 16px 12px;
+          padding: 16px 12px 8px;
           margin-bottom: 10px;
           font-size: 20px;
           font-family: $cursiva;
@@ -546,6 +545,30 @@ span.field-label {
         left: -34px;
         position: relative;
         top: 40px;
+      }
+    }
+
+    .news {
+      background: none repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+      height: 75px;
+      padding: 25px;
+      position: absolute;
+      right: 182px;
+      top: 550px;
+      width: 450px;
+      p {
+        color: #726c65;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          color: #9b9591;
+          line-height: 20px;
+          margin: 0;
+          text-align: justify;
+          padding: 0;
+        }
       }
     }
 
