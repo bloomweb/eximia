@@ -708,12 +708,12 @@ span.field-label {
   line-height: 37px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003602}}
-.node-type-page .inner-content .image ul#fade, .node-type-team-member .inner-content .image ul#fade {
+.node-type-page .inner-content .image ul.fade, .node-type-team-member .inner-content .image ul.fade {
   margin: 0;
   padding: 0;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003605}}
-.node-type-page .inner-content .image ul#fade li.cycle-phrase, .node-type-team-member .inner-content .image ul#fade li.cycle-phrase {
+.node-type-page .inner-content .image ul.fade li.cycle-phrase, .node-type-team-member .inner-content .image ul.fade li.cycle-phrase {
   list-style: none;
   text-transform: uppercase;
 }
@@ -770,7 +770,6 @@ span.field-label {
 .node-type-page .inner-content .body .column-2, .node-type-team-member .inner-content .body .column-2 {
   float: right;
   width: 46%;
-  color: #246873;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/eximia\/source\/sites\/all\/themes\/custom\/sass\/pages\.scss}line{font-family:\00003666}}

@@ -599,7 +599,7 @@ span.field-label {
       width: 54%;
       font-size: 23px;
       line-height: 37px;
-      ul#fade {
+      ul.fade {
         margin: 0;
         padding: 0;
         li.cycle-phrase {
@@ -654,7 +654,7 @@ span.field-label {
       .column-2 {
         float: right;
         width: 46%;
-        color: $azul;
+        //color: $azul;
       }
 
     }
