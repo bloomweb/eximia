@@ -24,7 +24,7 @@
 			<ul>
 				<li class="phrase">
 					<ul id="fade" class="fade">
-						<?php foreach($node->field_phrase['und'] as $key => $data) : ?>
+						<?php foreach($node->field_phrases['und'] as $key => $data) : ?>
 						<li class="cycle-phrase">
 							<?php print $data['safe_value']; ?>
 						</li>
