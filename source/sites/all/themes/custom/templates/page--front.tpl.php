@@ -52,12 +52,27 @@
 									if($links_box->field_display_title['und'][0]['value']) {
 										?>
 										<div class="left">
-											<?php print $links_box->title; ?>
+											<?php
+												$tmp_title = strtoupper($links_box->title);
+												switch($tmp_title) {
+													case 'READ':
+														print l($tmp_title, 'things-we-like/9');
+														break;
+													case 'SURF':
+														print l($tmp_title, 'things-we-like/8');
+														break;
+													case 'WATCH':
+														print l($tmp_title, 'things-we-like/10');
+														break;
+													default:
+														break;
+												}
+											?>
 										</div>
 										<div class="right">
 											<?php
 												$tmp_title = strtoupper($links_box->title);
-												switch($links_box->title) {
+												switch($tmp_title) {
 													case 'READ':
 														print views_embed_view('things_we_like', 'block_things_we_like', 9);
 														break;
