@@ -307,14 +307,15 @@ span.field-label {
   #footer {
     float: left;
     width: 100%;
-    margin-top: 125px;
+    margin-bottom: 25px;
+    margin-top: 100px;
   }
 
 
   #page {
     max-width: 100%;
     position: relative;
-    padding-bottom: 80px;
+
   }
   padding-top: 83px;
   #header {
@@ -514,9 +515,10 @@ span.field-label {
           padding: 15px 8px;
           background: $naranjaClaro;
           color: $blanco;
+          margin-bottom: 0;
 
           .more {
-            margin-top: 568px;
+            margin-top: 606px;
           }
         }
       }
@@ -548,20 +550,22 @@ span.field-label {
         }
       }
       .team-odd {
-        left: -34px;
+        left: -36px;
         position: relative;
-        top: 40px;
+        top: 31px;
       }
     }
 
     .news {
-      background: none repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+      //background: none repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+      background: url(../images/news_highlight.png) no-repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+      bottom: 0;
       height: 75px;
-      margin-top: -6px;
-      padding: 25px;
+      padding: 25px 25px 25px 100px;
       position: absolute;
       right: 12.1%;
-      width: 450px;
+      width: 460px;
+      
       p {
         color: #726c65;
       }
@@ -1167,6 +1171,24 @@ span.field-label {
     }
   }
 }
+
+
+.page-node-50{
+  .services-description > div{
+    width: 34%;
+  }
+  #service-page.services-description{
+    padding: 90px 22%;
+  }
+  #service-page.services-description .right{
+    background: #85ACB1;
+    color: #516565;
+    margin-top: 48px;
+    padding: 18px 16px;
+    width: 55%;
+  }
+} 
+
 
 /** Media Querys  **/
 
