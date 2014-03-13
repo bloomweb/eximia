@@ -16,11 +16,9 @@ body {
   margin: 0;
   padding: 28px 39px 0 39px;
   color: $grisClaroTexto;
-
   font-size: 13px;
   line-height: 15px;
   letter-spacing: 1px;
-
   background: url(../images/bg.jpg);
   background-size: cover;
 }
@@ -62,7 +60,6 @@ p {
       height: 222px;
     }
   }
-
 }
 
 #logo {
@@ -308,14 +305,15 @@ span.field-label {
   #footer {
     float: left;
     width: 100%;
-    margin-top: 125px;
+    margin-bottom: 25px;
+    margin-top: 100px;
   }
 
 
   #page {
     max-width: 100%;
     position: relative;
-    padding-bottom: 80px;
+
   }
   padding-top: 83px;
   #header {
@@ -365,7 +363,7 @@ span.field-label {
         }
         .cursive {
           background: $grisOscuroOpacity;
-          padding: 16px 12px;
+          padding: 16px 12px 8px;
           margin-bottom: 10px;
           font-size: 20px;
           font-family: $cursiva;
@@ -394,6 +392,12 @@ span.field-label {
             font-family: $futuramedium;
             font-size: 11px;
           }
+        }
+      }
+
+      li.like {
+        .cursive {
+          background: none repeat scroll 0 0 rgba(103, 71, 146, 0.2);
         }
       }
 
@@ -509,9 +513,10 @@ span.field-label {
           padding: 15px 8px;
           background: $naranjaClaro;
           color: $blanco;
+          margin-bottom: 0;
 
           .more {
-            margin-top: 430px;
+            margin-top: 606px;
           }
         }
       }
@@ -543,9 +548,35 @@ span.field-label {
         }
       }
       .team-odd {
-        left: -34px;
+        left: -36px;
         position: relative;
-        top: 40px;
+        top: 31px;
+      }
+    }
+
+    .news {
+      //background: none repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+      background: url(../images/news_highlight.png) no-repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+      bottom: 0;
+      height: 75px;
+      padding: 25px 25px 25px 100px;
+      position: absolute;
+      right: 12.1%;
+      width: 460px;
+      
+      p {
+        color: #726c65;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          color: #9b9591;
+          line-height: 20px;
+          margin: 0;
+          text-align: justify;
+          padding: 0;
+        }
       }
     }
 
@@ -576,7 +607,7 @@ span.field-label {
       width: 54%;
       font-size: 23px;
       line-height: 37px;
-      ul#fade {
+      ul.fade {
         margin: 0;
         padding: 0;
         li.cycle-phrase {
@@ -631,7 +662,7 @@ span.field-label {
       .column-2 {
         float: right;
         width: 46%;
-        color: $azul;
+        //color: $azul;
       }
 
     }
@@ -715,13 +746,18 @@ span.field-label {
       float: left;
       margin-right: 25px;
       min-height: 370px;
+
+      h1 {
+        margin-top: 10px;
+      }
       
-      a{
+      a {
         text-decoration: none;
         color: $grisClaroTexto;
       }
     }
     .col-1 {
+      margin-top: 16px;
       width: 30%;
     }
     .col-2 {
@@ -732,6 +768,7 @@ span.field-label {
       }
     }
     .col-3 {
+      margin-right: 48px;
       width: 15%;
 
       p {
@@ -739,6 +776,8 @@ span.field-label {
       }
     }
     .col-4 {
+      margin-right: 0;
+      margin-top: 16px;
       width: 30%;
 
       form {
@@ -963,6 +1002,15 @@ span.field-label {
     .left {
       margin-right: 5%;
     }
+
+    .more-intro {
+      color: #686967;
+      display: block;
+      font-size: 17px;
+      line-height: 20px;
+      text-decoration: none;
+    }
+
   }
 
   #content {
@@ -1122,6 +1170,24 @@ span.field-label {
   }
 }
 
+
+.page-node-50{
+  .services-description > div{
+    width: 34%;
+  }
+  #service-page.services-description{
+    padding: 90px 22%;
+  }
+  #service-page.services-description .right{
+    background: #85ACB1;
+    color: #516565;
+    margin-top: 48px;
+    padding: 18px 16px;
+    width: 55%;
+  }
+} 
+
+
 /** Media Querys  **/
 
 /* Large desktop */
@@ -1280,6 +1346,15 @@ span.field-label {
       .pictures {
         position: static;
         text-align: center;
+      }
+
+      .news {
+        background: none repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+        height: 75px;
+        margin-top: 272px;
+        padding: 25px;
+        position: static;
+        width: 88.5%;
       }
 
     }
@@ -1521,6 +1596,15 @@ span.field-label {
       .pictures {
         position: static;
         text-align: center;
+      }
+
+      .news {
+        background: none repeat scroll 0 0 rgba(138, 132, 128, 0.2);
+        height: 75px;
+        margin-top: 272px;
+        padding: 25px;
+        position: static;
+        width: 88.5%;
       }
 
     }

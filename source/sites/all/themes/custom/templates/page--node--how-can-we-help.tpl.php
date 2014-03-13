@@ -7,7 +7,7 @@
 	 * @see https://drupal.org/node/1728148
 	 */
 ?>
-
+<?php $uno = 1; ?>
 <div id="page">
 
 	<header class="header" id="header" role="banner">
@@ -57,9 +57,17 @@
             <ul class="action-links"><?php print render($action_links); ?></ul>
         <?php endif; ?>
 		<div class="left">
+			<?php if($node->nid == 65) : ?>
+				<p>
+					<?php echo strtoupper($node->title); ?>
+				</p>
+			<?php endif; ?>
 			<?php
 				if(isset($node->field_column_a['und'][0]['value'])) {
 					print $node->field_column_a['und'][0]['value'];
+				}
+				if(isset($node->field_column_b['und'][0]['value']) && $node->nid != 64) {
+					print '<a href="#" class="more-intro">+</a>';
 				}
 			?>
 		</div>
@@ -72,7 +80,7 @@
 		</div>
 	</div>
 
-	<?php if($node->title != 'Training and consulting') : ?>
+	<?php if($node->nid != 65) : ?>
 	<div id="main">
 
 		<div id="content" class="column" role="main">

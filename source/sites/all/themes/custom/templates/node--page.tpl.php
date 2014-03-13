@@ -38,7 +38,7 @@
 	<div class="inner-content">
 		<div class="image 490">
 			<?php
-				if($node->title == 'Meet our team') {
+				if(!isset($node->field_image['und'][0]['uri']) && $node->nid == 2) {
 					$query = new EntityFieldQuery;
 					$query->entityCondition('entity_type', 'node');
 					$query->propertyCondition('type', 'team_member');
@@ -64,7 +64,7 @@
                 } else {
 	        ?>
 	        <?php drupal_add_library('jquery_plugin', 'cycle'); ?>
-            <ul id="fade">
+            <ul class="fade">
                 <?php foreach($node->field_big_text['und'] as $key => $data) : ?>
                 <li class="cycle-phrase">
 	                <?php print $data['safe_value']; ?>
@@ -90,11 +90,6 @@
 
 			<div class="column-1">
 				<?php print $node->body['und'][0]['value']; ?>
-				<?php
-					if($node->nid == "2") {
-						print views_embed_view('team_members', 'block_team_members');
-					}
-				?>
 			</div>
 			<div class="column-2">
 				<?php
@@ -104,6 +99,11 @@
 				?>
 			</div>
 			<div style="clear:both;"></div>
+			<?php if($node->nid == "2") : ?>
+			<div>
+			<?php print views_embed_view('team_members', 'block_team_members'); ?>
+			</div>
+			<?php endif; ?>
 		</div>
 		<div style="clear:both;"></div>
 	</div>

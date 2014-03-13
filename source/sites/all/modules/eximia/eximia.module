@@ -4,6 +4,17 @@
 	 * como los son los hooks de drupal.
 	 */
 
+	function eximia_process_page(&$variables) {
+		$uno = 1;
+		if(in_array('page__node__edit', $variables['theme_hook_suggestions'])) {
+			foreach($variables['theme_hook_suggestions'] as $key => $value) {
+				if($value != 'page__node__edit') {
+					unset($variables['theme_hook_suggestions'][$key]);
+				}
+			}
+		}
+	}
+
 	function eximia_update_projects_alter(&$projects){
 		unset($projects['taxonomy_menu_block']);
 	}

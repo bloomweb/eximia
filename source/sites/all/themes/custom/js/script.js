@@ -117,16 +117,34 @@
 
 
     });
+
     $(function(){
        $(".view-content").append("<div style='clear:both;'></div>");
     });
+
+    $(function(){
+        $link = $('.more-intro');
+        $node = $('.page-node-65');
+        if($node.length != 0 && $link.length >= 1) {
+            $link.css('visibility', 'hidden');
+        } else {
+            if($link.length >= 1) {
+                $right = $('.services-description .right');
+                $right.css('visibility', 'hidden');
+                $link.click(function() {
+                    $right.css('visibility', 'visible');
+                });
+            }
+        }
+    });
+
     $(function () { //HOME FUNCTIONALITIES
 
-        var $div = $('#fade');
+        var $div = $('.fade');
 
         try {
             $div.cycle({
-                timeout:5000,
+                timeout:10000,
                 slideResize:1,
                 fit:1,
                 width:'100%'
@@ -196,7 +214,5 @@
             $('.faq-link:first').click();
         }
     });
-
-
 
 })(jQuery, Drupal, this, this.document);
